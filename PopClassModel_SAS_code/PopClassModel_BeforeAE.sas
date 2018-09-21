@@ -87,7 +87,7 @@
 		NDCNUM
 		GENERID
 		THERCLS
-		PAY;
+		q;
 	run;
 	data temp.ccaed&MSversionNext.;
 	set 

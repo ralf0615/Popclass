@@ -1,0 +1,158 @@
+DxCat,DxCatDesc,PROCGRP,Procedure group,stage
+DEN06,"Neoplasm, Malignant: Oral Cavity","1100",Craniectomy or craniotomy,0
+DEN06,"Neoplasm, Malignant: Oral Cavity","1482",Excision lesion of the mouth,0
+DEN06,"Neoplasm, Malignant: Oral Cavity","1565","Facial procedures, maxillofacial",0
+DEN06,"Neoplasm, Malignant: Oral Cavity","1570","Facial procedures, otolaryngology",0
+DEN06,"Neoplasm, Malignant: Oral Cavity","3180",Other lip procedures,0
+DEN06,"Neoplasm, Malignant: Oral Cavity","3315","Other mouth procedures, major",0
+DEN06,"Neoplasm, Malignant: Oral Cavity","3345",Other palate/uvula procedure,0
+DEN06,"Neoplasm, Malignant: Oral Cavity","3405","Other surg major, ENT",0
+DEN06,"Neoplasm, Malignant: Oral Cavity","3800","Pharynx, adenoid, tonsil surgery",0
+DEN06,"Neoplasm, Malignant: Oral Cavity","4220","Salivary gland/duct procedures, complex",0
+DEN06,"Neoplasm, Malignant: Oral Cavity","4275",Sinus surgery,0
+END14,"Neoplasm, Malignant: Thyroid","1100",Craniectomy or craniotomy,0
+END14,"Neoplasm, Malignant: Thyroid","3405","Other surg major, ENT",0
+END14,"Neoplasm, Malignant: Thyroid","4540","Thyroid lobectomy, partial or total",0
+END14,"Neoplasm, Malignant: Thyroid","4545",Thyroid procedure,0
+END14,"Neoplasm, Malignant: Thyroid","4550","Thyroid procedure, major",0
+END14,"Neoplasm, Malignant: Thyroid","4555","Thyroidectomy, partial or total",0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","1035",Colectomy,0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","1045","Colostomy, ileostomy",0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","1100",Craniectomy or craniotomy,0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","1400","Enterectomy, small intestine",0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","1405","Enterectomy, small intestine - additional",0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","1475",Excision abdominal tumor,0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","1875","Infusion pump, insert/remvove/revise",0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","2395","Laparoscopy, surgical, colectomy",0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","2400","Laparoscopy, surgical, colectomy - add",0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","2420","Laparoscopy, surgical, intestines",0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","2435","Laparoscopy, surgical, rectal",0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","2715",Mobilization of splenic flexure,0
+GIS27,"Neoplasm, Malignant: Colon and Rectum","3390",Other rectal procedures,0
+GUS05,"Neoplasm, Malignant: Bladder, Urinary","0585","Bladder, introduction",0
+GUS05,"Neoplasm, Malignant: Bladder, Urinary","1830",Immunization BCG,0
+GUS05,"Neoplasm, Malignant: Bladder, Urinary","2390","Laparoscopy, surgical, bladder",0
+GUS05,"Neoplasm, Malignant: Bladder, Urinary","2440","Laparoscopy, surgical, renal",0
+GUS05,"Neoplasm, Malignant: Bladder, Urinary","2450","Laparoscopy, surgical, urogenital",0
+GUS05,"Neoplasm, Malignant: Bladder, Urinary","2805","Nephrectomy,partial or total",0
+GUS05,"Neoplasm, Malignant: Bladder, Urinary","3065",Other bladder procedures,0
+GUS05,"Neoplasm, Malignant: Bladder, Urinary","3530",Other ureter procedures,0
+GUS05,"Neoplasm, Malignant: Bladder, Urinary","3930",Prostatectomy,0
+GUS06,"Neoplasm, Malignant: Kidneys","1100",Craniectomy or craniotomy,0
+GUS06,"Neoplasm, Malignant: Kidneys","1475",Excision abdominal tumor,0
+GUS06,"Neoplasm, Malignant: Kidneys","2440","Laparoscopy, surgical, renal",0
+GUS06,"Neoplasm, Malignant: Kidneys","2805","Nephrectomy,partial or total",0
+GUS06,"Neoplasm, Malignant: Kidneys","3160",Other kidney procedure,0
+GUS08,Renal Failure,"1735",Hemodialysis,2
+GUS08,Renal Failure,"3075",Dialysis,2
+GUS08,Renal failure,"3785",Peritoneal dialysis,2
+GYN19,"Neoplasm, Malignant: Breast, Female","0630","Brachytherapy, place breast cath",0
+GYN19,"Neoplasm, Malignant: Breast, Female","0655",Breast surgery,0
+GYN19,"Neoplasm, Malignant: Breast, Female","1100",Craniectomy or craniotomy,0
+GYN19,"Neoplasm, Malignant: Breast, Female","2635","Mastectomy, modified radical",0
+GYN19,"Neoplasm, Malignant: Breast, Female","2640","Mastectomy, partial",0
+GYN19,"Neoplasm, Malignant: Breast, Female","2645","Mastectomy, radical",0
+GYN19,"Neoplasm, Malignant: Breast, Female","2650","Mastectomy, simple",0
+GYN19,"Neoplasm, Malignant: Breast, Female","2655","Mastectomy, subcutaneous",0
+GYN20,"Neoplasm, Malignant: Cervix Uteri","0005",Abdominal hysterectomy,0
+GYN20,"Neoplasm, Malignant: Cervix Uteri","2427","Laparoscopy, hysterectomy",0
+GYN20,"Neoplasm, Malignant: Cervix Uteri","4810",Vaginal hysterectomy,0
+GYN22,"Neoplasm, Malignant: Endometrium","0005",Abdominal hysterectomy,0
+GYN22,"Neoplasm, Malignant: Endometrium","1475",Excision abdominal tumor,0
+GYN22,"Neoplasm, Malignant: Endometrium","2427","Laparoscopy, hysterectomy",0
+GYN22,"Neoplasm, Malignant: Endometrium","4810",Vaginal hysterectomy,0
+GYN23,"Neoplasm, Malignant: Ovaries","0005",Abdominal hysterectomy,0
+GYN23,"Neoplasm, Malignant: Ovaries","1475",Excision abdominal tumor,0
+GYN23,"Neoplasm, Malignant: Ovaries","2175","Invas major, ob/gyn",0
+GYN23,"Neoplasm, Malignant: Ovaries","2425","Laparoscopy, surgical, ob/gyn",0
+GYN23,"Neoplasm, Malignant: Ovaries","2427","Laparoscopy, hysterectomy",0
+GYN23,"Neoplasm, Malignant: Ovaries","2715",Mobilization of splenic flexure,0
+GYN23,"Neoplasm, Malignant: Ovaries","2975",Oophorectomy,0
+GYN23,"Neoplasm, Malignant: Ovaries","3090",Other female genital system procedure,0
+GYN23,"Neoplasm, Malignant: Ovaries","3340",Other ovarian procedure,0
+GYN23,"Neoplasm, Malignant: Ovaries","4225",Salpingo-oophorectomy,0
+GYN23,"Neoplasm, Malignant: Ovaries","4810",Vaginal hysterectomy,0
+HEM13,"Neoplasm, Malig. Hodgkins Disease Lymphocytic Depletion","0605",Bone marrow harvest,0
+HEM13,"Neoplasm, Malig. Hodgkins Disease Lymphocytic Depletion","0610",Bone marrow procedures,0
+HEM14,"Neoplasm, Malig. Hodgkins Disease Lymphocytic Predominance","0605",Bone marrow harvest,0
+HEM14,"Neoplasm, Malig. Hodgkins Disease Lymphocytic Predominance","0610",Bone marrow procedures,0
+HEM15,"Neoplasm, Malig. Hodgkins Disease Mixed Cellularity","0605",Bone marrow harvest,0
+HEM15,"Neoplasm, Malig. Hodgkins Disease Mixed Cellularity","0610",Bone marrow procedures,0
+HEM16,"Neoplasm, Malig. Hodgkins Disease Nodular Sclerosis","0605",Bone marrow harvest,0
+HEM16,"Neoplasm, Malig. Hodgkins Disease Nodular Sclerosis","0610",Bone marrow procedures,0
+HEM17,"Neoplasm, Malignant: Hodgkins Lymphoma","0605",Bone marrow harvest,0
+HEM17,"Neoplasm, Malignant: Hodgkins Lymphoma","0610",Bone marrow procedures,0
+HEM18,"Neoplasm, Malignant: Leukemia, Acute Lymphocytic","0605",Bone marrow harvest,0
+HEM18,"Neoplasm, Malignant: Leukemia, Acute Lymphocytic","0610",Bone marrow procedures,0
+HEM19,"Neoplasm, Malignant: Leukemia, Acute Nonlymphocytic","0605",Bone marrow harvest,0
+HEM19,"Neoplasm, Malignant: Leukemia, Acute Nonlymphocytic","0610",Bone marrow procedures,0
+HEM20,"Neoplasm, Malignant: Leukemia, Chronic Lymphocytic","0605",Bone marrow harvest,0
+HEM20,"Neoplasm, Malignant: Leukemia, Chronic Lymphocytic","0610",Bone marrow procedures,0
+HEM21,"Neoplasm, Malignant: Leukemia, Chronic Myelogenous","0605",Bone marrow harvest,0
+HEM21,"Neoplasm, Malignant: Leukemia, Chronic Myelogenous","0610",Bone marrow procedures,0
+HEM22,"Neoplasm, Malig. Lymphoma, Cutan. T Cell (Mycosis Fungoides)","0605",Bone marrow harvest,0
+HEM22,"Neoplasm, Malig. Lymphoma, Cutan. T Cell (Mycosis Fungoides)","0610",Bone marrow procedures,0
+HEM23,"Neoplasm, Malignant: Lymphoma, Diffuse Large Cell","0605",Bone marrow harvest,0
+HEM23,"Neoplasm, Malignant: Lymphoma, Diffuse Large Cell","0610",Bone marrow procedures,0
+HEM24,"Neoplasm, Malig. Lymphoma, Diffuse Mixed Sm and Lg Cell","0605",Bone marrow harvest,0
+HEM24,"Neoplasm, Malig. Lymphoma, Diffuse Mixed Sm and Lg Cell","0610",Bone marrow procedures,0
+HEM25,"Neoplasm, Malignant: Lymphoma, Diffuse Small Cleaved Cell","0605",Bone marrow harvest,0
+HEM25,"Neoplasm, Malignant: Lymphoma, Diffuse Small Cleaved Cell","0610",Bone marrow procedures,0
+HEM26,"Neoplasm, Malig. Lymphoma, Follicular Sm Cleaved & Lg Cell","0605",Bone marrow harvest,0
+HEM26,"Neoplasm, Malig. Lymphoma, Follicular Sm Cleaved & Lg Cell","0610",Bone marrow procedures,0
+HEM27,"Neoplasm, Malig. Lymphoma, Follicular Predominantly Lg Cell","0605",Bone marrow harvest,0
+HEM27,"Neoplasm, Malig. Lymphoma, Follicular Predominantly Lg Cell","0610",Bone marrow procedures,0
+HEM28,"Neoplasm, Malig. Lymphoma, Follicular Predom Sm Cleaved Cell","0605",Bone marrow harvest,0
+HEM28,"Neoplasm, Malig. Lymphoma, Follicular Predom Sm Cleaved Cell","0610",Bone marrow procedures,0
+HEM29,"Neoplasm, Malignant: Lymphoma, Histiocytic Cell","0605",Bone marrow harvest,0
+HEM29,"Neoplasm, Malignant: Lymphoma, Histiocytic Cell","0610",Bone marrow procedures,0
+HEM30,"Neoplasm, Malignant: Lymphoma, Large Cell Immunoblastic","0605",Bone marrow harvest,0
+HEM30,"Neoplasm, Malignant: Lymphoma, Large Cell Immunoblastic","0610",Bone marrow procedures,0
+HEM31,"Neoplasm, Malignant: Lymphoma, Lymphoblastic","0605",Bone marrow harvest,0
+HEM31,"Neoplasm, Malignant: Lymphoma, Lymphoblastic","0610",Bone marrow procedures,0
+HEM32,"Neoplasm, Malignant: Lymphoma, Small Lymphocytic Cell","0605",Bone marrow harvest,0
+HEM32,"Neoplasm, Malignant: Lymphoma, Small Lymphocytic Cell","0610",Bone marrow procedures,0
+HEM33,"Neoplasm, Malig. Lymphoma, Sm Noncleaved Cell or Burkitts","0605",Bone marrow harvest,0
+HEM33,"Neoplasm, Malig. Lymphoma, Sm Noncleaved Cell or Burkitts","0610",Bone marrow procedures,0
+HEM34,"Neoplasm, Malignant: Multiple Myeloma","0605",Bone marrow harvest,0
+HEM34,"Neoplasm, Malignant: Multiple Myeloma","0610",Bone marrow procedures,0
+HEM35,"Neoplasm, Malignant: Waldenstroms Macroglobulinemia","0605",Bone marrow harvest,0
+HEM35,"Neoplasm, Malignant: Waldenstroms Macroglobulinemia","0610",Bone marrow procedures,0
+HEM37,"Neoplasm, Malignant: Lymphoma, Other Types","0605",Bone marrow harvest,0
+HEM37,"Neoplasm, Malignant: Lymphoma, Other Types","0610",Bone marrow procedures,0
+HEM82,"Neoplasm, Malignant: Leukemia, Other Types","0605",Bone marrow harvest,0
+HEM82,"Neoplasm, Malignant: Leukemia, Other Types","0610",Bone marrow procedures,0
+HEM83,"Neoplasm, Malig. Lymphatic and Hematopoietic, Other Types","0605",Bone marrow harvest,0
+HEM83,"Neoplasm, Malig. Lymphatic and Hematopoietic, Other Types","0610",Bone marrow procedures,0
+HEP11,"Neoplasm, Malignant: Pancreas","1475",Excision abdominal tumor,0
+HEP11,"Neoplasm, Malignant: Pancreas","1875","Infusion pump, insert/remvove/revise",0
+HEP11,"Neoplasm, Malignant: Pancreas","3185",Other liver procedure,0
+HEP11,"Neoplasm, Malignant: Pancreas","3350",Other pancreatic procedure,0
+HEP11,"Neoplasm, Malignant: Pancreas","3705",Pancreatectomy,0
+HEP82,"Neoplasm, Malignant: Other Hepatobiliary Tract","1010","Cholecystectomy, open",0
+HEP82,"Neoplasm, Malignant: Other Hepatobiliary Tract","1475",Excision abdominal tumor,0
+HEP82,"Neoplasm, Malignant: Other Hepatobiliary Tract","1875","Infusion pump, insert/remvove/revise",0
+HEP82,"Neoplasm, Malignant: Other Hepatobiliary Tract","2430","Laparoscopy, surgical, other",0
+HEP82,"Neoplasm, Malignant: Other Hepatobiliary Tract","3060",Other biliary tract procedure,0
+HEP82,"Neoplasm, Malignant: Other Hepatobiliary Tract","3185",Other liver procedure,0
+HEP82,"Neoplasm, Malignant: Other Hepatobiliary Tract","3705",Pancreatectomy,0
+MGS06,"Neoplasm, Malignant: Prostate","2390","Laparoscopy, surgical, bladder",0
+MGS06,"Neoplasm, Malignant: Prostate","2450","Laparoscopy, surgical, urogenital",0
+MGS06,"Neoplasm, Malignant: Prostate","2615","Male genital surgery, complex",0
+MGS06,"Neoplasm, Malignant: Prostate","3205",Other male genital procedures,0
+MGS06,"Neoplasm, Malignant: Prostate","3930",Prostatectomy,0
+MGS06,"Neoplasm, Malignant: Prostate","4640",Transurethral surgery,0
+MGS06,"Neoplasm, Malignant: Prostate","Q2043",Sipuleucel-T ,0
+MGS07,"Neoplasm, Malignant: Testicular","2615","Male genital surgery, complex",0
+MGS07,"Neoplasm, Malignant: Testicular","3205",Other male genital procedures,0
+MGS07,"Neoplasm, Malignant: Testicular","3930",Prostatectomy,0
+RES13,"Neoplasm, Malignant: Lungs, Bronchi, or Mediastinum","1100",Craniectomy or craniotomy,0
+RES13,"Neoplasm, Malignant: Lungs, Bronchi, or Mediastinum","2510",Lobectomy,0
+RES13,"Neoplasm, Malignant: Lungs, Bronchi, or Mediastinum","3465","Other surg major, pulmonary",0
+RES13,"Neoplasm, Malignant: Lungs, Bronchi, or Mediastinum","3810",Photodynamic therapy,0
+RES13,"Neoplasm, Malignant: Lungs, Bronchi, or Mediastinum","4490",Thoracoscopy/surgery,0
+SKN08,"Neoplasm, Malignant: Melanoma","1100",Craniectomy or craniotomy,0
+SKN08,"Neoplasm, Malignant: Melanoma","1525","Excision, malignant skin lesions",0
+SKN08,"Neoplasm, Malignant: Melanoma","2485","Lesion destruction, malignant",0
+SKN08,"Neoplasm, Malignant: Melanoma","2720",Mohs surgery,0
+MUS33,"Neoplasm, Malignant: Primary Bone","1500","Excision tumor, bone",0

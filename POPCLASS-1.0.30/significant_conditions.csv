@@ -1,0 +1,297 @@
+DxCat,Description,Significance
+CVS01,Aneurysm: Abdominal,High
+CVS02,Aneurysm: Thoracic,High
+CVS03,Anomaly: Patent Ductus Arteriosus,High
+CVS04,Aortic Regurgitation,High
+CVS05,Aortic Stenosis,High
+CVS06,Arrhythmias,High
+CVS07,Cardiomyopathies,High
+CVS08,Conduction Disorders,High
+CVS09,Congestive Heart Failure,High
+CVS10,CAD1,High
+CVS11,CAD2,High
+CVS12,Digoxin Toxicity,High
+CVS14,Infective Endocarditis,High
+CVS15,Mitral Regurgitation,High
+CVS16,Mitral Stenosis,High
+CVS17,Periarteritis Nodosa,High
+CVS18,Pericarditis: Chronic,High
+CVS19,Pericarditis: Viral or Traumatic,High
+CVS21,Thromboangiitis Obliterans,High
+CVS22,Thrombophlebitis,High
+CVS23,"Tibial, lliac, Femoral, or Popliteal Artery Disease",High
+CVS80,"Neoplasm, Benign: Cardiovascular System",High
+CVS81,"Neoplasm, Malignant: Cardiovascular",High
+CVS83,Other Cardiac Conditions,High
+CVS86,Other Diseases of Arteries,High
+CVS87,Other Diseases of Veins,High
+CVS88,Other Disorders of Pulmonary Circulation,High
+DEN05,"Neoplasm, Malignant: Hypopharynx",High
+DEN06,"Neoplasm, Malignant: Oral Cavity",High
+DEN07,"Neoplasm, Malignant: Oropharynx",High
+DEN08,"Neoplasm, Malignant: Salivary Glands and Mandible",High
+END01,Adrenal Insufficiency,High
+END03,Diabetes Insipidus,High
+END04,Diabetes Mellitus Type 1,High
+END05,"Diabetes Mellitus Type 2, Unsp Types & Hyperglycemic States",High
+END07,Hyperthyroidism,High
+END10,Monotropic Hormone Deficiency,High
+END13,"Neoplasm, Benign: Primary Hyperaldosteronism",High
+END14,"Neoplasm, Malignant: Thyroid",High
+END15,Neoplasm: Pheochromocytoma,High
+END16,Primary Amyloidosis,High
+END80,"Neoplasm, Benign: Other Endocrine System",High
+END81,"Neoplasm, Malignant: Other Endocrine System",High
+ENT03,Diphtheria,High
+ENT10,"Neoplasm, Benign: Acoustic Neuroma",High
+ENT13,"Neoplasm, Malignant: Larynx, Glottis",High
+ENT14,"Neoplasm, Malignant: Larynx, Subglottic",High
+ENT15,"Neoplasm, Malignant: Larynx, Supraglottic",High
+ENT16,"Neoplasm, Malignant: Nasopharyngeal",High
+ENT17,"Neoplasm, Malignant: Sinuses",High
+EYE11,"Fracture: Orbit, Blow-Out",High
+EYE25,"Neoplasm, Malignant: Ocular Melanoma",High
+EYE26,"Neoplasm, Malignant: Retinoblastoma",High
+EYE81,"Neoplasm, Malignant: Other Eye and Periocular",High
+GEN01,Downs Syndrome,High
+GIS01,Alpha 1-Antitrypsin Deficiency,High
+GIS02,Amebiasis,High
+GIS04,Anorectal Suppuration,High
+GIS05,Appendicitis,High
+GIS08,Clostridium difficile Colitis,High
+GIS09,Crohns Disease,High
+GIS10,Diverticular Disease,High
+GIS12,Food Poisoning: Other Organisms,High
+GIS13,Food Poisoning: S. aureus,High
+GIS15,Foreign Body: Esophagus,High
+GIS22,Intussusception,High
+GIS24,Malabsorption from Blind Loop Syndrome,High
+GIS27,"Neoplasm, Malignant: Colon and Rectum",High
+GIS28,"Neoplasm, Malignant: Esophagus",High
+GIS29,"Neoplasm, Malignant: Small Bowel",High
+GIS30,"Neoplasm, Malignant: Stomach",High
+GIS31,Peptic Ulcer Disease,High
+GIS32,Salmonellosis,High
+GIS33,Shigellosis,High
+GIS36,Typhoid Fever,High
+GIS37,Ulcerative Colitis,High
+GIS38,Vascular Insufficiency of the Bowels,High
+GIS80,Complications of Gastrointestinal Treatment,High
+GIS83,"Neoplasm, Malignant: Other Gastrointestinal System",High
+GIS85,Other Gastrointestinal Disorders,High
+GIS86,Other Gastrointestinal Infections,High
+GUS03,"Glomerulonephritis, Acute",High
+GUS04,Injury: Urinary Tract,High
+GUS05,"Neoplasm, Malignant: Bladder, Urinary",High
+GUS06,"Neoplasm, Malignant: Kidneys",High
+GUS07,Nephrotic Syndrome,High
+GUS08,Renal Failure,High
+GUS81,"Neoplasm, Malignant: Other Genitourinary System",High
+GYN01,Abortion: Elective,High
+GYN02,Abortion: Spontaneous,High
+GYN03,Abruptio Placentae,High
+GYN06,Ante- and Postpartum Complications,High
+GYN09,"Delivery, Cesarean Section",High
+GYN10,"Delivery, Vaginal",High
+GYN12,Ectopic Pregnancy,High
+GYN19,"Neoplasm, Malignant: Breast, Female",High
+GYN20,"Neoplasm, Malignant: Cervix Uteri",High
+GYN22,"Neoplasm, Malignant: Endometrium",High
+GYN23,"Neoplasm, Malignant: Ovaries",High
+GYN24,"Neoplasm, Malignant: Vagina",High
+GYN25,"Neoplasm, Malignant: Vulva",High
+GYN26,Neoplasm: Trophoblastic Disease,High
+GYN27,Obstructed Labor,High
+GYN28,Pelvic Inflammatory Disease,High
+GYN29,Placenta Previa,High
+GYN30,Pregnancy-Induced Hypertension,High
+GYN31,Toxic Shock Syndrome,High
+GYN32,Uterine Infection,High
+GYN81,"Neoplasm, Malignant: Other Female Genitalia",High
+HEM01,Agranulocytosis,High
+HEM02,"Anemia: Aplastic, Acquired",High
+HEM04,Anemia: Hemolytic,High
+HEM06,Anemia: Sickle Cell,High
+HEM10,Graft versus Host Reaction,High
+HEM13,"Neoplasm, Malig. Hodgkins Disease Lymphocytic Depletion",High
+HEM14,"Neoplasm, Malig. Hodgkins Disease Lymphocytic Predominance",High
+HEM15,"Neoplasm, Malig. Hodgkins Disease Mixed Cellularity",High
+HEM16,"Neoplasm, Malig. Hodgkins Disease Nodular Sclerosis",High
+HEM17,"Neoplasm, Malignant: Hodgkins Lymphoma",High
+HEM18,"Neoplasm, Malignant: Leukemia, Acute Lymphocytic",High
+HEM19,"Neoplasm, Malignant: Leukemia, Acute Nonlymphocytic",High
+HEM20,"Neoplasm, Malignant: Leukemia, Chronic Lymphocytic",High
+HEM21,"Neoplasm, Malignant: Leukemia, Chronic Myelogenous",High
+HEM22,"Neoplasm, Malig. Lymphoma, Cutan. T Cell (Mycosis Fungoides)",High
+HEM23,"Neoplasm, Malignant: Lymphoma, Diffuse Large Cell",High
+HEM24,"Neoplasm, Malig. Lymphoma, Diffuse Mixed Sm and Lg Cell",High
+HEM25,"Neoplasm, Malignant: Lymphoma, Diffuse Small Cleaved Cell",High
+HEM26,"Neoplasm, Malig. Lymphoma, Follicular Sm Cleaved & Lg Cell",High
+HEM27,"Neoplasm, Malig. Lymphoma, Follicular Predominantly Lg Cell",High
+HEM28,"Neoplasm, Malig. Lymphoma, Follicular Predom Sm Cleaved Cell",High
+HEM29,"Neoplasm, Malignant: Lymphoma, Histiocytic Cell",High
+HEM30,"Neoplasm, Malignant: Lymphoma, Large Cell Immunoblastic",High
+HEM31,"Neoplasm, Malignant: Lymphoma, Lymphoblastic",High
+HEM32,"Neoplasm, Malignant: Lymphoma, Small Lymphocytic Cell",High
+HEM33,"Neoplasm, Malig. Lymphoma, Sm Noncleaved Cell or Burkitts",High
+HEM34,"Neoplasm, Malignant: Multiple Myeloma",High
+HEM35,"Neoplasm, Malignant: Waldenstroms Macroglobulinemia",High
+HEM36,Polycythemia Vera,High
+HEM37,"Neoplasm, Malignant: Lymphoma, Other Types",High
+HEM82,"Neoplasm, Malignant: Leukemia, Other Types",High
+HEM83,"Neoplasm, Malig. Lymphatic and Hematopoietic, Other Types",High
+HEM84,"Neoplasm, Malignant: Mastocytosis",High
+HEP01,Cholecystitis and Cholelithiasis,High
+HEP02,Cirrhosis of the Liver,High
+HEP03,Disorders of Bilirubin Excretion,High
+HEP04,Hepatitis A,High
+HEP05,Hepatitis B,High
+HEP06,Hepatitis C,High
+HEP07,Hepatitis D,High
+HEP08,Hepatitis E,High
+HEP09,Hepatitis G,High
+HEP10,"Hepatitis, Chemical",High
+HEP11,"Neoplasm, Malignant: Pancreas",High
+HEP12,Pancreatitis,High
+HEP80,Budd Chiari Syndrome,High
+HEP82,"Neoplasm, Malignant: Other Hepatobiliary Tract",High
+HEP83,Other Liver Disorders,High
+HEP85,Other Pancreatic Disorders,High
+IMM01,Human Immunodeficiency Virus Type I (HIV) Infection,High
+INF01,Aspergillosis,High
+INF05,Clostridial Wound Infection,High
+INF06,Coccidioidomycosis,High
+INF08,Cryptococcosis,High
+INF09,"Cytomegalovirus Disease, Acquired",High
+INF12,Histoplasmosis,High
+INF15,Listeriosis,High
+INF19,Mucormycosis,High
+INF21,Post-Polio Syndrome,High
+INF22,Reyes Syndrome,High
+INF23,Rheumatic Fever,High
+INF24,Rickettsioses,High
+INF27,"Syphilis, Acquired",High
+INF33,Brucellosis,High
+INF80,Anthrax,High
+INF81,Malaria,High
+INF82,Other Bacterial Infections,High
+MGS04,"Neoplasm, Malignant: Breast, Male",High
+MGS05,"Neoplasm, Malignant: Penile",High
+MGS06,"Neoplasm, Malignant: Prostate",High
+MGS07,"Neoplasm, Malignant: Testicular",High
+MUS05,Fracture: Acetabulum,High
+MUS07,"Fracture: Femur, Except Head or Neck",High
+MUS08,"Fracture: Femur, Head or Neck",High
+MUS26,Infectious Arthritis,High
+MUS32,Muscular Dystrophy,High
+MUS33,"Neoplasm, Malignant: Primary Bone",High
+MUS37,Osteomyelitis,High
+MUS39,Progressive Systemic Sclerosis,High
+MUS44,Systemic Lupus Erythematosus,High
+MUS45,Vasculitis,High
+MUS49,Intervertebral Disc Disorders: Cervical,High
+NEU01,Amyotrophic Lateral Sclerosis,High
+NEU03,Cerebral Palsy,High
+NEU04,Cerebrovascular Disease,High
+NEU05,Alzheimers Disease and Other Dementias,High
+NEU06,Disease of Nervous System Secondary to Implants or Grafts,High
+NEU07,Epilepsy,High
+NEU08,Guillain-Barre Syndrome,High
+NEU10,Huntingtons Chorea,High
+NEU11,Injury: Craniocerebral,High
+NEU13,"Meningitis, Encephalitis, and Myelitis: Viral",High
+NEU14,Meningitis: Bacterial,High
+NEU16,Multiple Sclerosis,High
+NEU17,Myasthenia Gravis,High
+NEU18,Neoplasm: Central Nervous System,High
+NEU20,Parkinsons Disease,High
+NEU21,Tuberous Sclerosis,High
+NEU80,"Other CNS Inflammation, Infection, or Disorder",High
+NUT01,"Beriberi, Thiamine Deficiency",High
+NUT02,Obesity,High
+NUT80,Other Electrolyte Disorders,High
+OTH70,Non-Spec Signs/Symptoms: Convulsions/Consciousness,High
+OTH81,Complication: Device/Implant/Graft,High
+OTH90,"Neoplasm, Malignant: Nonspecific Sites",High
+OTH91,"Neoplasm, Malignant: Unspecified Primary Site",High
+OTH94,Complication: Infection or Wound,High
+OTH95,Complication: Transplant,High
+OTH96,Complication: Hematoma or Hemorrhage Complication,High
+PED02,Anomaly: Atrial Septal Defect,High
+PED03,Anomaly: Atrioventricular Defects,High
+PED04,Anomaly: Coarctation of the Aorta,High
+PED05,Anomaly: Congenital Megacolon,High
+PED06,Anomaly: Defects of Kidney,High
+PED07,Anomaly: Defects of Lower Genitourinary Tract,High
+PED09,Anomaly: Neural Tube Defects,High
+PED10,Anomaly: Other Congenital Heart Disease,High
+PED11,Anomaly: Pulmonary Valve Stenosis,High
+PED12,Anomaly: Tetralogy of Fallot,High
+PED13,Anomaly: Tracheoesophageal Malformations,High
+PED14,Anomaly: Transposition of the Great Arteries,High
+PED15,Anomaly: Ventricular Septal Defects,High
+PED16,Bacterial and Fungal Infections of the Newborn,High
+PED17,"Cytomegalovirus Disease, Congenital",High
+PED18,Drug Withdrawal Syndromes in Neonates,High
+PED20,Hyaline Membrane Disease/Respiratory Distress Syndrome,High
+PED21,Injury: To Newborn During Delivery,High
+PED22,Meconium Aspiration Syndrome,High
+PED23,Neonatal Necrotizing Enterocolitis,High
+PED26,Prematurity: Extremely Low Birthweight,High
+PED28,Prematurity: Very Low Birthweight,High
+PED29,"Rubella, Congenital",High
+PED31,Toxoplasmosis: Congenital,High
+PED80,Anomaly: Other Circulatory System,High
+PED81,Anomaly: Other Digestive or Hepatobiliary System,High
+PED83,Anomaly: Other Nervous System,High
+PSY02,Bipolar Disorder: Major Depressive Episode,High
+PSY03,Bipolar Disorder: Manic Episode,High
+PSY05,"Drug Abuse, Dependence, Intoxication: Alcohol",High
+PSY06,"Drug Abuse, Dependence, Overdose: Amphetamine",High
+PSY07,"Drug Abuse, Dependence, Overdose: Barbiturate",High
+PSY08,"Drug Abuse, Dependence, Overdose: Cannabis",High
+PSY09,"Drug Abuse, Dependence, Overdose: Cocaine",High
+PSY10,"Drug Abuse, Dependence, Overdose: Hallucinogen",High
+PSY11,"Drug Abuse, Dependence, Overdose: Opioid",High
+PSY12,"Drug Abuse, Dependence, Overdose: Other",High
+PSY13,Eating Disorders: Anorexia Nervosa,High
+PSY14,Eating Disorders: Bulimia Nervosa,High
+PSY80,Schizophrenia,High
+PSY81,Autism,High
+PSY83,Other Psychoses,High
+RES01,Asbestosis,High
+RES02,Asthma,High
+RES04,Byssinosis,High
+RES05,Chronic Obstructive Pulmonary Disease,High
+RES06,Coal Miners Pneumoconiosis,High
+RES08,Cystic Fibrosis,High
+RES09,Emphysema,High
+RES10,Hypersensitivity Pneumonitis,High
+RES13,"Neoplasm, Malignant: Lungs, Bronchi, or Mediastinum",High
+RES15,Pneumonia: Bacterial,High
+RES17,Pneumonia: Legionella,High
+RES18,Pneumonia: Moraxella catarrhalis,High
+RES19,Pneumonia: Pneumocystis carinii,High
+RES20,Pulmonary Alveolar Proteinosis,High
+RES21,Pulmonary Embolism,High
+RES22,Radiation Pneumonitis,High
+RES23,Respiratory Syncytial Virus Infections,High
+RES25,Sarcoidosis,High
+RES28,Pertussis,High
+RES80,Complications of Tracheostomy,High
+RES82,"Neoplasm, Malignant: Other Respiratory System",High
+RES83,Other Disorders of Respiratory System,High
+RES85,Other Respiratory Infections,High
+RES87,Pneumonia: Aspiration,High
+SKN01,Decubitus Ulcers,High
+SKN02,Erythema Multiforme,High
+SKN08,"Neoplasm, Malignant: Melanoma",High
+SKN81,"Neoplasm, Malignant: Other Skin and Soft Tissue",High
+TRA01,Acetaminophen Toxicity,High
+TRA02,Adverse Drug Reactions,High
+TRA03,Adverse Effects of Salicylates,High
+TRA05,"Burns, Chemical: Esophagus, Stomach, or Small Intestine",High
+TRA06,"Injury, Open Wound, or Blunt Trauma: Abdomen or Trunk",High
+TRA07,Laceration: Esophagus,High
+TRA08,Lead Poisoning,High
+TRA82,Poisoning: Drugs Other Than Antidepressants or Tranquilizers,High

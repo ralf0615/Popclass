@@ -1,0 +1,14 @@
+CodeType,Code,Description
+DRG,1,Heart transplant or assist system
+DRG,2,Heart transplant or assist system
+DRG,5,Liver or Intestinal  Transplant
+DRG,6,Liver Transplant
+DRG,7,Lung transplant
+DRG,8,Pancreas and kidney transplant
+DRG,10,Pancreas transplant
+DRG,14,Bone marrow transplant
+DRG,16,Bone marrow Transplant
+DRG,17,Bone marrow transplant
+DRG,652,Kidney transplant
+DRG,837,Chemo acute leukemia or high dose chemo
+DRG,838,Chemo acute leukemia or high dose chemo 
