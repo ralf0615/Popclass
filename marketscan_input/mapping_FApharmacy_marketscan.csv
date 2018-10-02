@@ -1,0 +1,1 @@
+﻿MarketScanColNames,FAPharmaColNames,PopClassRequired,ROHRequiredSVCDATE,claim_date,1,1DAYSUPP,days_supply_cnt,1,1THERCLS,gen_ther_class_code,,0GENERID,generic_id,,NDCNUM,ndc_nbr,1,ENROLID,patient_id,1,1PAY,pay,,1SEQNUM,record_identifier,1,
