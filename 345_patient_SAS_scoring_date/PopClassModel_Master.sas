@@ -1,5 +1,5 @@
 
-/*** connect to the nike server - trvlapp0852.tsh.thomson.com ***/
+/*** connect to the nike server - trvlapp1465.tsh.thomson.com ***/
 
 %include '/opt/SAS94/SASFoundation/9.4/autoexec.sas';
 
@@ -12,7 +12,7 @@ Options obs=max mprint mlogic;
 %Let MSversion    =143;
 %Let MSversionNext=152;
 %Let StartDate='31DEC2014'd; /* always choose the end of month */
-%let version=31DEC2014Client450_06272018;
+%let version=31DEC2014Client450_10162018;
 %Let AEoutpath=/rpscan/u071439/AEout/&version.;
 %Let outpath=/rpscan/u071439/output/&version.;
 %Let username=yl;

@@ -10,7 +10,7 @@ libname temp "/rpscan/kquinn";
 
 *** change the SQL query, if we want the subset of variables or in a timeframe;
 *** outobs limits number of observations in csv;
-PROC SQL outobs=10000;
+PROC SQL outobs=100000000;
 Create Table temp.mscan_extract as 
 
 
