@@ -206,13 +206,13 @@ run;
 proc format cntlin=trash; run;
 
 *** creating a format for list of ProcGRP (based on Px conditions) for Surveillance - Active Cancer definition;
-data trash(keep=start label fmtname); 
+data trash_1(keep=start label fmtname);
 set temp.SurvGeneralActiveCancerPROCGRP end=end;
 start=PROCGRP;
 label='Y';
 fmtname='$SurvActiveCancerPROCGRP';
 run;
-proc format cntlin=trash; run;
+proc format cntlin=trash_1; run;
 
 ********************************************************************************;
 *%include '/rpscan/u071439/script/PopClassModel_BeforeAE_YL.sas';
