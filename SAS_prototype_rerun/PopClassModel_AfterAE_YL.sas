@@ -1060,7 +1060,9 @@ from
 inner join
 	temp.SurvSpecificActiveCancer as b
 on
+    /* Casting a.procgroup and b.procgroup to string */
 	cast(a.procgrp,varchar)=cast(b.procgrp,varchar);
+
 
 *** Create Flag for Specific Active Cancer (join the previous selected based on DxCat with Specific Cancer by PROCGRP);
 proc sql;

@@ -2693,3 +2693,869 @@ NOTE: Procedure SQL step took :
       real time : 0.127
       cpu time  : 0.008
 
+50                                       The WPS System      08:46 Friday, October 19, 2018     
+
+
+
+NOTE: 2218010 observations were read from "TEMP.SampleIPOPwDS1"
+NOTE: Data set "WORK.trash0091" has 59453 observation(s) and 4 variable(s)
+NOTE: The data step took :
+      real time : 3.524
+      cpu time  : 2.007
+
+
+NOTE: 59453 observations were read from "WORK.trash0091"
+NOTE: 46049 observations were found and deleted due to having duplicate sort keys
+NOTE: Data set "WORK.trash0091" has 13404 observation(s) and 4 variable(s)
+NOTE: Procedure sort step took :
+      real time : 0.103
+      cpu time  : 0.062
+
+
+NOTE: View WORK.trash0092 successfully created
+NOTE: View WORK.trash009 successfully created
+NOTE: View WORK.trash010 successfully created
+NOTE: View WORK.trash011 successfully created
+NOTE: View WORK.trash012 successfully created
+NOTE: View WORK.trash013 successfully created
+NOTE: Procedure sql step took :
+      real time : 0.049
+      cpu time  : 0.004
+
+
+
+NOTE: View opening spill file for output observations.
+NOTE: 288 observations were read from "WORK.trash013"
+NOTE: Data set "WORK.trash013_1" has 19 observation(s) and 3 variable(s)
+NOTE: The data step took :
+      real time : 19:17.446
+      cpu time  : 4:52.676
+
+
+
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+51                                       The WPS System      08:46 Friday, October 19, 2018     
+
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: 44145 observations were read from "WORK.trash001_1"
+NOTE: 68328 observations were read from "WORK.trash001_2"
+NOTE: 17805 observations were read from "WORK.trash002_1"
+NOTE: 26201 observations were read from "WORK.trash002_2"
+NOTE: 8441 observations were read from "WORK.trash003_1"
+NOTE: 12782 observations were read from "WORK.trash003_2"
+NOTE: 14898 observations were read from "WORK.trash004"
+NOTE: 8441 observations were read from "WORK.trash005"
+NOTE: 4852 observations were read from "WORK.trash006_1"
+NOTE: 14212 observations were read from "WORK.trash006_2"
+NOTE: 768 observations were read from "WORK.trash007_1"
+NOTE: 1458 observations were read from "WORK.trash007_2"
+NOTE: 14212 observations were read from "WORK.trash008"
+NOTE: 2463 observations were read from "WORK.trash009"
+NOTE: 532 observations were read from "WORK.trash010"
+NOTE: 5193 observations were read from "WORK.trash011"
+NOTE: 421 observations were read from "WORK.trash012"
+NOTE: 19 observations were read from "WORK.trash013_1"
+NOTE: Data set "WORK.trash101" has 69584 observation(s) and 20 variable(s)
+NOTE: The data step took :
+      real time : 8.262
+      cpu time  : 4.287
+
+
+NOTE: View opening spill file for output observations.
+NOTE: Data set "TEMP.OP" has 82252 observation(s) and 20 variable(s)
+NOTE: Procedure SQL step took :
+      real time : 1.697
+      cpu time  : 0.716
+
+
+
+NOTE: 82252 observations were read from "TEMP.SamplewClassification"
+NOTE: 82252 observations were read from "TEMP.OP"
+NOTE: 82252 observations were read from "TEMP.IP"
+NOTE: 82252 observations were read from "TEMP.IPandOP"
+NOTE: Data set "TEMP.AllModelInputs" has 82252 observation(s) and 48 variable(s)
+NOTE: The data step took :
+      real time : 0.377
+      cpu time  : 0.179
+
+
+NOTE: Procedure export step took :
+      real time : 0.001
+      cpu time  : 0.000
+
+
+1815      data _null_;
+1816        file '/rpscan/u071439/output/31DEC2014Client450_10162018/ModelInputs31DEC2014Client4
+1816    ! 50_10162018.csv' delimiter=',' DSD DROPOVER LRECL=866;
+52                                       The WPS System      08:46 Friday, October 19, 2018     
+
+1817        format ENROLID BEST12.;
+1818        format Count3mOV BEST12.;
+1819        format Count12mOV BEST12.;
+1820        format Count3mOVChronic BEST12.;
+1821        format Count6mOVChronic BEST12.;
+1822        format Count3mOVChronicSpecialist BEST12.;
+1823        format Count6mOVChronicSpecialist BEST12.;
+1824        format Count3mOVSpecialties BEST12.;
+1825        format Count3mOVChronicSpecialties BEST12.;
+1826        format Count3mER BEST12.;
+1827        format Count12mER BEST12.;
+1828        format Count3mERChronic BEST12.;
+1829        format Count6mERChronic BEST12.;
+1830        format DaysER BEST12.;
+1831        format DaysMajorER BEST12.;
+1832        format DaysHH BEST12.;
+1833        format DaysMajorSurg BEST12.;
+1834        format DaysOxygen BEST12.;
+1835        format Days3mLTC BEST12.;
+1836        format flag3mLTC BEST12.;
+1837        format CountAdm3mAll BEST12.;
+1838        format CountAdm3mChronic BEST12.;
+1839        format CountAdm6mAll BEST12.;
+1840        format CountAdm6mChronic BEST12.;
+1841        format SumLOS3mAll BEST12.;
+1842        format DaysAnyAdm BEST12.;
+1843        format DaysChronicAdm BEST12.;
+1844        format DaysSurgAdm BEST12.;
+1845        format DaysMedicalAdm BEST12.;
+1846        format DaysMtrntyAdm BEST12.;
+1847        format DaysMHSAAdm BEST12.;
+1848        format flag12mMHSA BEST12.;
+1849        format flag3mGYN BEST12.;
+1850        format Count3mAcuteStage3 BEST12.;
+1851        format Count3mChronicStage3 BEST12.;
+1852        format Count6mChronicStage3 BEST12.;
+1853        format Count3mAcuteSign BEST12.;
+1854        format Count3mChronicSign BEST12.;
+1855        format Count6mChronicSign BEST12.;
+1856        format Count12mChronicSign BEST12.;
+1857        format Count3mAcute BEST12.;
+1858        format Count6mAcute BEST12.;
+1859        format Count3mChronic BEST12.;
+1860        format Count12mChronic BEST12.;
+1861        format Count3mBody BEST12.;
+1862        format Count3mBodySign BEST12.;
+1863        format flag3mNewChronicSign BEST12.;
+1864        format Days3mStage3 BEST12.;
+1865        if _n_=1 then do;
+1866            put
+1867               'ENROLID'        ','
+1868               'Count3mOV'        ','
+1869               'Count12mOV'        ','
+53                                       The WPS System      08:46 Friday, October 19, 2018     
+
+1870               'Count3mOVChronic'        ','
+1871               'Count6mOVChronic'        ','
+1872               'Count3mOVChronicSpecialist'        ','
+1873               'Count6mOVChronicSpecialist'        ','
+1874               'Count3mOVSpecialties'        ','
+1875               'Count3mOVChronicSpecialties'        ','
+1876               'Count3mER'        ','
+1877               'Count12mER'        ','
+1878               'Count3mERChronic'        ','
+1879               'Count6mERChronic'        ','
+1880               'DaysER'        ','
+1881               'DaysMajorER'        ','
+1882               'DaysHH'        ','
+1883               'DaysMajorSurg'        ','
+1884               'DaysOxygen'        ','
+1885               'Days3mLTC'        ','
+1886               'flag3mLTC'        ','
+1887               'CountAdm3mAll'        ','
+1888               'CountAdm3mChronic'        ','
+1889               'CountAdm6mAll'        ','
+1890               'CountAdm6mChronic'        ','
+1891               'SumLOS3mAll'        ','
+1892               'DaysAnyAdm'        ','
+1893               'DaysChronicAdm'        ','
+1894               'DaysSurgAdm'        ','
+1895               'DaysMedicalAdm'        ','
+1896               'DaysMtrntyAdm'        ','
+1897               'DaysMHSAAdm'        ','
+1898               'flag12mMHSA'        ','
+1899               'flag3mGYN'        ','
+1900               'Count3mAcuteStage3'        ','
+1901               'Count3mChronicStage3'        ','
+1902               'Count6mChronicStage3'        ','
+1903               'Count3mAcuteSign'        ','
+1904               'Count3mChronicSign'        ','
+1905               'Count6mChronicSign'        ','
+1906               'Count12mChronicSign'        ','
+1907               'Count3mAcute'        ','
+1908               'Count6mAcute'        ','
+1909               'Count3mChronic'        ','
+1910               'Count12mChronic'        ','
+1911               'Count3mBody'        ','
+1912               'Count3mBodySign'        ','
+1913               'flag3mNewChronicSign'        ','
+1914               'Days3mStage3';
+1915          end;
+1916        set temp.AllModelInputs;
+1917        put ENROLID @;
+1918        put Count3mOV @;
+1919        put Count12mOV @;
+1920        put Count3mOVChronic @;
+1921        put Count6mOVChronic @;
+1922        put Count3mOVChronicSpecialist @;
+54                                       The WPS System      08:46 Friday, October 19, 2018     
+
+1923        put Count6mOVChronicSpecialist @;
+1924        put Count3mOVSpecialties @;
+1925        put Count3mOVChronicSpecialties @;
+1926        put Count3mER @;
+1927        put Count12mER @;
+1928        put Count3mERChronic @;
+1929        put Count6mERChronic @;
+1930        put DaysER @;
+1931        put DaysMajorER @;
+1932        put DaysHH @;
+1933        put DaysMajorSurg @;
+1934        put DaysOxygen @;
+1935        put Days3mLTC @;
+1936        put flag3mLTC @;
+1937        put CountAdm3mAll @;
+1938        put CountAdm3mChronic @;
+1939        put CountAdm6mAll @;
+1940        put CountAdm6mChronic @;
+1941        put SumLOS3mAll @;
+1942        put DaysAnyAdm @;
+1943        put DaysChronicAdm @;
+1944        put DaysSurgAdm @;
+1945        put DaysMedicalAdm @;
+1946        put DaysMtrntyAdm @;
+1947        put DaysMHSAAdm @;
+1948        put flag12mMHSA @;
+1949        put flag3mGYN @;
+1950        put Count3mAcuteStage3 @;
+1951        put Count3mChronicStage3 @;
+1952        put Count6mChronicStage3 @;
+1953        put Count3mAcuteSign @;
+1954        put Count3mChronicSign @;
+1955        put Count6mChronicSign @;
+1956        put Count12mChronicSign @;
+1957        put Count3mAcute @;
+1958        put Count6mAcute @;
+1959        put Count3mChronic @;
+1960        put Count12mChronic @;
+1961        put Count3mBody @;
+1962        put Count3mBodySign @;
+1963        put flag3mNewChronicSign @;
+1964        put Days3mStage3;
+1965      run;
+
+NOTE: The file
+      '/rpscan/u071439/output/31DEC2014Client450_10162018/ModelInputs31DEC2014Client450_10162018
+      .csv' is:
+      File
+      Name=/rpscan/u071439/output/31DEC2014Client450_10162018/ModelInputs31DEC2014Client450_1016
+      2018.csv,
+      Access Permissions=-rw-rw-r--, Number of Links=1,
+      Owner Name=u071439, Group Name=devl,
+      File Size=0, Last Modified=10:07:00 Oct 19 2018,
+55                                       The WPS System      08:46 Friday, October 19, 2018     
+
+      Created=10:07:00 Oct 19 2018, Lrecl=866, Recfm=V
+
+NOTE: 82253 records were written to file
+      '/rpscan/u071439/output/31DEC2014Client450_10162018/ModelInputs31DEC2014Client450_10162018
+      .csv'
+      The minimum record length was 118
+      The maximum record length was 723
+NOTE: 82252 observations were read from "TEMP.AllModelInputs"
+NOTE: The data step took :
+      real time : 2.110
+      cpu time  : 1.198
+
+
+1966      FILENAME ##EXPOUT CLEAR;
+NOTE: Variable "CountDaysSuppOpiates3m" may not be initialized
+NOTE: Variable "CountDaysSupp3m" may not be initialized
+NOTE: Variable "CountTherClassChronic6m" may not be initialized
+
+NOTE: 82252 observations were read from "TEMP.AllModelInputs"
+NOTE: Data set "TEMP.DTModel" has 82252 observation(s) and 54 variable(s)
+NOTE: The data step took :
+      real time : 0.255
+      cpu time  : 0.130
+
+
+NOTE: Procedure export step took :
+      real time : 0.001
+      cpu time  : 0.000
+
+
+2031      data _null_;
+2032        file '/rpscan/u071439/output/31DEC2014Client450_10162018/DTModel31DEC2014Client450_1
+2032    ! 0162018.csv' delimiter=',' DSD DROPOVER LRECL=982;
+2033        format ENROLID BEST12.;
+2034        format Count3mOV BEST12.;
+2035        format Count12mOV BEST12.;
+2036        format Count3mOVChronic BEST12.;
+2037        format Count6mOVChronic BEST12.;
+2038        format Count3mOVChronicSpecialist BEST12.;
+2039        format Count6mOVChronicSpecialist BEST12.;
+2040        format Count3mOVSpecialties BEST12.;
+2041        format Count3mOVChronicSpecialties BEST12.;
+2042        format Count3mER BEST12.;
+2043        format Count12mER BEST12.;
+2044        format Count3mERChronic BEST12.;
+2045        format Count6mERChronic BEST12.;
+2046        format DaysER BEST12.;
+2047        format DaysMajorER BEST12.;
+2048        format DaysHH BEST12.;
+2049        format DaysMajorSurg BEST12.;
+2050        format DaysOxygen BEST12.;
+2051        format Days3mLTC BEST12.;
+2052        format flag3mLTC BEST12.;
+56                                       The WPS System      08:46 Friday, October 19, 2018     
+
+2053        format CountAdm3mAll BEST12.;
+2054        format CountAdm3mChronic BEST12.;
+2055        format CountAdm6mAll BEST12.;
+2056        format CountAdm6mChronic BEST12.;
+2057        format SumLOS3mAll BEST12.;
+2058        format DaysAnyAdm BEST12.;
+2059        format DaysChronicAdm BEST12.;
+2060        format DaysSurgAdm BEST12.;
+2061        format DaysMedicalAdm BEST12.;
+2062        format DaysMtrntyAdm BEST12.;
+2063        format DaysMHSAAdm BEST12.;
+2064        format flag12mMHSA BEST12.;
+2065        format flag3mGYN BEST12.;
+2066        format Count3mAcuteStage3 BEST12.;
+2067        format Count3mChronicStage3 BEST12.;
+2068        format Count6mChronicStage3 BEST12.;
+2069        format Count3mAcuteSign BEST12.;
+2070        format Count3mChronicSign BEST12.;
+2071        format Count6mChronicSign BEST12.;
+2072        format Count12mChronicSign BEST12.;
+2073        format Count3mAcute BEST12.;
+2074        format Count6mAcute BEST12.;
+2075        format Count3mChronic BEST12.;
+2076        format Count12mChronic BEST12.;
+2077        format Count3mBody BEST12.;
+2078        format Count3mBodySign BEST12.;
+2079        format flag3mNewChronicSign BEST12.;
+2080        format Days3mStage3 BEST12.;
+2081        format CountDaysSuppOpiates3m BEST12.;
+2082        format CountDaysSupp3m BEST12.;
+2083        format PopClass BEST12.;
+2084        format Rule BEST12.;
+2085        format RuleConfidence BEST12.;
+2086        format CountTherClassChronic6m BEST12.;
+2087        if _n_=1 then do;
+2088            put
+2089               'ENROLID'        ','
+2090               'Count3mOV'        ','
+2091               'Count12mOV'        ','
+2092               'Count3mOVChronic'        ','
+2093               'Count6mOVChronic'        ','
+2094               'Count3mOVChronicSpecialist'        ','
+2095               'Count6mOVChronicSpecialist'        ','
+2096               'Count3mOVSpecialties'        ','
+2097               'Count3mOVChronicSpecialties'        ','
+2098               'Count3mER'        ','
+2099               'Count12mER'        ','
+2100               'Count3mERChronic'        ','
+2101               'Count6mERChronic'        ','
+2102               'DaysER'        ','
+2103               'DaysMajorER'        ','
+2104               'DaysHH'        ','
+2105               'DaysMajorSurg'        ','
+57                                       The WPS System      08:46 Friday, October 19, 2018     
+
+2106               'DaysOxygen'        ','
+2107               'Days3mLTC'        ','
+2108               'flag3mLTC'        ','
+2109               'CountAdm3mAll'        ','
+2110               'CountAdm3mChronic'        ','
+2111               'CountAdm6mAll'        ','
+2112               'CountAdm6mChronic'        ','
+2113               'SumLOS3mAll'        ','
+2114               'DaysAnyAdm'        ','
+2115               'DaysChronicAdm'        ','
+2116               'DaysSurgAdm'        ','
+2117               'DaysMedicalAdm'        ','
+2118               'DaysMtrntyAdm'        ','
+2119               'DaysMHSAAdm'        ','
+2120               'flag12mMHSA'        ','
+2121               'flag3mGYN'        ','
+2122               'Count3mAcuteStage3'        ','
+2123               'Count3mChronicStage3'        ','
+2124               'Count6mChronicStage3'        ','
+2125               'Count3mAcuteSign'        ','
+2126               'Count3mChronicSign'        ','
+2127               'Count6mChronicSign'        ','
+2128               'Count12mChronicSign'        ','
+2129               'Count3mAcute'        ','
+2130               'Count6mAcute'        ','
+2131               'Count3mChronic'        ','
+2132               'Count12mChronic'        ','
+2133               'Count3mBody'        ','
+2134               'Count3mBodySign'        ','
+2135               'flag3mNewChronicSign'        ','
+2136               'Days3mStage3'        ','
+2137               'CountDaysSuppOpiates3m'        ','
+2138               'CountDaysSupp3m'        ','
+2139               'PopClass'        ','
+2140               'Rule'        ','
+2141               'RuleConfidence'        ','
+2142               'CountTherClassChronic6m';
+2143          end;
+2144        set temp.DTModel;
+2145        put ENROLID @;
+2146        put Count3mOV @;
+2147        put Count12mOV @;
+2148        put Count3mOVChronic @;
+2149        put Count6mOVChronic @;
+2150        put Count3mOVChronicSpecialist @;
+2151        put Count6mOVChronicSpecialist @;
+2152        put Count3mOVSpecialties @;
+2153        put Count3mOVChronicSpecialties @;
+2154        put Count3mER @;
+2155        put Count12mER @;
+2156        put Count3mERChronic @;
+2157        put Count6mERChronic @;
+2158        put DaysER @;
+58                                       The WPS System      08:46 Friday, October 19, 2018     
+
+2159        put DaysMajorER @;
+2160        put DaysHH @;
+2161        put DaysMajorSurg @;
+2162        put DaysOxygen @;
+2163        put Days3mLTC @;
+2164        put flag3mLTC @;
+2165        put CountAdm3mAll @;
+2166        put CountAdm3mChronic @;
+2167        put CountAdm6mAll @;
+2168        put CountAdm6mChronic @;
+2169        put SumLOS3mAll @;
+2170        put DaysAnyAdm @;
+2171        put DaysChronicAdm @;
+2172        put DaysSurgAdm @;
+2173        put DaysMedicalAdm @;
+2174        put DaysMtrntyAdm @;
+2175        put DaysMHSAAdm @;
+2176        put flag12mMHSA @;
+2177        put flag3mGYN @;
+2178        put Count3mAcuteStage3 @;
+2179        put Count3mChronicStage3 @;
+2180        put Count6mChronicStage3 @;
+2181        put Count3mAcuteSign @;
+2182        put Count3mChronicSign @;
+2183        put Count6mChronicSign @;
+2184        put Count12mChronicSign @;
+2185        put Count3mAcute @;
+2186        put Count6mAcute @;
+2187        put Count3mChronic @;
+2188        put Count12mChronic @;
+2189        put Count3mBody @;
+2190        put Count3mBodySign @;
+2191        put flag3mNewChronicSign @;
+2192        put Days3mStage3 @;
+2193        put CountDaysSuppOpiates3m @;
+2194        put CountDaysSupp3m @;
+2195        put PopClass @;
+2196        put Rule @;
+2197        put RuleConfidence @;
+2198        put CountTherClassChronic6m;
+2199      run;
+
+NOTE: The file
+      '/rpscan/u071439/output/31DEC2014Client450_10162018/DTModel31DEC2014Client450_10162018.csv
+      ' is:
+      File
+      Name=/rpscan/u071439/output/31DEC2014Client450_10162018/DTModel31DEC2014Client450_10162018
+      .csv,
+      Access Permissions=-rw-rw-r--, Number of Links=1,
+      Owner Name=u071439, Group Name=devl,
+      File Size=0, Last Modified=10:07:03 Oct 19 2018,
+      Created=10:07:03 Oct 19 2018, Lrecl=982, Recfm=V
+
+59                                       The WPS System      08:46 Friday, October 19, 2018     
+
+NOTE: 82253 records were written to file
+      '/rpscan/u071439/output/31DEC2014Client450_10162018/DTModel31DEC2014Client450_10162018.csv
+      '
+      The minimum record length was 131
+      The maximum record length was 815
+NOTE: 82252 observations were read from "TEMP.DTModel"
+NOTE: The data step took :
+      real time : 2.325
+      cpu time  : 1.348
+
+
+2200      FILENAME ##EXPOUT CLEAR;
+
+NOTE: 2218010 observations were read from "TEMP.SampleIPOPwDS1"
+NOTE: Data set "WORK.trash517_1" has 1944278 observation(s) and 14 variable(s)
+NOTE: The data step took :
+      real time : 4.866
+      cpu time  : 2.288
+
+
+NOTE: Data set "WORK.trash517_2" has 8677 observation(s) and 3 variable(s)
+NOTE: Data set "WORK.trash517_3" has 21315 observation(s) and 2 variable(s)
+NOTE: Data set "WORK.trash517_4" has 8677 observation(s) and 4 variable(s)
+NOTE: Summary results are required to be remerged with the original data
+NOTE: View opening spill file for output observations.
+NOTE: Data set "WORK.trash517_5" has 1375 observation(s) and 3 variable(s)
+NOTE: Data set "TEMP.TrNav" has 1765 observation(s) and 5 variable(s)
+NOTE: Procedure sql step took :
+      real time : 4.607
+      cpu time  : 2.134
+
+
+NOTE: Procedure export step took :
+      real time : 0.000
+      cpu time  : 0.000
+
+
+2307      data _null_;
+2308        file '/rpscan/u071439/output/31DEC2014Client450_10162018/TreatmentNavigation31DEC201
+2308    ! 4Client450_10162018.csv' delimiter=',' DSD DROPOVER LRECL=80;
+2309        format enrolid BEST12.;
+2310        format FlagTrNav BEST12.;
+2311        format PopClass BEST12.;
+2312        format FlagPriorTrNav BEST12.;
+2313        format FlagHigherStage BEST12.;
+2314        if _n_=1 then do;
+2315            put
+2316               'enrolid'        ','
+2317               'FlagTrNav'        ','
+2318               'PopClass'        ','
+2319               'FlagPriorTrNav'        ','
+2320               'FlagHigherStage';
+2321          end;
+60                                       The WPS System      08:46 Friday, October 19, 2018     
+
+2322        set temp.TrNav;
+2323        put enrolid @;
+2324        put FlagTrNav @;
+2325        put PopClass @;
+2326        put FlagPriorTrNav @;
+2327        put FlagHigherStage;
+2328      run;
+
+NOTE: The file
+      '/rpscan/u071439/output/31DEC2014Client450_10162018/TreatmentNavigation31DEC2014Client450_
+      10162018.csv' is:
+      File
+      Name=/rpscan/u071439/output/31DEC2014Client450_10162018/TreatmentNavigation31DEC2014Client
+      450_10162018.csv,
+      Access Permissions=-rw-rw-r--, Number of Links=1,
+      Owner Name=u071439, Group Name=devl,
+      File Size=0, Last Modified=10:07:14 Oct 19 2018,
+      Created=10:07:14 Oct 19 2018, Lrecl=80, Recfm=V
+
+NOTE: 1766 records were written to file
+      '/rpscan/u071439/output/31DEC2014Client450_10162018/TreatmentNavigation31DEC2014Client450_
+      10162018.csv'
+      The minimum record length was 17
+      The maximum record length was 57
+NOTE: 1765 observations were read from "TEMP.TrNav"
+NOTE: The data step took :
+      real time : 0.010
+      cpu time  : 0.001
+
+
+2329      FILENAME ##EXPOUT CLEAR;
+
+NOTE: 603197 observations were read from "TEMP.SampleIPOPwDS1"
+NOTE: Data set "WORK.trash518_1" has 2345351 observation(s) and 7 variable(s)
+NOTE: The data step took :
+      real time : 2.725
+      cpu time  : 1.417
+
+
+NOTE: Data set "WORK.trash518_2" has 2345351 observation(s) and 8 variable(s)
+NOTE: Procedure sql step took :
+      real time : 8.892
+      cpu time  : 5.158
+
+
+WARNING: Variable ProcGRP has already been defined as numeric
+Start of %INCLUDE(level 1) /rpscan/u071439/script/PopClassModel_AfterAE_YL.sas
+2387    +  	put(ProcGRP,$SurvActiveCancerPROCGRP.)='Y'
+           	             ^
+ERROR: Format SurvActiveCancerPROCGRP was not found or could not be loaded
+
+NOTE: DATA step was not executed because of errors detected
+NOTE: The data step took :
+61                                       The WPS System      08:46 Friday, October 19, 2018     
+
+      real time : 0.028
+      cpu time  : 0.010
+
+
+NOTE: Data set "WORK.trash518_4" has 8963 observation(s) and 3 variable(s)
+2411    +  SELECT CONVERT(vchar(10), procgrp) FROM trash518_2;
+                          ^
+ERROR: The function "vchar" is not known
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.599
+      cpu time  : 0.228
+
+
+2414    +  SELECT CONVERT(vchar(10), procgrp) FROM temp.SurvSpecificActiveCancer;
+                          ^
+ERROR: The function "vchar" is not known
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.001
+      cpu time  : 0.000
+
+
+2427    +  	a.procgrp=b.procgrp;
+           	         ^
+ERROR: The Equality operator must compare operands of the same type
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.002
+      cpu time  : 0.000
+
+
+ERROR: Data set "WORK.trash518_5" not found
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.001
+      cpu time  : 0.000
+
+
+NOTE: Data set "WORK.trash518_7" has 1 observation(s) and 2 variable(s)
+NOTE: Procedure sql step took :
+      real time : 0.064
+      cpu time  : 0.007
+
+
+ERROR: The Equality operator must compare operands of the same type
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.006
+      cpu time  : 0.001
+
+
+ERROR: The Equality operator must compare operands of the same type
+62                                       The WPS System      08:46 Friday, October 19, 2018     
+
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.002
+      cpu time  : 0.001
+
+
+ERROR: The Equality operator must compare operands of the same type
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.001
+      cpu time  : 0.000
+
+
+ERROR: Data set "WORK.trash518_9" not found
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.001
+      cpu time  : 0.000
+
+
+2514    +  	trash518_3
+           	^
+ERROR: Data set "WORK.trash518_3" not found
+2515    +  	trash518_6
+           	^
+ERROR: Data set "WORK.trash518_6" not found
+2517    +  	trash518_8
+           	^
+ERROR: Data set "WORK.trash518_8" not found
+2518    +  	trash518_11;
+           	^
+ERROR: Data set "WORK.trash518_11" not found
+
+NOTE: DATA step was not executed because of errors detected
+NOTE: The data step took :
+      real time : 0.001
+      cpu time  : 0.001
+
+
+ERROR: Data set "TEMP.Surv" not found
+NOTE: Procedure export step took :
+      real time : 0.000
+      cpu time  : 0.000
+
+
+
+NOTE: 2218010 observations were read from "TEMP.SampleIPOPwDS1"
+NOTE: Data set "WORK.trash519_1" has 8556453 observation(s) and 9 variable(s)
+NOTE: The data step took :
+      real time : 11.512
+      cpu time  : 5.583
+
+
+63                                       The WPS System      08:46 Friday, October 19, 2018     
+
+NOTE: Data set "WORK.trash519_2" has 8556453 observation(s) and 10 variable(s)
+NOTE: Procedure sql step took :
+      real time : 33.077
+      cpu time  : 21.743
+
+
+ERROR: The In operator must compare operands of the same type
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.002
+      cpu time  : 0.000
+
+
+NOTE: Data set "WORK.trash519_4" has 8476 observation(s) and 3 variable(s)
+NOTE: Data set "WORK.trash519_5" has 10979 observation(s) and 2 variable(s)
+NOTE: Data set "WORK.trash519_6" has 3038 observation(s) and 1 variable(s)
+NOTE: Data set "WORK.trash519_7" has 149124 observation(s) and 4 variable(s)
+NOTE: Data set "WORK.trash519_8" has 43931 observation(s) and 6 variable(s)
+NOTE: Data set "WORK.trash519_9" has 3879 observation(s) and 1 variable(s)
+NOTE: Data set "WORK.trash519_10" has 1867 observation(s) and 2 variable(s)
+NOTE: Procedure sql step took :
+      real time : 3.933
+      cpu time  : 2.032
+
+
+ERROR: The Equality operator must compare operands of the same type
+NOTE: ERRORSTOP was specified. The statement will not be executed due to an earlier error
+NOTE: ERRORSTOP was specified. The statement will not be executed due to an earlier error
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.003
+      cpu time  : 0.001
+
+
+ERROR: The Equality operator must compare operands of the same type
+NOTE: ERRORSTOP was specified. The statement will not be executed due to an earlier error
+NOTE: ERRORSTOP was specified. The statement will not be executed due to an earlier error
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.002
+      cpu time  : 0.001
+
+
+2806    +  	trash519_3
+           	^
+ERROR: Data set "WORK.trash519_3" not found
+2808    +  	trash519_13
+           	^
+ERROR: Data set "WORK.trash519_13" not found
+2809    +  	trash519_16;
+           	^
+ERROR: Data set "WORK.trash519_16" not found
+
+64                                       The WPS System      08:46 Friday, October 19, 2018     
+
+NOTE: DATA step was not executed because of errors detected
+NOTE: The data step took :
+      real time : 0.001
+      cpu time  : 0.000
+
+
+ERROR: Data set "TEMP.Rebalance" not found
+NOTE: Procedure export step took :
+      real time : 0.000
+      cpu time  : 0.000
+
+
+NOTE: Data set "TEMP.Neonates" has 31 observation(s) and 4 variable(s)
+NOTE: Procedure sql step took :
+      real time : 0.031
+      cpu time  : 0.007
+
+
+NOTE: Data set "TEMP.Neonates" has 31 observation(s) and 4 variable(s)
+NOTE: Procedure sql step took :
+      real time : 0.038
+      cpu time  : 0.006
+
+
+NOTE: Procedure export step took :
+      real time : 0.000
+      cpu time  : 0.000
+
+
+2859      data _null_;
+2860        file '/rpscan/u071439/output/31DEC2014Client450_10162018/Neonates31DEC2014Client450_
+2860    ! 10162018.csv' delimiter=',' DSD DROPOVER LRECL=60;
+2861        format ENROLID BEST12.;
+2862        format DRG BEST12.;
+2863        format FlagNeoNate BEST12.;
+2864        format PopCLass BEST12.;
+2865        if _n_=1 then do;
+2866            put
+2867               'ENROLID'        ','
+2868               'DRG'        ','
+2869               'FlagNeoNate'        ','
+2870               'PopCLass';
+2871          end;
+2872        set temp.NeoNates;
+2873        put ENROLID @;
+2874        put DRG @;
+2875        put FlagNeoNate @;
+2876        put PopCLass;
+2877      run;
+
+NOTE: The file
+      '/rpscan/u071439/output/31DEC2014Client450_10162018/Neonates31DEC2014Client450_10162018.cs
+      v' is:
+65                                       The WPS System      08:46 Friday, October 19, 2018     
+
+      File
+      Name=/rpscan/u071439/output/31DEC2014Client450_10162018/Neonates31DEC2014Client450_1016201
+      8.csv,
+      Access Permissions=-rw-rw-r--, Number of Links=1,
+      Owner Name=u071439, Group Name=devl,
+      File Size=0, Last Modified=10:08:15 Oct 19 2018,
+      Created=10:08:15 Oct 19 2018, Lrecl=60, Recfm=V
+
+NOTE: 32 records were written to file
+      '/rpscan/u071439/output/31DEC2014Client450_10162018/Neonates31DEC2014Client450_10162018.cs
+      v'
+      The minimum record length was 17
+      The maximum record length was 32
+NOTE: 31 observations were read from "TEMP.NeoNates"
+NOTE: The data step took :
+      real time : 0.003
+      cpu time  : 0.001
+
+
+2878      FILENAME ##EXPOUT CLEAR;
+ERROR: Data set "TEMP.Surv" not found
+NOTE: Statements not executed because of errors detected
+NOTE: Procedure sql step took :
+      real time : 0.002
+      cpu time  : 0.000
+
+
+ERROR: Data set "TEMP.AllRules" not found
+NOTE: Procedure export step took :
+      real time : 0.000
+      cpu time  : 0.000
+
+
+2914      
+ERROR: Errors printed on pages 60,61,62,63,64,65
+
+NOTE: Submitted statements took :
+      real time : 1:22:11.557
+      cpu time  : 0:20:16.136
