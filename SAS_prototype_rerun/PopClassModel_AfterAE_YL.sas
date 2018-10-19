@@ -1050,14 +1050,6 @@ on
 	a.dxstage>=b.stage;
 
 
-*** Convert a.procgroup and b.procgroup to string such that 'ERROR: The Equality operator must compare operands of the same type' does not raise
-proc sql;
-SELECT CONVERT(vchar(10), procgrp) FROM trash518_2;
-
-proc sql;
-SELECT CONVERT(vchar(10), procgrp) FROM temp.SurvSpecificActiveCancer;
-
-
 *** join with the Specific Cancer by PROCGRP;
 proc sql;
 create table trash518_5 as select distinct
@@ -1068,7 +1060,7 @@ from
 inner join
 	temp.SurvSpecificActiveCancer as b
 on
-	a.procgrp=b.procgrp;
+	cast(a.procgrp,varchar)=cast(b.procgrp,varchar);
 
 *** Create Flag for Specific Active Cancer (join the previous selected based on DxCat with Specific Cancer by PROCGRP);
 proc sql;
