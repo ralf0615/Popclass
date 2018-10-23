@@ -1,0 +1,813 @@
+1                                        The WPS System      12:43 Friday, October 19, 2018     
+
+NOTE: (c) Copyright World Programming Limited 2002-2018.  All rights reserved.
+NOTE: World Programming System 4.00 (04.00.01.00.006515)
+      Licensed to Truven Health Analytics, DR Licence for L13147
+NOTE: This session is executing on the AIX platform and is running in 64 bit mode
+
+NOTE: AUTOEXEC processing beginning; file is /opt/WPS/wps-4.0.1/autoexec.sas
+NOTE: Library arch1990 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1990/
+
+NOTE: Library arch1991 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1991/
+
+NOTE: Library arch1992 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1992/
+
+NOTE: Library arch1993 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1993/
+
+NOTE: Library arch1994 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1994/
+
+NOTE: Library arch1995 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1995/
+
+NOTE: Library arch1996 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1996/
+
+NOTE: Library arch1997 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1997/
+
+NOTE: Library arch1998 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1998/
+
+NOTE: Library arch1999 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1999/
+
+NOTE: Library arch2000 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2000/
+
+NOTE: Library arch2001 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2001/
+2                                        The WPS System      12:43 Friday, October 19, 2018     
+
+
+NOTE: Library arch2002 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2002/
+
+NOTE: Library arch2003 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2003/
+
+NOTE: Library arch2004 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2004/
+
+NOTE: Library arch2005 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2005/
+
+NOTE: Library arch2006 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2006/
+
+NOTE: Library arch2007 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2007/
+
+NOTE: Library arch2008 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2008/
+
+NOTE: Library arch2009 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2009/
+
+NOTE: Library arch2010 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2010/
+
+NOTE: Library arch2011 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2011/
+
+NOTE: Library arch2012 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2012/
+
+NOTE: Library arch2013 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2013/
+
+NOTE: Library arch2014 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2014/
+
+3                                        The WPS System      12:43 Friday, October 19, 2018     
+
+NOTE: Library arch2015 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2015/
+
+NOTE: Library arch2016 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2016/
+
+NOTE: Library arch2017 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2017/
+
+NOTE: Library meg1996 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1996/meg/
+
+NOTE: Library meg1997 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1997/meg/
+
+NOTE: Library meg1998 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1998/meg/
+
+NOTE: Library meg1999 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1999/meg/
+
+NOTE: Library meg2000 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2000/meg/
+
+NOTE: Library meg2001 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2001/meg/
+
+NOTE: Library meg2002 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2002/meg/
+
+NOTE: Library meg2003 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2003/meg/
+
+NOTE: Library meg2004 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2004/meg/
+
+NOTE: Library meg2005 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2005/meg/
+
+NOTE: Library meg2006 assigned as follows:
+4                                        The WPS System      12:43 Friday, October 19, 2018     
+
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2006/meg/
+
+NOTE: Library meg2007 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2007/meg/
+
+NOTE: Library meg2008 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2008/meg/
+
+NOTE: Library meg2009 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2009/meg/
+
+NOTE: Library meg2010 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2010/meg/
+
+NOTE: Library meg2011 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2011/meg/
+
+NOTE: Library meg2012 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2012/meg/
+
+NOTE: Library meg2013 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2013/meg/
+
+NOTE: Library meg2014 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2014/meg/
+
+NOTE: Library meg2015 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2015/meg/
+
+NOTE: Library meg2016 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2016/meg/
+
+NOTE: Library meg2017 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2017/meg/
+
+NOTE: Library mdcd1999 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/1999/
+
+NOTE: Library mdcd2000 assigned as follows:
+      Engine:        SAS7BDAT
+5                                        The WPS System      12:43 Friday, October 19, 2018     
+
+      Physical Name: /mscan/data/medicaid/2000/
+
+NOTE: Library mdcd2001 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2001/
+
+NOTE: Library mdcd2002 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2002/
+
+NOTE: Library mdcd2003 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2003/
+
+NOTE: Library mdcd2004 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2004/
+
+NOTE: Library mdcd2005 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2005/
+
+NOTE: Library mdcd2006 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2006/
+
+NOTE: Library mdcd2007 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2007/
+
+NOTE: Library mdcd2008 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2008/
+
+NOTE: Library mdcd2009 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2009/
+
+NOTE: Library mdcd2010 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2010/
+
+NOTE: Library mdcd2011 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2011/
+
+NOTE: Library mdcd2012 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2012/
+
+NOTE: Library mdcd2013 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2013/
+6                                        The WPS System      12:43 Friday, October 19, 2018     
+
+
+NOTE: Library mdcd2014 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2014/
+
+NOTE: Library mdcd2015 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2015/
+
+NOTE: Library mdcd2016 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2016/
+
+NOTE: Library mdcd2017 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2017/
+
+NOTE: Library eview assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/earlyview/
+
+NOTE: Library eviewmon assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/earlyview_monthly/
+
+NOTE: Library mslab assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/lab/
+
+NOTE: Library msn1 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /msn1/data/marketscan_one/
+
+NOTE: Library msprov assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/marketscan_provider/
+
+NOTE: Library redbook assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/redbook/
+
+NOTE: Library bpd assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/bpd/
+
+NOTE: Library loincdb assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/loincdb/
+
+NOTE: Library library assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /hic/data/formats/
+
+7                                        The WPS System      12:43 Friday, October 19, 2018     
+
+NOTE: Library mdcdfmt assigned as follows:
+      Engine:        WPD
+      Physical Name: /mscan/data/medicaid/formats
+
+NOTE: Library mdcdproc assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/procedures
+
+NOTE: Library arch2014 assigned as follows:
+      Engine:        WPD
+      Physical Name: /mscan4/data/archive/2014/
+
+NOTE: Library arch2015 assigned as follows:
+      Engine:        WPD
+      Physical Name: /mscan4/data/archive/2015/
+
+NOTE: Library arch2016 assigned as follows:
+      Engine:        WPD
+      Physical Name: /mscan4/data/archive/2016/
+
+NOTE: Library arch2017 assigned as follows:
+      Engine:        WPD
+      Physical Name: /mscan4/data/archive/2017/
+
+NOTE: Library meg2014 assigned as follows:
+      Engine:        WPD
+      Physical Name: /mscan4/data/archive/2014/meg/
+
+NOTE: Library meg2015 assigned as follows:
+      Engine:        WPD
+      Physical Name: /mscan4/data/archive/2015/meg/
+
+NOTE: Library meg2016 assigned as follows:
+      Engine:        WPD
+      Physical Name: /mscan4/data/archive/2016/meg/
+
+NOTE: Library meg2017 assigned as follows:
+      Engine:        WPD
+      Physical Name: /mscan4/data/archive/2017/meg/
+
+NOTE: Library library assigned as follows:
+      Engine:        WPD
+      Physical Name: /hic/data/formats/wps
+
+NOTE: AUTOEXEC processing completed
+
+1         
+2         %include '/opt/SAS94/SASFoundation/9.4/autoexec.sas';
+NOTE: Library arch1990 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1990/
+
+NOTE: Library arch1991 assigned as follows:
+8                                        The WPS System      12:43 Friday, October 19, 2018     
+
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1991/
+
+NOTE: Library arch1992 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1992/
+
+NOTE: Library arch1993 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1993/
+
+NOTE: Library arch1994 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1994/
+
+NOTE: Library arch1995 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1995/
+
+NOTE: Library arch1996 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1996/
+
+NOTE: Library arch1997 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1997/
+
+NOTE: Library arch1998 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1998/
+
+NOTE: Library arch1999 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1999/
+
+NOTE: Library arch2000 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2000/
+
+NOTE: Library arch2001 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2001/
+
+NOTE: Library arch2002 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2002/
+
+NOTE: Library arch2003 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2003/
+
+NOTE: Library arch2004 assigned as follows:
+      Engine:        SAS7BDAT
+9                                        The WPS System      12:43 Friday, October 19, 2018     
+
+      Physical Name: /mscan/data/archive/2004/
+
+NOTE: Library arch2005 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2005/
+
+NOTE: Library arch2006 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2006/
+
+NOTE: Library arch2007 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2007/
+
+NOTE: Library arch2008 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2008/
+
+NOTE: Library arch2009 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2009/
+
+NOTE: Library arch2010 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2010/
+
+NOTE: Library arch2011 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2011/
+
+NOTE: Library arch2012 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2012/
+
+NOTE: Library arch2013 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2013/
+
+NOTE: Library arch2014 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2014/
+
+NOTE: Library arch2015 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2015/
+
+NOTE: Library arch2016 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2016/
+
+NOTE: Library arch2017 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2017/
+10                                       The WPS System      12:43 Friday, October 19, 2018     
+
+
+NOTE: Library meg1996 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1996/meg/
+
+NOTE: Library meg1997 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1997/meg/
+
+NOTE: Library meg1998 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1998/meg/
+
+NOTE: Library meg1999 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/1999/meg/
+
+NOTE: Library meg2000 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2000/meg/
+
+NOTE: Library meg2001 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2001/meg/
+
+NOTE: Library meg2002 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2002/meg/
+
+NOTE: Library meg2003 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2003/meg/
+
+NOTE: Library meg2004 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2004/meg/
+
+NOTE: Library meg2005 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2005/meg/
+
+NOTE: Library meg2006 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2006/meg/
+
+NOTE: Library meg2007 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2007/meg/
+
+NOTE: Library meg2008 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2008/meg/
+
+11                                       The WPS System      12:43 Friday, October 19, 2018     
+
+NOTE: Library meg2009 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2009/meg/
+
+NOTE: Library meg2010 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2010/meg/
+
+NOTE: Library meg2011 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2011/meg/
+
+NOTE: Library meg2012 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/2012/meg/
+
+NOTE: Library meg2013 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2013/meg/
+
+NOTE: Library meg2014 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2014/meg/
+
+NOTE: Library meg2015 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2015/meg/
+
+NOTE: Library meg2016 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2016/meg/
+
+NOTE: Library meg2017 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/archive/2017/meg/
+
+NOTE: Library mdcd1999 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/1999/
+
+NOTE: Library mdcd2000 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2000/
+
+NOTE: Library mdcd2001 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2001/
+
+NOTE: Library mdcd2002 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2002/
+
+NOTE: Library mdcd2003 assigned as follows:
+12                                       The WPS System      12:43 Friday, October 19, 2018     
+
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2003/
+
+NOTE: Library mdcd2004 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2004/
+
+NOTE: Library mdcd2005 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2005/
+
+NOTE: Library mdcd2006 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2006/
+
+NOTE: Library mdcd2007 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2007/
+
+NOTE: Library mdcd2008 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2008/
+
+NOTE: Library mdcd2009 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2009/
+
+NOTE: Library mdcd2010 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2010/
+
+NOTE: Library mdcd2011 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2011/
+
+NOTE: Library mdcd2012 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2012/
+
+NOTE: Library mdcd2013 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2013/
+
+NOTE: Library mdcd2014 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2014/
+
+NOTE: Library mdcd2015 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2015/
+
+NOTE: Library mdcd2016 assigned as follows:
+      Engine:        SAS7BDAT
+13                                       The WPS System      12:43 Friday, October 19, 2018     
+
+      Physical Name: /mscan/data/medicaid/2016/
+
+NOTE: Library mdcd2017 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/2017/
+
+NOTE: Library eview assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/earlyview/
+
+NOTE: Library eviewmon assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan2/data/earlyview_monthly/
+
+NOTE: Library mslab assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/lab/
+
+NOTE: Library msn1 assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /msn1/data/marketscan_one/
+
+NOTE: Library msprov assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/marketscan_provider/
+
+NOTE: Library redbook assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/redbook/
+
+NOTE: Library bpd assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/archive/bpd/
+
+NOTE: Library loincdb assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/loincdb/
+
+NOTE: Library library assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /hic/data/formats/
+
+NOTE: Library mdcdfmt assigned as follows:
+      Engine:        WPD
+      Physical Name: /mscan/data/medicaid/formats
+
+NOTE: Library mdcdproc assigned as follows:
+      Engine:        SAS7BDAT
+      Physical Name: /mscan/data/medicaid/procedures
+
+388       
+389       Options obs=max mprint mlogic;
+390       
+14                                       The WPS System      12:43 Friday, October 19, 2018     
+
+391       %Let Prevyear=2013;
+392       %Let     year=2014;
+393       %Let Nextyear=2015;
+394       %Let MSversionPrev=133;
+395       %Let MSversion    =143;
+396       %Let MSversionNext=152;
+397       %Let StartDate='31DEC2014'd; /* always choose the end of month */
+398       %let version=31DEC2014Client450_10162018;
+399       %Let AEoutpath=/rpscan/u071439/AEout/&version.;
+400       %Let outpath=/rpscan/u071439/output/&version.;
+401       %Let username=u071439;
+402       %Let createMScopy=0;  /* set this to 1 if we want to create the MarketScan version */
+403       %Let skipImport=1; /* set this to 1 if we create directly the SAS dataset SamplewClass
+403     ! ification and we want to skip the import */
+404       
+405       x "mkdir -p /rpscan/u071439/temp/&version.";
+406       x "mkdir -p /rpscan/u071439/AEout/&version.";
+407       x "mkdir -p /rpscan/u071439/output/&version.";
+408       libname temp "/rpscan/u071439/temp/&version.";
+NOTE: Library temp assigned as follows:
+      Engine:        WPD
+      Physical Name: /rpscan/u071439/temp/31DEC2014Client450_10162018
+
+409       
+410       %macro libsetup;
+411       %if &createMScopy.=1 %then %do;
+412       	libname arch&year. "/rpscan/u071439/temp/&version.";
+413       	libname arch&Nextyear. "/rpscan/u071439/temp/&version.";
+414       %end;
+415       %mend libsetup;
+416       
+417       /*** create the sample file if needed ***/
+418       /*import MCC cohort*/
+419       data temp.SamplewClassification;
+420       set arch&year..ccaea&MSversion.;
+421       keep enrolid;
+422       where client=450 and enrind12=1;
+423       run;
+
+NOTE: 82252 observations were read from "ARCH2014.ccaea143"
+NOTE: Data set "TEMP.SamplewClassification" has 82252 observation(s) and 1 variable(s)
+NOTE: The data step took :
+      real time : 1:59.679
+      cpu time  : 0:23.416
+
+
+424       
+425       *** export data into csv;
+426       proc export
+427       data=temp.SamplewClassification
+428       outfile="&AEoutpath./SamplewClassification.csv"
+429       replace;
+430       run;
+15                                       The WPS System      12:43 Friday, October 19, 2018     
+
+NOTE: Procedure export step took :
+      real time : 0.001
+      cpu time  : 0.000
+
+
+431       data _null_;
+432         file '/rpscan/u071439/AEout/31DEC2014Client450_10162018/SamplewClassification.csv' d
+432     ! elimiter=',' DSD DROPOVER LRECL=15;
+433         format ENROLID BEST12.;
+434         if _n_=1 then do;
+435             put
+436                'ENROLID';
+437           end;
+438         set temp.SamplewClassification;
+439         put ENROLID;
+440       run;
+
+NOTE: The file '/rpscan/u071439/AEout/31DEC2014Client450_10162018/SamplewClassification.csv'
+      is:
+      File Name=/rpscan/u071439/AEout/31DEC2014Client450_10162018/SamplewClassification.csv,
+      Access Permissions=-rw-rw-r--, Number of Links=1,
+      Owner Name=u071439, Group Name=devl,
+      File Size=0, Last Modified=12:45:57 Oct 19 2018,
+      Created=12:45:57 Oct 19 2018, Lrecl=15, Recfm=V
+
+NOTE: 82253 records were written to file
+      '/rpscan/u071439/AEout/31DEC2014Client450_10162018/SamplewClassification.csv'
+      The minimum record length was 7
+      The maximum record length was 10
+NOTE: 82252 observations were read from "TEMP.SamplewClassification"
+NOTE: The data step took :
+      real time : 0.226
+      cpu time  : 0.084
+
+
+441       FILENAME ##EXPOUT CLEAR;
+442       
+
+NOTE: Submitted statements took :
+      real time : 2:01.220
+      cpu time  : 0:23.585

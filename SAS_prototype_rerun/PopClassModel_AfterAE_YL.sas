@@ -1028,7 +1028,7 @@ then
 	flag_SurvActiveCancerDxcat=1; 
 if 
 	put(dxcat,$SurvActiveCancerPxDxcat.)='Y'	or
-	put(ProcGRP,$SurvActiveCancerPROCGRP.)='Y'
+	put(ProcGRP,SurvActiveCancerPROCGRP.)='Y'
 then
 	flag_SurvActiveCancerProcGRP=1;
 flag_GeneralActiveCancer=flag_SurvActiveCancerDxcat * flag_SurvActiveCancerProcGRP;
@@ -1061,7 +1061,7 @@ inner join
 	temp.SurvSpecificActiveCancer as b
 on
     /* Casting a.procgroup and b.procgroup to string */
-	cast(a.procgrp,varchar)=cast(b.procgrp,varchar);
+	$a.procgrp=$b.procgrp;
 
 
 *** Create Flag for Specific Active Cancer (join the previous selected based on DxCat with Specific Cancer by PROCGRP);

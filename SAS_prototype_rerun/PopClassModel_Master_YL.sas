@@ -210,7 +210,7 @@ data trash_1(keep=start label fmtname);
 set temp.SurvGeneralActiveCancerPROCGRP end=end;
 start=PROCGRP;
 label='Y';
-fmtname='$SurvActiveCancerPROCGRP';
+fmtname='SurvActiveCancerPROCGRP';
 run;
 proc format cntlin=trash_1; run;
 
