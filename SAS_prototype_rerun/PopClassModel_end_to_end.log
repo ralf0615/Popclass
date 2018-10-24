@@ -1,4 +1,4 @@
-1                                        The WPS System   10:52 Wednesday, October 24, 2018     
+1                                        The WPS System     14:09 Tuesday, October 23, 2018     
 
 NOTE: (c) Copyright World Programming Limited 2002-2018.  All rights reserved.
 NOTE: World Programming System 4.00 (04.00.01.00.006515)
@@ -53,7 +53,7 @@ NOTE: Library arch2000 assigned as follows:
 NOTE: Library arch2001 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/archive/2001/
-2                                        The WPS System   10:52 Wednesday, October 24, 2018     
+2                                        The WPS System     14:09 Tuesday, October 23, 2018     
 
 
 NOTE: Library arch2002 assigned as follows:
@@ -108,7 +108,7 @@ NOTE: Library arch2014 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan2/data/archive/2014/
 
-3                                        The WPS System   10:52 Wednesday, October 24, 2018     
+3                                        The WPS System     14:09 Tuesday, October 23, 2018     
 
 NOTE: Library arch2015 assigned as follows:
       Engine:        SAS7BDAT
@@ -163,7 +163,7 @@ NOTE: Library meg2005 assigned as follows:
       Physical Name: /mscan/data/archive/2005/meg/
 
 NOTE: Library meg2006 assigned as follows:
-4                                        The WPS System   10:52 Wednesday, October 24, 2018     
+4                                        The WPS System     14:09 Tuesday, October 23, 2018     
 
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/archive/2006/meg/
@@ -218,7 +218,7 @@ NOTE: Library mdcd1999 assigned as follows:
 
 NOTE: Library mdcd2000 assigned as follows:
       Engine:        SAS7BDAT
-5                                        The WPS System   10:52 Wednesday, October 24, 2018     
+5                                        The WPS System     14:09 Tuesday, October 23, 2018     
 
       Physical Name: /mscan/data/medicaid/2000/
 
@@ -273,7 +273,7 @@ NOTE: Library mdcd2012 assigned as follows:
 NOTE: Library mdcd2013 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/medicaid/2013/
-6                                        The WPS System   10:52 Wednesday, October 24, 2018     
+6                                        The WPS System     14:09 Tuesday, October 23, 2018     
 
 
 NOTE: Library mdcd2014 assigned as follows:
@@ -328,7 +328,7 @@ NOTE: Library library assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /hic/data/formats/
 
-7                                        The WPS System   10:52 Wednesday, October 24, 2018     
+7                                        The WPS System     14:09 Tuesday, October 23, 2018     
 
 NOTE: Library mdcdfmt assigned as follows:
       Engine:        WPD
@@ -383,7 +383,7 @@ NOTE: AUTOEXEC processing completed
 NOTE: Library arch1990 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/archive/1990/
-8                                        The WPS System   10:52 Wednesday, October 24, 2018     
+8                                        The WPS System     14:09 Tuesday, October 23, 2018     
 
 
 NOTE: Library arch1991 assigned as follows:
@@ -438,7 +438,7 @@ NOTE: Library arch2003 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/archive/2003/
 
-9                                        The WPS System   10:52 Wednesday, October 24, 2018     
+9                                        The WPS System     14:09 Tuesday, October 23, 2018     
 
 NOTE: Library arch2004 assigned as follows:
       Engine:        SAS7BDAT
@@ -493,7 +493,7 @@ NOTE: Library arch2016 assigned as follows:
       Physical Name: /mscan2/data/archive/2016/
 
 NOTE: Library arch2017 assigned as follows:
-10                                       The WPS System   10:52 Wednesday, October 24, 2018     
+10                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
       Engine:        SAS7BDAT
       Physical Name: /mscan2/data/archive/2017/
@@ -548,7 +548,7 @@ NOTE: Library meg2007 assigned as follows:
 
 NOTE: Library meg2008 assigned as follows:
       Engine:        SAS7BDAT
-11                                       The WPS System   10:52 Wednesday, October 24, 2018     
+11                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
       Physical Name: /mscan/data/archive/2008/meg/
 
@@ -603,7 +603,7 @@ NOTE: Library mdcd2001 assigned as follows:
 NOTE: Library mdcd2002 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/medicaid/2002/
-12                                       The WPS System   10:52 Wednesday, October 24, 2018     
+12                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
 
 NOTE: Library mdcd2003 assigned as follows:
@@ -658,7 +658,7 @@ NOTE: Library mdcd2015 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/medicaid/2015/
 
-13                                       The WPS System   10:52 Wednesday, October 24, 2018     
+13                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
 NOTE: Library mdcd2016 assigned as follows:
       Engine:        SAS7BDAT
@@ -713,7 +713,7 @@ NOTE: Library mdcdproc assigned as follows:
       Physical Name: /mscan/data/medicaid/procedures
 
 390       
-14                                       The WPS System   10:52 Wednesday, October 24, 2018     
+14                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
 391       Options obs=max mprint mlogic;
 392       
@@ -743,8 +743,8 @@ NOTE: Library temp assigned as follows:
 411       
 412       %macro libsetup;
 413       %if &createMScopy.=1 %then %do;
-414       	libname arch&year. "/rpscan/u071439/temp/&version.";
-415       	libname arch&Nextyear. "/rpscan/u071439/temp/&version.";
+414       libname arch&year. "/rpscan/u071439/temp/&version.";
+415       libname arch&Nextyear. "/rpscan/u071439/temp/&version.";
 416       %end;
 417       %mend libsetup;
 418       
@@ -768,7 +768,7 @@ NOTE: Library temp assigned as follows:
 432       %let ConditionDxCat='CVS11','CVS10';
 433       %let ConditionDxCatStage=3;
 434       %let ConditionDxCatER='PSY';
-15                                       The WPS System   10:52 Wednesday, October 24, 2018     
+15                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
 435       %let ConditionDRG='280','281','282','283','284','285','239','241','474','475','476','6
 435     ! 16','617','618','619','620','621','003','004','011','012','013','240';
@@ -778,251 +778,43 @@ NOTE: Library temp assigned as follows:
 439       %let NeonatesDRGList=790,791,792,793,794,795;
 440       
 441       
-442       * Beginning of Ujwal's modification;
-443       * Import a list of 2000 enrolid;
-444       PROC IMPORT
-445           DATAFILE='/rpscan/u071439/data/enrolids_2000.csv'
-446           OUT=enrolids
-447           DBMS=CSV
-448           REPLACE;
-449       GETNAMES=YES;
-450       GUESSINGROWS=MAX;
-451       RUN;
-NOTE: Procedure IMPORT step took :
-      real time : 0.029
-      cpu time  : 0.001
-
-
-452       data enrolids;
-453         infile '/rpscan/u071439/data/enrolids_2000.csv' delimiter=',' MISSOVER DSD firstobs=
-453     ! 2 LRECL=32760;
-454         informat 'ENROLID'n BEST32.;
-455         format 'ENROLID'n BEST12.;
-456         label 'ENROLID'n = 'ENROLID';
-457         input    'ENROLID'n
-458         ;
-459         run;
-
-NOTE: The file '/rpscan/u071439/data/enrolids_2000.csv' is:
-      File Name=/rpscan/u071439/data/enrolids_2000.csv,
-      Access Permissions=-rw-r--r--, Number of Links=1,
-      Owner Name=u071366, Group Name=users,
-      File Size=23011, Last Modified=15:52:23 Oct 23 2018,
-      Created=15:52:23 Oct 23 2018, Lrecl=32760, Recfm=V
-
-NOTE: 2000 records were read from file '/rpscan/u071439/data/enrolids_2000.csv'
-      The minimum record length was 8
-      The maximum record length was 10
-NOTE: Data set "WORK.enrolids" has 2000 observation(s) and 1 variable(s)
-NOTE: The data step took :
-      real time : 0.036
-      cpu time  : 0.005
-
-
-460       FILENAME ##IMPORT CLEAR;
-461       
-462       data ccaea;
-463       infile '/rpscan/u071439/data/ccaea.csv' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32
-16                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-463     ! 760;
-464           informat 'ENROLID'n BEST32.;
-465           informat 'AGE'n BEST32.;
-466           informat 'SEX'n $1.;
-467           informat 'MSA'n BEST32.;
-468           informat 'RX'n $1.;
-469           informat 'ENRIND1'n BEST32.;
-470           informat 'ENRIND2'n BEST32.;
-471           informat 'ENRIND3'n BEST32.;
-472           informat 'ENRIND4'n BEST32.;
-473           informat 'ENRIND5'n BEST32.;
-474           informat 'ENRIND6'n BEST32.;
-475           informat 'ENRIND7'n BEST32.;
-476           informat 'ENRIND8'n BEST32.;
-477           informat 'ENRIND9'n BEST32.;
-478           informat 'ENRIND10'n BEST32.;
-479           informat 'ENRIND11'n BEST32.;
-480           informat 'ENRIND12'n BEST32.;
-481           informat 'PLNTYP1'n BEST32.;
-482           informat 'PLNTYP2'n BEST32.;
-483           informat 'PLNTYP3'n BEST32.;
-484           informat 'PLNTYP4'n BEST32.;
-485           informat 'PLNTYP5'n BEST32.;
-486           informat 'PLNTYP6'n BEST32.;
-487           informat 'PLNTYP7'n BEST32.;
-488           informat 'PLNTYP8'n BEST32.;
-489           informat 'PLNTYP9'n BEST32.;
-490           informat 'PLNTYP10'n BEST32.;
-491           informat 'PLNTYP11'n BEST32.;
-492           informat 'PLNTYP12'n BEST32.;
-493           format 'ENROLID'n BEST12.;
-494           format 'AGE'n BEST12.;
-495           format 'SEX'n $1.;
-496           format 'MSA'n BEST12.;
-497           format 'RX'n $1.;
-498           format 'ENRIND1'n BEST12.;
-499           format 'ENRIND2'n BEST12.;
-500           format 'ENRIND3'n BEST12.;
-501           format 'ENRIND4'n BEST12.;
-502           format 'ENRIND5'n BEST12.;
-503           format 'ENRIND6'n BEST12.;
-504           format 'ENRIND7'n BEST12.;
-505           format 'ENRIND8'n BEST12.;
-506           format 'ENRIND9'n BEST12.;
-507           format 'ENRIND10'n BEST12.;
-508           format 'ENRIND11'n BEST12.;
-509           format 'ENRIND12'n BEST12.;
-510           format 'PLNTYP1'n BEST12.;
-511           format 'PLNTYP2'n BEST12.;
-512           format 'PLNTYP3'n BEST12.;
-513           format 'PLNTYP4'n BEST12.;
-514           format 'PLNTYP5'n BEST12.;
-515           format 'PLNTYP6'n BEST12.;
-17                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-516           format 'PLNTYP7'n BEST12.;
-517           format 'PLNTYP8'n BEST12.;
-518           format 'PLNTYP9'n BEST12.;
-519           format 'PLNTYP10'n BEST12.;
-520           format 'PLNTYP11'n BEST12.;
-521           format 'PLNTYP12'n BEST12.;
-522           label 'ENROLID'n = 'ENROLID';
-523           label 'AGE'n = 'AGE';
-524           label 'SEX'n = 'SEX';
-525           label 'MSA'n = 'MSA';
-526           label 'RX'n = 'RX';
-527           label 'ENRIND1'n = 'ENRIND1';
-528           label 'ENRIND2'n = 'ENRIND2';
-529           label 'ENRIND3'n = 'ENRIND3';
-530           label 'ENRIND4'n = 'ENRIND4';
-531           label 'ENRIND5'n = 'ENRIND5';
-532           label 'ENRIND6'n = 'ENRIND6';
-533           label 'ENRIND7'n = 'ENRIND7';
-534           label 'ENRIND8'n = 'ENRIND8';
-535           label 'ENRIND9'n = 'ENRIND9';
-536           label 'ENRIND10'n = 'ENRIND10';
-537           label 'ENRIND11'n = 'ENRIND11';
-538           label 'ENRIND12'n = 'ENRIND12';
-539           label 'PLNTYP1'n = 'PLNTYP1';
-540           label 'PLNTYP2'n = 'PLNTYP2';
-541           label 'PLNTYP3'n = 'PLNTYP3';
-542           label 'PLNTYP4'n = 'PLNTYP4';
-543           label 'PLNTYP5'n = 'PLNTYP5';
-544           label 'PLNTYP6'n = 'PLNTYP6';
-545           label 'PLNTYP7'n = 'PLNTYP7';
-546           label 'PLNTYP8'n = 'PLNTYP8';
-547           label 'PLNTYP9'n = 'PLNTYP9';
-548           label 'PLNTYP10'n = 'PLNTYP10';
-549           label 'PLNTYP11'n = 'PLNTYP11';
-550           label 'PLNTYP12'n = 'PLNTYP12';
-551           input    'ENROLID'n
-552           'AGE'n
-553           'SEX'n $
-554           'MSA'n
-555           'RX'n $
-556           'ENRIND1'n
-557           'ENRIND2'n
-558           'ENRIND3'n
-559           'ENRIND4'n
-560           'ENRIND5'n
-561           'ENRIND6'n
-562           'ENRIND7'n
-563           'ENRIND8'n
-564           'ENRIND9'n
-565           'ENRIND10'n
-566           'ENRIND11'n
-567           'ENRIND12'n
-568           'PLNTYP1'n
-18                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-569           'PLNTYP2'n
-570           'PLNTYP3'n
-571           'PLNTYP4'n
-572           'PLNTYP5'n
-573           'PLNTYP6'n
-574           'PLNTYP7'n
-575           'PLNTYP8'n
-576           'PLNTYP9'n
-577           'PLNTYP10'n
-578           'PLNTYP11'n
-579           'PLNTYP12'n;
-580       run;
-
-NOTE: The file '/rpscan/u071439/data/ccaea.csv' is:
-      File Name=/rpscan/u071439/data/ccaea.csv,
-      Access Permissions=-rwxr-xr--, Number of Links=1,
-      Owner Name=u071366, Group Name=users,
-      File Size=7035526, Last Modified=15:52:28 Oct 23 2018,
-      Created=15:52:28 Oct 23 2018, Lrecl=32760, Recfm=V
-
-NOTE: 100403 records were read from file '/rpscan/u071439/data/ccaea.csv'
-      The minimum record length was 54
-      The maximum record length was 71
-NOTE: Data set "WORK.ccaea" has 100403 observation(s) and 29 variable(s)
-NOTE: The data step took :
-      real time : 1.601
-      cpu time  : 0.672
-
-
-581       
-582       %Let lastmonth=%sysfunc(month(&StartDate.),2.);
-583       proc sql;
-584           Create Table temp.SamplewClassification as select a.enrolid,
-585           ' ' as AssignmentFinal
-586           from ccaea a
-587           inner join enrolids e  On e.enrolid = a.enrolid
-588           where a.enrind&lastmonth.=1;
-NOTE: Data set "TEMP.SamplewClassification" has 1798 observation(s) and 2 variable(s)
-589       quit;
-NOTE: Procedure sql step took :
-      real time : 0.085
-      cpu time  : 0.018
-
-
-590       
-591       
-592       
-593       /*
-594       /*** create the sample file if needed ***/
-595       /*import MCC cohort*/
-596       data temp.SamplewClassification;
-597       	set arch&year..ccaea&MSversion.;
-598       	keep enrolid;
-19                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-599       	where client=450 and enrind12=1;
-600       run;
+442       /*** create the sample file if needed ***/
+443       /*import MCC cohort*/
+444       data temp.SamplewClassification;
+445       set arch&year..ccaea&MSversion.;
+446       keep enrolid;
+447       where client=450 and enrind12=1;
+448       run;
 
 NOTE: 82252 observations were read from "ARCH2014.ccaea143"
 NOTE: Data set "TEMP.SamplewClassification" has 82252 observation(s) and 1 variable(s)
 NOTE: The data step took :
-      real time : 11.659
-      cpu time  : 5.157
+      real time : 3:19.989
+      cpu time  : 0:35.206
 
 
-601       */
-602       
-603       *** importing the MetaData;
-604       %macro ImportMeta(inputdata,sasoutput);
-605       %if &sasoutput.=SamplewClassification and &skipImport.=1 %then %return;
-606       PROC IMPORT
-607       	datafile="/rpscan/u071439/data/&inputdata."
-608       	out=temp.&sasoutput.
-609       	replace;
-610       getnames=YES;
-611       guessingrows=MAX;
-612       run;
-613       %mend ImportMeta;
-614       *** sample of 100 patients with classification;
-615       %ImportMeta(AllClientSample&version..csv,SamplewClassification);
+449       
+450       *** importing the MetaData;
+451       %macro ImportMeta(inputdata,sasoutput);
+452       %if &sasoutput.=SamplewClassification and &skipImport.=1 %then %return;
+453       PROC IMPORT
+454       datafile="/rpscan/u071439/data/&inputdata."
+455       out=temp.&sasoutput.
+456       replace;
+457       getnames=YES;
+458       guessingrows=MAX;
+459       run;
+460       %mend ImportMeta;
+461       *** sample of 100 patients with classification;
+462       %ImportMeta(AllClientSample&version..csv,SamplewClassification);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value AllClientSample31DEC2014Client450_10162018.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value SamplewClassification
 MLOGIC(IMPORTMETA): %IF condition &sasoutput.=SamplewClassification and &skipImport.=1  evaluate
                     d to TRUE
 MLOGIC(IMPORTMETA): Ending execution
-616       *** Crossmap from HCPC codes to Procedure Groups --- not used anymore;
-617       %ImportMeta(HCPCcrossmapPROCGRP16r2.csv,HcpcXwalkGRP);*/
+463       *** Crossmap from HCPC codes to Procedure Groups --- not used anymore;
+464       %ImportMeta(HCPCcrossmapPROCGRP16r2.csv,HcpcXwalkGRP);*/
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value HCPCcrossmapPROCGRP16r2.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value HcpcXwalkGRP
@@ -1031,130 +823,130 @@ MLOGIC(IMPORTMETA): %IF condition &sasoutput.=SamplewClassification and &skipImp
 MPRINT(IMPORTMETA):  PROC IMPORT datafile="/rpscan/u071439/data/HCPCcrossmapPROCGRP16r2.csv"
                      out=temp.HcpcXwalkGRP replace;
 MPRINT(IMPORTMETA):  getnames=YES;
+16                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.231
-      cpu time  : 0.103
+      real time : 0.318
+      cpu time  : 0.114
 
 
 MPRINT(IMPORTMETA):  data temp.HcpcXwalkGRP;
-618       data temp.HcpcXwalkGRP;
+465       data temp.HcpcXwalkGRP;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/HCPCcrossmapPROCGRP16r2.csv' delimiter=','
                      MISSOVER DSD firstobs=2 LRECL=32760;
-619         infile '/rpscan/u071439/data/HCPCcrossmapPROCGRP16r2.csv' delimiter=',' MISSOVER DSD
-20                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-619     !  firstobs=2 LRECL=32760;
+466         infile '/rpscan/u071439/data/HCPCcrossmapPROCGRP16r2.csv' delimiter=',' MISSOVER DSD
+466     !  firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'HCPC'n $5.;
-620         informat 'HCPC'n $5.;
+467         informat 'HCPC'n $5.;
 MPRINT(IMPORTMETA):  informat 'ProcGRP'n BEST32.;
-621         informat 'ProcGRP'n BEST32.;
+468         informat 'ProcGRP'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'csc'n $15.;
-622         informat 'csc'n $15.;
+469         informat 'csc'n $15.;
 MPRINT(IMPORTMETA):  informat 'atg'n $14.;
-623         informat 'atg'n $14.;
+470         informat 'atg'n $14.;
 MPRINT(IMPORTMETA):  informat 'atg_priority'n BEST32.;
-624         informat 'atg_priority'n BEST32.;
+471         informat 'atg_priority'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'procgrp_intensity'n BEST32.;
-625         informat 'procgrp_intensity'n BEST32.;
+472         informat 'procgrp_intensity'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'hcpcs_intensity'n BEST32.;
-626         informat 'hcpcs_intensity'n BEST32.;
+473         informat 'hcpcs_intensity'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'imputed_rel_wgt'n BEST32.;
-627         informat 'imputed_rel_wgt'n BEST32.;
+474         informat 'imputed_rel_wgt'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'status_ind'n $3.;
-628         informat 'status_ind'n $3.;
+475         informat 'status_ind'n $3.;
 MPRINT(IMPORTMETA):  informat 'procgrp_ver'n BEST32.;
-629         informat 'procgrp_ver'n BEST32.;
+476         informat 'procgrp_ver'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'release'n BEST32.;
-630         informat 'release'n BEST32.;
+477         informat 'release'n BEST32.;
 MPRINT(IMPORTMETA):  format 'HCPC'n $5.;
-631         format 'HCPC'n $5.;
+478         format 'HCPC'n $5.;
 MPRINT(IMPORTMETA):  format 'ProcGRP'n BEST12.;
-632         format 'ProcGRP'n BEST12.;
+479         format 'ProcGRP'n BEST12.;
 MPRINT(IMPORTMETA):  format 'csc'n $15.;
-633         format 'csc'n $15.;
+480         format 'csc'n $15.;
 MPRINT(IMPORTMETA):  format 'atg'n $14.;
-634         format 'atg'n $14.;
+481         format 'atg'n $14.;
 MPRINT(IMPORTMETA):  format 'atg_priority'n BEST12.;
-635         format 'atg_priority'n BEST12.;
+482         format 'atg_priority'n BEST12.;
 MPRINT(IMPORTMETA):  format 'procgrp_intensity'n BEST12.;
-636         format 'procgrp_intensity'n BEST12.;
+483         format 'procgrp_intensity'n BEST12.;
 MPRINT(IMPORTMETA):  format 'hcpcs_intensity'n BEST12.;
-637         format 'hcpcs_intensity'n BEST12.;
+484         format 'hcpcs_intensity'n BEST12.;
 MPRINT(IMPORTMETA):  format 'imputed_rel_wgt'n BEST12.;
-638         format 'imputed_rel_wgt'n BEST12.;
+485         format 'imputed_rel_wgt'n BEST12.;
 MPRINT(IMPORTMETA):  format 'status_ind'n $3.;
-639         format 'status_ind'n $3.;
-MPRINT(IMPORTMETA):  format 'procgrp_ver'n BEST12.;
-640         format 'procgrp_ver'n BEST12.;
-MPRINT(IMPORTMETA):  format 'release'n BEST12.;
-641         format 'release'n BEST12.;
-MPRINT(IMPORTMETA):  label 'HCPC'n = 'HCPC';
-642         label 'HCPC'n = 'HCPC';
-MPRINT(IMPORTMETA):  label 'ProcGRP'n = 'ProcGRP';
-643         label 'ProcGRP'n = 'ProcGRP';
-MPRINT(IMPORTMETA):  label 'csc'n = 'csc';
-644         label 'csc'n = 'csc';
-MPRINT(IMPORTMETA):  label 'atg'n = 'atg';
-645         label 'atg'n = 'atg';
-21                                       The WPS System   10:52 Wednesday, October 24, 2018     
+486         format 'status_ind'n $3.;
+17                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
+MPRINT(IMPORTMETA):  format 'procgrp_ver'n BEST12.;
+487         format 'procgrp_ver'n BEST12.;
+MPRINT(IMPORTMETA):  format 'release'n BEST12.;
+488         format 'release'n BEST12.;
+MPRINT(IMPORTMETA):  label 'HCPC'n = 'HCPC';
+489         label 'HCPC'n = 'HCPC';
+MPRINT(IMPORTMETA):  label 'ProcGRP'n = 'ProcGRP';
+490         label 'ProcGRP'n = 'ProcGRP';
+MPRINT(IMPORTMETA):  label 'csc'n = 'csc';
+491         label 'csc'n = 'csc';
+MPRINT(IMPORTMETA):  label 'atg'n = 'atg';
+492         label 'atg'n = 'atg';
 MPRINT(IMPORTMETA):  label 'atg_priority'n = 'atg_priority';
-646         label 'atg_priority'n = 'atg_priority';
+493         label 'atg_priority'n = 'atg_priority';
 MPRINT(IMPORTMETA):  label 'procgrp_intensity'n = 'procgrp_intensity';
-647         label 'procgrp_intensity'n = 'procgrp_intensity';
+494         label 'procgrp_intensity'n = 'procgrp_intensity';
 MPRINT(IMPORTMETA):  label 'hcpcs_intensity'n = 'hcpcs_intensity';
-648         label 'hcpcs_intensity'n = 'hcpcs_intensity';
+495         label 'hcpcs_intensity'n = 'hcpcs_intensity';
 MPRINT(IMPORTMETA):  label 'imputed_rel_wgt'n = 'imputed_rel_wgt';
-649         label 'imputed_rel_wgt'n = 'imputed_rel_wgt';
+496         label 'imputed_rel_wgt'n = 'imputed_rel_wgt';
 MPRINT(IMPORTMETA):  label 'status_ind'n = 'status_ind';
-650         label 'status_ind'n = 'status_ind';
+497         label 'status_ind'n = 'status_ind';
 MPRINT(IMPORTMETA):  label 'procgrp_ver'n = 'procgrp_ver';
-651         label 'procgrp_ver'n = 'procgrp_ver';
+498         label 'procgrp_ver'n = 'procgrp_ver';
 MPRINT(IMPORTMETA):  label 'release'n = 'release';
-652         label 'release'n = 'release';
-653         input    'HCPC'n $
-654           'ProcGRP'n
-655           'csc'n $
-656           'atg'n $
-657           'atg_priority'n
-658           'procgrp_intensity'n
-659           'hcpcs_intensity'n
-660           'imputed_rel_wgt'n
-661           'status_ind'n $
+499         label 'release'n = 'release';
+500         input    'HCPC'n $
+501           'ProcGRP'n
+502           'csc'n $
+503           'atg'n $
+504           'atg_priority'n
+505           'procgrp_intensity'n
+506           'hcpcs_intensity'n
+507           'imputed_rel_wgt'n
+508           'status_ind'n $
 MPRINT(IMPORTMETA):  input 'HCPC'n $   'ProcGRP'n  'csc'n $   'atg'n $   'atg_priority'n 
                      'procgrp_intensity'n  'hcpcs_intensity'n  'imputed_rel_wgt'n  'status_ind'n
                      $   'procgrp_ver'n  'release'n  ;
-662           'procgrp_ver'n
-663           'release'n
+509           'procgrp_ver'n
+510           'release'n
 MPRINT(IMPORTMETA):  run;
-664         ;
-665         run;
+511         ;
+512         run;
 
 NOTE: The file '/rpscan/u071439/data/HCPCcrossmapPROCGRP16r2.csv' is:
       File Name=/rpscan/u071439/data/HCPCcrossmapPROCGRP16r2.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=1310814, Last Modified=13:34:52 Oct 16 2018,
-      Created=15:53:16 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:52 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 19423 records were read from file '/rpscan/u071439/data/HCPCcrossmapPROCGRP16r2.csv'
       The minimum record length was 42
+18                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
       The maximum record length was 82
 NOTE: Data set "TEMP.HcpcXwalkGRP" has 19423 observation(s) and 11 variable(s)
 NOTE: The data step took :
-      real time : 0.196
-      cpu time  : 0.067
+      real time : 0.243
+      cpu time  : 0.069
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-666       FILENAME ##IMPORT CLEAR;
+513       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-667       *** List of DxCat and HCPC that define cancer treamtent;
-668       %ImportMeta(JanetMetadata_CancerTreatment.csv,CancerTreatment);
-22                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
+514       *** List of DxCat and HCPC that define cancer treamtent;
+515       %ImportMeta(JanetMetadata_CancerTreatment.csv,CancerTreatment);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_CancerTreatment.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value CancerTreatment
@@ -1167,72 +959,72 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.001
+      real time : 0.010
       cpu time  : 0.000
 
 
 MPRINT(IMPORTMETA):  data temp.CancerTreatment;
-669       data temp.CancerTreatment;
+516       data temp.CancerTreatment;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_CancerTreatment.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-670         infile '/rpscan/u071439/data/JanetMetadata_CancerTreatment.csv' delimiter=',' MISSOV
-670     ! ER DSD firstobs=2 LRECL=32760;
+517         infile '/rpscan/u071439/data/JanetMetadata_CancerTreatment.csv' delimiter=',' MISSOV
+517     ! ER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'DxCAT'n $5.;
-671         informat 'DxCAT'n $5.;
+518         informat 'DxCAT'n $5.;
 MPRINT(IMPORTMETA):  informat 'Type'n $10.;
-672         informat 'Type'n $10.;
+519         informat 'Type'n $10.;
 MPRINT(IMPORTMETA):  informat 'Procedure'n $6.;
-673         informat 'Procedure'n $6.;
+520         informat 'Procedure'n $6.;
 MPRINT(IMPORTMETA):  informat 'GroupDescription'n $46.;
-674         informat 'GroupDescription'n $46.;
+521         informat 'GroupDescription'n $46.;
 MPRINT(IMPORTMETA):  format 'DxCAT'n $5.;
-675         format 'DxCAT'n $5.;
+522         format 'DxCAT'n $5.;
 MPRINT(IMPORTMETA):  format 'Type'n $10.;
-676         format 'Type'n $10.;
+523         format 'Type'n $10.;
 MPRINT(IMPORTMETA):  format 'Procedure'n $6.;
-677         format 'Procedure'n $6.;
+524         format 'Procedure'n $6.;
 MPRINT(IMPORTMETA):  format 'GroupDescription'n $46.;
-678         format 'GroupDescription'n $46.;
+525         format 'GroupDescription'n $46.;
 MPRINT(IMPORTMETA):  label 'DxCAT'n = 'DxCAT';
-679         label 'DxCAT'n = 'DxCAT';
+526         label 'DxCAT'n = 'DxCAT';
 MPRINT(IMPORTMETA):  label 'Type'n = 'Type';
-680         label 'Type'n = 'Type';
-MPRINT(IMPORTMETA):  label 'Procedure'n = 'Procedure';
-681         label 'Procedure'n = 'Procedure';
-MPRINT(IMPORTMETA):  label 'GroupDescription'n = 'GroupDescription';
-682         label 'GroupDescription'n = 'GroupDescription';
-683         input    'DxCAT'n $
-684           'Type'n $
-685           'Procedure'n $
-MPRINT(IMPORTMETA):  input 'DxCAT'n $   'Type'n $   'Procedure'n $   'GroupDescription'n $   ;
-686           'GroupDescription'n $
-MPRINT(IMPORTMETA):  run;
-687         ;
-23                                       The WPS System   10:52 Wednesday, October 24, 2018     
+19                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
-688         run;
+527         label 'Type'n = 'Type';
+MPRINT(IMPORTMETA):  label 'Procedure'n = 'Procedure';
+528         label 'Procedure'n = 'Procedure';
+MPRINT(IMPORTMETA):  label 'GroupDescription'n = 'GroupDescription';
+529         label 'GroupDescription'n = 'GroupDescription';
+530         input    'DxCAT'n $
+531           'Type'n $
+532           'Procedure'n $
+MPRINT(IMPORTMETA):  input 'DxCAT'n $   'Type'n $   'Procedure'n $   'GroupDescription'n $   ;
+533           'GroupDescription'n $
+MPRINT(IMPORTMETA):  run;
+534         ;
+535         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_CancerTreatment.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_CancerTreatment.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=7464, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:16 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 138 records were read from file '/rpscan/u071439/data/JanetMetadata_CancerTreatment.csv'
       The minimum record length was 33
       The maximum record length was 62
 NOTE: Data set "TEMP.CancerTreatment" has 138 observation(s) and 4 variable(s)
 NOTE: The data step took :
-      real time : 0.046
-      cpu time  : 0.001
+      real time : 0.031
+      cpu time  : 0.003
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-689       FILENAME ##IMPORT CLEAR;
+536       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-690       *** DxCat mapping into chronic or acute;
-691       %ImportMeta(JanetMetadata_GeneralAssignments.csv,GeneralAssignments);
+537       *** DxCat mapping into chronic or acute;
+538       %ImportMeta(JanetMetadata_GeneralAssignments.csv,GeneralAssignments);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_GeneralAssignments.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value GeneralAssignments
@@ -1245,50 +1037,50 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.004
-      cpu time  : 0.000
+      real time : 0.009
+      cpu time  : 0.001
 
 
 MPRINT(IMPORTMETA):  data temp.GeneralAssignments;
-692       data temp.GeneralAssignments;
+539       data temp.GeneralAssignments;
+20                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_GeneralAssignments.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-693         infile '/rpscan/u071439/data/JanetMetadata_GeneralAssignments.csv' delimiter=',' MIS
-693     ! SOVER DSD firstobs=2 LRECL=32760;
+540         infile '/rpscan/u071439/data/JanetMetadata_GeneralAssignments.csv' delimiter=',' MIS
+540     ! SOVER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'DxCat'n $5.;
-694         informat 'DxCat'n $5.;
+541         informat 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  informat 'Description'n $77.;
-695         informat 'Description'n $77.;
+542         informat 'Description'n $77.;
 MPRINT(IMPORTMETA):  informat 'Category'n $7.;
-696         informat 'Category'n $7.;
+543         informat 'Category'n $7.;
 MPRINT(IMPORTMETA):  format 'DxCat'n $5.;
-697         format 'DxCat'n $5.;
-24                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
+544         format 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  format 'Description'n $77.;
-698         format 'Description'n $77.;
+545         format 'Description'n $77.;
 MPRINT(IMPORTMETA):  format 'Category'n $7.;
-699         format 'Category'n $7.;
+546         format 'Category'n $7.;
 MPRINT(IMPORTMETA):  label 'DxCat'n = 'DxCat';
-700         label 'DxCat'n = 'DxCat';
+547         label 'DxCat'n = 'DxCat';
 MPRINT(IMPORTMETA):  label 'Description'n = 'Description';
-701         label 'Description'n = 'Description';
+548         label 'Description'n = 'Description';
 MPRINT(IMPORTMETA):  label 'Category'n = 'Category';
-702         label 'Category'n = 'Category';
-703         input    'DxCat'n $
-704           'Description'n $
+549         label 'Category'n = 'Category';
+550         input    'DxCat'n $
+551           'Description'n $
 MPRINT(IMPORTMETA):  input 'DxCat'n $   'Description'n $   'Category'n $   ;
-705           'Category'n $
+552           'Category'n $
 MPRINT(IMPORTMETA):  run;
-706         ;
-707         run;
+553         ;
+554         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_GeneralAssignments.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_GeneralAssignments.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=24670, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:16 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 565 records were read from file
       '/rpscan/u071439/data/JanetMetadata_GeneralAssignments.csv'
@@ -1296,16 +1088,18 @@ NOTE: 565 records were read from file
       The maximum record length was 76
 NOTE: Data set "TEMP.GeneralAssignments" has 565 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.052
+      real time : 0.041
       cpu time  : 0.004
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-708       FILENAME ##IMPORT CLEAR;
+555       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-709       *** Import the Mapping of Procedure Group (OPEG) to ATG;
-710       %ImportMeta(FromOPEG_ProcedureGroup_lookup_v2015_2.csv,OPEGLookup);
+556       *** Import the Mapping of Procedure Group (OPEG) to ATG;
+557       %ImportMeta(FromOPEG_ProcedureGroup_lookup_v2015_2.csv,OPEGLookup);
 MLOGIC(IMPORTMETA): Beginning execution
+21                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value FromOPEG_ProcedureGroup_lookup_v2015_2.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value OPEGLookup
 MLOGIC(IMPORTMETA): %IF condition &sasoutput.=SamplewClassification and &skipImport.=1  evaluate
@@ -1317,74 +1111,72 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.220
-25                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-      cpu time  : 0.076
+      real time : 0.197
+      cpu time  : 0.083
 
 
 MPRINT(IMPORTMETA):  data temp.OPEGLookup;
-711       data temp.OPEGLookup;
+558       data temp.OPEGLookup;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/FromOPEG_ProcedureGroup_lookup_v2015_2.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-712         infile '/rpscan/u071439/data/FromOPEG_ProcedureGroup_lookup_v2015_2.csv' delimiter='
-712     ! ,' MISSOVER DSD firstobs=2 LRECL=32760;
+559         infile '/rpscan/u071439/data/FromOPEG_ProcedureGroup_lookup_v2015_2.csv' delimiter='
+559     ! ,' MISSOVER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'ProcedureName'n $51.;
-713         informat 'ProcedureName'n $51.;
+560         informat 'ProcedureName'n $51.;
 MPRINT(IMPORTMETA):  informat 'ProcedureGroup'n BEST32.;
-714         informat 'ProcedureGroup'n BEST32.;
+561         informat 'ProcedureGroup'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'atg'n $12.;
-715         informat 'atg'n $12.;
+562         informat 'atg'n $12.;
 MPRINT(IMPORTMETA):  informat 'acg'n $15.;
-716         informat 'acg'n $15.;
+563         informat 'acg'n $15.;
 MPRINT(IMPORTMETA):  informat 'hcpcs'n $5.;
-717         informat 'hcpcs'n $5.;
+564         informat 'hcpcs'n $5.;
 MPRINT(IMPORTMETA):  informat 'cpttitle'n $128.;
-718         informat 'cpttitle'n $128.;
+565         informat 'cpttitle'n $128.;
 MPRINT(IMPORTMETA):  format 'ProcedureName'n $51.;
-719         format 'ProcedureName'n $51.;
+566         format 'ProcedureName'n $51.;
 MPRINT(IMPORTMETA):  format 'ProcedureGroup'n BEST12.;
-720         format 'ProcedureGroup'n BEST12.;
+567         format 'ProcedureGroup'n BEST12.;
 MPRINT(IMPORTMETA):  format 'atg'n $12.;
-721         format 'atg'n $12.;
+568         format 'atg'n $12.;
 MPRINT(IMPORTMETA):  format 'acg'n $15.;
-722         format 'acg'n $15.;
+569         format 'acg'n $15.;
 MPRINT(IMPORTMETA):  format 'hcpcs'n $5.;
-723         format 'hcpcs'n $5.;
+570         format 'hcpcs'n $5.;
 MPRINT(IMPORTMETA):  format 'cpttitle'n $128.;
-724         format 'cpttitle'n $128.;
+571         format 'cpttitle'n $128.;
 MPRINT(IMPORTMETA):  label 'ProcedureName'n = 'ProcedureName';
-725         label 'ProcedureName'n = 'ProcedureName';
+572         label 'ProcedureName'n = 'ProcedureName';
 MPRINT(IMPORTMETA):  label 'ProcedureGroup'n = 'ProcedureGroup';
-726         label 'ProcedureGroup'n = 'ProcedureGroup';
+573         label 'ProcedureGroup'n = 'ProcedureGroup';
 MPRINT(IMPORTMETA):  label 'atg'n = 'atg';
-727         label 'atg'n = 'atg';
+574         label 'atg'n = 'atg';
 MPRINT(IMPORTMETA):  label 'acg'n = 'acg';
-728         label 'acg'n = 'acg';
+575         label 'acg'n = 'acg';
+22                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
 MPRINT(IMPORTMETA):  label 'hcpcs'n = 'hcpcs';
-729         label 'hcpcs'n = 'hcpcs';
+576         label 'hcpcs'n = 'hcpcs';
 MPRINT(IMPORTMETA):  label 'cpttitle'n = 'cpttitle';
-730         label 'cpttitle'n = 'cpttitle';
-731         input    'ProcedureName'n $
-732           'ProcedureGroup'n
-733           'atg'n $
-734           'acg'n $
-735           'hcpcs'n $
+577         label 'cpttitle'n = 'cpttitle';
+578         input    'ProcedureName'n $
+579           'ProcedureGroup'n
+580           'atg'n $
+581           'acg'n $
+582           'hcpcs'n $
 MPRINT(IMPORTMETA):  input 'ProcedureName'n $   'ProcedureGroup'n  'atg'n $   'acg'n $  
                      'hcpcs'n $   'cpttitle'n $   ;
-736           'cpttitle'n $
-26                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
+583           'cpttitle'n $
 MPRINT(IMPORTMETA):  run;
-737         ;
-738         run;
+584         ;
+585         run;
 
 NOTE: The file '/rpscan/u071439/data/FromOPEG_ProcedureGroup_lookup_v2015_2.csv' is:
       File Name=/rpscan/u071439/data/FromOPEG_ProcedureGroup_lookup_v2015_2.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=1972727, Last Modified=13:34:53 Oct 16 2018,
-      Created=15:53:16 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:53 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 18957 records were read from file
       '/rpscan/u071439/data/FromOPEG_ProcedureGroup_lookup_v2015_2.csv'
@@ -1392,15 +1184,15 @@ NOTE: 18957 records were read from file
       The maximum record length was 178
 NOTE: Data set "TEMP.OPEGLookup" has 18957 observation(s) and 6 variable(s)
 NOTE: The data step took :
-      real time : 0.176
-      cpu time  : 0.043
+      real time : 0.143
+      cpu time  : 0.046
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-739       FILENAME ##IMPORT CLEAR;
+586       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-740       *** Import the Mapping from DxCat to Significant Conditions;
-741       %ImportMeta(JanetMetadata_SignificantConditions.csv,SignificantConditions);
+587       *** Import the Mapping from DxCat to Significant Conditions;
+588       %ImportMeta(JanetMetadata_SignificantConditions.csv,SignificantConditions);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_SignificantConditions.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value SignificantConditions
@@ -1413,50 +1205,50 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.003
-      cpu time  : 0.000
+      real time : 0.013
+      cpu time  : 0.001
+
+23                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
 
 MPRINT(IMPORTMETA):  data temp.SignificantConditions;
-742       data temp.SignificantConditions;
+589       data temp.SignificantConditions;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_SignificantConditions.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-743         infile '/rpscan/u071439/data/JanetMetadata_SignificantConditions.csv' delimiter=',' 
-743     ! MISSOVER DSD firstobs=2 LRECL=32760;
+590         infile '/rpscan/u071439/data/JanetMetadata_SignificantConditions.csv' delimiter=',' 
+590     ! MISSOVER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'DxCat'n $5.;
-744         informat 'DxCat'n $5.;
+591         informat 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  informat 'Description'n $77.;
-745         informat 'Description'n $77.;
+592         informat 'Description'n $77.;
 MPRINT(IMPORTMETA):  informat 'Significance'n $4.;
-27                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-746         informat 'Significance'n $4.;
+593         informat 'Significance'n $4.;
 MPRINT(IMPORTMETA):  format 'DxCat'n $5.;
-747         format 'DxCat'n $5.;
+594         format 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  format 'Description'n $77.;
-748         format 'Description'n $77.;
+595         format 'Description'n $77.;
 MPRINT(IMPORTMETA):  format 'Significance'n $4.;
-749         format 'Significance'n $4.;
+596         format 'Significance'n $4.;
 MPRINT(IMPORTMETA):  label 'DxCat'n = 'DxCat';
-750         label 'DxCat'n = 'DxCat';
+597         label 'DxCat'n = 'DxCat';
 MPRINT(IMPORTMETA):  label 'Description'n = 'Description';
-751         label 'Description'n = 'Description';
+598         label 'Description'n = 'Description';
 MPRINT(IMPORTMETA):  label 'Significance'n = 'Significance';
-752         label 'Significance'n = 'Significance';
-753         input    'DxCat'n $
-754           'Description'n $
+599         label 'Significance'n = 'Significance';
+600         input    'DxCat'n $
+601           'Description'n $
 MPRINT(IMPORTMETA):  input 'DxCat'n $   'Description'n $   'Significance'n $   ;
-755           'Significance'n $
+602           'Significance'n $
 MPRINT(IMPORTMETA):  run;
-756         ;
-757         run;
+603         ;
+604         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_SignificantConditions.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_SignificantConditions.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=12700, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:15 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 296 records were read from file
       '/rpscan/u071439/data/JanetMetadata_SignificantConditions.csv'
@@ -1464,15 +1256,17 @@ NOTE: 296 records were read from file
       The maximum record length was 73
 NOTE: Data set "TEMP.SignificantConditions" has 296 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.039
-      cpu time  : 0.003
+      real time : 0.104
+      cpu time  : 0.002
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-758       FILENAME ##IMPORT CLEAR;
+605       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-759       *** Import the Maintenance Drugs List;
-760       %ImportMeta(JanetMetadata_MaintenanceDrugs.csv,ChronicRx);
+24                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+606       *** Import the Maintenance Drugs List;
+607       %ImportMeta(JanetMetadata_MaintenanceDrugs.csv,ChronicRx);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_MaintenanceDrugs.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value ChronicRx
@@ -1483,77 +1277,75 @@ MPRINT(IMPORTMETA):  PROC IMPORT
                      out=temp.ChronicRx replace;
 MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
-28                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.370
-      cpu time  : 0.133
+      real time : 0.318
+      cpu time  : 0.143
 
 
 MPRINT(IMPORTMETA):  data temp.ChronicRx;
-761       data temp.ChronicRx;
+608       data temp.ChronicRx;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_MaintenanceDrugs.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-762         infile '/rpscan/u071439/data/JanetMetadata_MaintenanceDrugs.csv' delimiter=',' MISSO
-762     ! VER DSD firstobs=2 LRECL=32760;
+609         infile '/rpscan/u071439/data/JanetMetadata_MaintenanceDrugs.csv' delimiter=',' MISSO
+609     ! VER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'NDCNUM'n BEST32.;
-763         informat 'NDCNUM'n BEST32.;
+610         informat 'NDCNUM'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'GENERID'n BEST32.;
-764         informat 'GENERID'n BEST32.;
+611         informat 'GENERID'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'Prodname'n $64.;
-765         informat 'Prodname'n $64.;
+612         informat 'Prodname'n $64.;
 MPRINT(IMPORTMETA):  informat 'Category'n $11.;
-766         informat 'Category'n $11.;
+613         informat 'Category'n $11.;
 MPRINT(IMPORTMETA):  format 'NDCNUM'n BEST12.;
-767         format 'NDCNUM'n BEST12.;
+614         format 'NDCNUM'n BEST12.;
 MPRINT(IMPORTMETA):  format 'GENERID'n BEST12.;
-768         format 'GENERID'n BEST12.;
+615         format 'GENERID'n BEST12.;
 MPRINT(IMPORTMETA):  format 'Prodname'n $64.;
-769         format 'Prodname'n $64.;
+616         format 'Prodname'n $64.;
 MPRINT(IMPORTMETA):  format 'Category'n $11.;
-770         format 'Category'n $11.;
+617         format 'Category'n $11.;
 MPRINT(IMPORTMETA):  label 'NDCNUM'n = 'NDCNUM';
-771         label 'NDCNUM'n = 'NDCNUM';
+618         label 'NDCNUM'n = 'NDCNUM';
 MPRINT(IMPORTMETA):  label 'GENERID'n = 'GENERID';
-772         label 'GENERID'n = 'GENERID';
+619         label 'GENERID'n = 'GENERID';
 MPRINT(IMPORTMETA):  label 'Prodname'n = 'Prodname';
-773         label 'Prodname'n = 'Prodname';
+620         label 'Prodname'n = 'Prodname';
 MPRINT(IMPORTMETA):  label 'Category'n = 'Category';
-774         label 'Category'n = 'Category';
-775         input    'NDCNUM'n
-776           'GENERID'n
-777           'Prodname'n $
+621         label 'Category'n = 'Category';
+622         input    'NDCNUM'n
+623           'GENERID'n
+624           'Prodname'n $
 MPRINT(IMPORTMETA):  input 'NDCNUM'n  'GENERID'n  'Prodname'n $   'Category'n $   ;
-778           'Category'n $
+625           'Category'n $
+25                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
 MPRINT(IMPORTMETA):  run;
-779         ;
-780         run;
+626         ;
+627         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_MaintenanceDrugs.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_MaintenanceDrugs.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=2737869, Last Modified=13:34:54 Oct 16 2018,
-      Created=15:53:16 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:54 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 58539 records were read from file
-29                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
       '/rpscan/u071439/data/JanetMetadata_MaintenanceDrugs.csv'
       The minimum record length was 33
       The maximum record length was 81
 NOTE: Data set "TEMP.ChronicRx" has 58539 observation(s) and 4 variable(s)
 NOTE: The data step took :
-      real time : 0.311
-      cpu time  : 0.101
+      real time : 0.331
+      cpu time  : 0.113
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-781       FILENAME ##IMPORT CLEAR;
+628       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-782       *** Import the mapping to Body Systems List;
-783       %ImportMeta(JanetMetadata_BodySystem.csv,BodySystem);
+629       *** Import the mapping to Body Systems List;
+630       %ImportMeta(JanetMetadata_BodySystem.csv,BodySystem);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_BodySystem.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value BodySystem
@@ -1566,76 +1358,78 @@ MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
       real time : 0.005
-      cpu time  : 0.000
+      cpu time  : 0.001
 
 
 MPRINT(IMPORTMETA):  data temp.BodySystem;
-784       data temp.BodySystem;
+631       data temp.BodySystem;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_BodySystem.csv' delimiter=','
                      MISSOVER DSD firstobs=2 LRECL=32760;
-785         infile '/rpscan/u071439/data/JanetMetadata_BodySystem.csv' delimiter=',' MISSOVER DS
-785     ! D firstobs=2 LRECL=32760;
+632         infile '/rpscan/u071439/data/JanetMetadata_BodySystem.csv' delimiter=',' MISSOVER DS
+632     ! D firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'DxCat'n $5.;
-786         informat 'DxCat'n $5.;
+633         informat 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  informat 'Description'n $77.;
-787         informat 'Description'n $77.;
+634         informat 'Description'n $77.;
 MPRINT(IMPORTMETA):  informat 'Body'n BEST32.;
-788         informat 'Body'n BEST32.;
-MPRINT(IMPORTMETA):  informat 'BodyDescription'n $40.;
-789         informat 'BodyDescription'n $40.;
-MPRINT(IMPORTMETA):  format 'DxCat'n $5.;
-790         format 'DxCat'n $5.;
-MPRINT(IMPORTMETA):  format 'Description'n $77.;
-791         format 'Description'n $77.;
-MPRINT(IMPORTMETA):  format 'Body'n BEST12.;
-792         format 'Body'n BEST12.;
-MPRINT(IMPORTMETA):  format 'BodyDescription'n $40.;
-793         format 'BodyDescription'n $40.;
-MPRINT(IMPORTMETA):  label 'DxCat'n = 'DxCat';
-794         label 'DxCat'n = 'DxCat';
-30                                       The WPS System   10:52 Wednesday, October 24, 2018     
+635         informat 'Body'n BEST32.;
+26                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
+MPRINT(IMPORTMETA):  informat 'BodyDescription'n $40.;
+636         informat 'BodyDescription'n $40.;
+MPRINT(IMPORTMETA):  format 'DxCat'n $5.;
+637         format 'DxCat'n $5.;
+MPRINT(IMPORTMETA):  format 'Description'n $77.;
+638         format 'Description'n $77.;
+MPRINT(IMPORTMETA):  format 'Body'n BEST12.;
+639         format 'Body'n BEST12.;
+MPRINT(IMPORTMETA):  format 'BodyDescription'n $40.;
+640         format 'BodyDescription'n $40.;
+MPRINT(IMPORTMETA):  label 'DxCat'n = 'DxCat';
+641         label 'DxCat'n = 'DxCat';
 MPRINT(IMPORTMETA):  label 'Description'n = 'Description';
-795         label 'Description'n = 'Description';
+642         label 'Description'n = 'Description';
 MPRINT(IMPORTMETA):  label 'Body'n = 'Body';
-796         label 'Body'n = 'Body';
+643         label 'Body'n = 'Body';
 MPRINT(IMPORTMETA):  label 'BodyDescription'n = 'BodyDescription';
-797         label 'BodyDescription'n = 'BodyDescription';
-798         input    'DxCat'n $
-799           'Description'n $
-800           'Body'n
+644         label 'BodyDescription'n = 'BodyDescription';
+645         input    'DxCat'n $
+646           'Description'n $
+647           'Body'n
 MPRINT(IMPORTMETA):  input 'DxCat'n $   'Description'n $   'Body'n  'BodyDescription'n $   ;
-801           'BodyDescription'n $
+648           'BodyDescription'n $
 MPRINT(IMPORTMETA):  run;
-802         ;
-803         run;
+649         ;
+650         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_BodySystem.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_BodySystem.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=28046, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:16 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 565 records were read from file '/rpscan/u071439/data/JanetMetadata_BodySystem.csv'
       The minimum record length was 18
       The maximum record length was 89
 NOTE: Data set "TEMP.BodySystem" has 565 observation(s) and 4 variable(s)
 NOTE: The data step took :
-      real time : 0.052
+      real time : 0.047
       cpu time  : 0.004
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-804       FILENAME ##IMPORT CLEAR;
+651       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-805       *** Import the list of conditions for Treatment Navigation logic;
-806       %ImportMeta(JanetMetadata_TreatmentNavigation.csv,TreatmentNavigation);
+652       *** Import the list of conditions for Treatment Navigation logic;
+653       %ImportMeta(JanetMetadata_TreatmentNavigation.csv,TreatmentNavigation);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_TreatmentNavigation.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value TreatmentNavigation
 MLOGIC(IMPORTMETA): %IF condition &sasoutput.=SamplewClassification and &skipImport.=1  evaluate
                     d to FALSE
+27                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
 MPRINT(IMPORTMETA):  PROC IMPORT
                      datafile="/rpscan/u071439/data/JanetMetadata_TreatmentNavigation.csv"
                      out=temp.TreatmentNavigation replace;
@@ -1643,69 +1437,67 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.000
+      real time : 0.003
       cpu time  : 0.000
 
 
 MPRINT(IMPORTMETA):  data temp.TreatmentNavigation;
-31                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-807       data temp.TreatmentNavigation;
+654       data temp.TreatmentNavigation;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_TreatmentNavigation.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-808         infile '/rpscan/u071439/data/JanetMetadata_TreatmentNavigation.csv' delimiter=',' MI
-808     ! SSOVER DSD firstobs=2 LRECL=32760;
+655         infile '/rpscan/u071439/data/JanetMetadata_TreatmentNavigation.csv' delimiter=',' MI
+655     ! SSOVER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'Condition'n $36.;
-809         informat 'Condition'n $36.;
+656         informat 'Condition'n $36.;
 MPRINT(IMPORTMETA):  informat 'DxCat'n $5.;
-810         informat 'DxCat'n $5.;
+657         informat 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  informat 'Stage'n BEST32.;
-811         informat 'Stage'n BEST32.;
+658         informat 'Stage'n BEST32.;
 MPRINT(IMPORTMETA):  format 'Condition'n $36.;
-812         format 'Condition'n $36.;
+659         format 'Condition'n $36.;
 MPRINT(IMPORTMETA):  format 'DxCat'n $5.;
-813         format 'DxCat'n $5.;
+660         format 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  format 'Stage'n BEST12.;
-814         format 'Stage'n BEST12.;
+661         format 'Stage'n BEST12.;
 MPRINT(IMPORTMETA):  label 'Condition'n = 'Condition';
-815         label 'Condition'n = 'Condition';
+662         label 'Condition'n = 'Condition';
 MPRINT(IMPORTMETA):  label 'DxCat'n = 'DxCat';
-816         label 'DxCat'n = 'DxCat';
+663         label 'DxCat'n = 'DxCat';
 MPRINT(IMPORTMETA):  label 'Stage'n = 'Stage';
-817         label 'Stage'n = 'Stage';
-818         input    'Condition'n $
+664         label 'Stage'n = 'Stage';
+665         input    'Condition'n $
 MPRINT(IMPORTMETA):  input 'Condition'n $   'DxCat'n $   'Stage'n  ;
-819           'DxCat'n $
-820           'Stage'n
+666           'DxCat'n $
+667           'Stage'n
 MPRINT(IMPORTMETA):  run;
-821         ;
-822         run;
+668         ;
+669         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_TreatmentNavigation.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_TreatmentNavigation.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=981, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:13 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 31 records were read from file
       '/rpscan/u071439/data/JanetMetadata_TreatmentNavigation.csv'
       The minimum record length was 14
+28                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
       The maximum record length was 39
 NOTE: Data set "TEMP.TreatmentNavigation" has 31 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.037
+      real time : 0.023
       cpu time  : 0.002
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-823       FILENAME ##IMPORT CLEAR;
+670       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-824       *** Import the list of DxCats for general active cancer for Surveillance logic;
-825       %ImportMeta(JanetMetadata_SurveillanceGeneralActiveCancerDxCat.csv,SurvGeneralActiveCa
-32                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-825     ! ncerDxCat);
+671       *** Import the list of DxCats for general active cancer for Surveillance logic;
+672       %ImportMeta(JanetMetadata_SurveillanceGeneralActiveCancerDxCat.csv,SurvGeneralActiveCa
+672     ! ncerDxCat);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_SurveillanceGeneralActiveCancerD
                     xCat.csv
@@ -1719,52 +1511,52 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.001
+      real time : 0.011
       cpu time  : 0.000
 
 
 MPRINT(IMPORTMETA):  data temp.SurvGeneralActiveCancerDxCat;
-826       data temp.SurvGeneralActiveCancerDxCat;
+673       data temp.SurvGeneralActiveCancerDxCat;
 MPRINT(IMPORTMETA):  infile
                      '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerDxCat.cs
                      v' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-827         infile '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerDxCat.csv'
-827     !  delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
+674         infile '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerDxCat.csv'
+674     !  delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'Type'n $2.;
-828         informat 'Type'n $2.;
+675         informat 'Type'n $2.;
 MPRINT(IMPORTMETA):  informat 'DxCat'n $5.;
-829         informat 'DxCat'n $5.;
+676         informat 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  informat 'Description'n $74.;
-830         informat 'Description'n $74.;
+677         informat 'Description'n $74.;
 MPRINT(IMPORTMETA):  format 'Type'n $2.;
-831         format 'Type'n $2.;
+678         format 'Type'n $2.;
 MPRINT(IMPORTMETA):  format 'DxCat'n $5.;
-832         format 'DxCat'n $5.;
+679         format 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  format 'Description'n $74.;
-833         format 'Description'n $74.;
+680         format 'Description'n $74.;
 MPRINT(IMPORTMETA):  label 'Type'n = 'Type';
-834         label 'Type'n = 'Type';
+681         label 'Type'n = 'Type';
 MPRINT(IMPORTMETA):  label 'DxCat'n = 'DxCat';
-835         label 'DxCat'n = 'DxCat';
+682         label 'DxCat'n = 'DxCat';
+29                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
 MPRINT(IMPORTMETA):  label 'Description'n = 'Description';
-836         label 'Description'n = 'Description';
-837         input    'Type'n $
-838           'DxCat'n $
+683         label 'Description'n = 'Description';
+684         input    'Type'n $
+685           'DxCat'n $
 MPRINT(IMPORTMETA):  input 'Type'n $   'DxCat'n $   'Description'n $   ;
-839           'Description'n $
+686           'Description'n $
 MPRINT(IMPORTMETA):  run;
-840         ;
-841         run;
+687         ;
+688         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerDxCat.csv'
       is:
-33                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
       File Name=/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerDxCat.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=4152, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:14 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 77 records were read from file
       '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerDxCat.csv'
@@ -1777,11 +1569,11 @@ NOTE: The data step took :
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-842       FILENAME ##IMPORT CLEAR;
+689       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-843       *** Import the list of PROCGRP for general active cancer for Surveillance logic;
-844       %ImportMeta(JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.csv,SurvGeneralActive
-844     ! CancerPROCGRP);
+690       *** Import the list of PROCGRP for general active cancer for Surveillance logic;
+691       %ImportMeta(JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.csv,SurvGeneralActive
+691     ! CancerPROCGRP);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_SurveillanceGeneralActiveCancerP
                     ROCGRP.csv
@@ -1795,45 +1587,45 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.000
+      real time : 0.007
       cpu time  : 0.000
 
 
 MPRINT(IMPORTMETA):  data temp.SurvGeneralActiveCancerPROCGRP;
-845       data temp.SurvGeneralActiveCancerPROCGRP;
+692       data temp.SurvGeneralActiveCancerPROCGRP;
+30                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
 MPRINT(IMPORTMETA):  infile
                      '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.
                      csv' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-846         infile '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.cs
-846     ! v' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
+693         infile '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.cs
+693     ! v' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'PROCGRP'n BEST32.;
-847         informat 'PROCGRP'n BEST32.;
+694         informat 'PROCGRP'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'Description'n $46.;
-848         informat 'Description'n $46.;
+695         informat 'Description'n $46.;
 MPRINT(IMPORTMETA):  format 'PROCGRP'n BEST12.;
-849         format 'PROCGRP'n BEST12.;
+696         format 'PROCGRP'n BEST12.;
 MPRINT(IMPORTMETA):  format 'Description'n $46.;
-34                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-850         format 'Description'n $46.;
+697         format 'Description'n $46.;
 MPRINT(IMPORTMETA):  label 'PROCGRP'n = 'PROCGRP';
-851         label 'PROCGRP'n = 'PROCGRP';
+698         label 'PROCGRP'n = 'PROCGRP';
 MPRINT(IMPORTMETA):  label 'Description'n = 'Description';
-852         label 'Description'n = 'Description';
-853         input    'PROCGRP'n
+699         label 'Description'n = 'Description';
+700         input    'PROCGRP'n
 MPRINT(IMPORTMETA):  input 'PROCGRP'n  'Description'n $   ;
-854           'Description'n $
+701           'Description'n $
 MPRINT(IMPORTMETA):  run;
-855         ;
-856         run;
+702         ;
+703         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.csv'
       is:
       File Name=/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=952, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:14 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 25 records were read from file
       '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.csv'
@@ -1841,53 +1633,52 @@ NOTE: 25 records were read from file
       The maximum record length was 45
 NOTE: Data set "TEMP.SurvGeneralActiveCancerPROCGRP" has 25 observation(s) and 2 variable(s)
 NOTE: The data step took :
-      real time : 0.040
+      real time : 0.035
       cpu time  : 0.002
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-857       FILENAME ##IMPORT CLEAR;
+704       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-858       
-859       /*** Import the list of PROCGRP for specific active cancer for Surveillance logic;
-860       %ImportMeta(JanetMetadata_SurveillanceSpecificActiveCancer.csv,SurvSpecificActiveCance
-860     ! r); */
-861       
-862       
-863       *** Ujwal's modification regarding temp.SurvSpecificActiveCancer;
-864       data  temp.SurvSpecificActiveCancer;
-865       infile '/rpscan/u071439/data/JanetMetadata_SurveillanceSpecificActiveCancer.csv' delim
-865     ! iter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-866           informat 'DxCat'n $5.;
-867           informat 'DxCatDesc'n $75.;
-868           informat 'PROCGRP'n BEST32.;
-869           informat 'Procedure_group'n $51.;
-870           informat 'stage'n BEST32.;
-871           format 'DxCat'n $5.;
-872           format 'DxCatDesc'n $75.;
-873           format 'PROCGRP'n BEST12.;
-874           format 'Procedure_group'n $51.;
-875           format 'stage'n BEST12.;
-35                                       The WPS System   10:52 Wednesday, October 24, 2018     
+705       
+706       /*** Import the list of PROCGRP for specific active cancer for Surveillance logic;
+707       %ImportMeta(JanetMetadata_SurveillanceSpecificActiveCancer.csv,SurvSpecificActiveCance
+707     ! r); */
+708       
+709       
+710       data  temp.SurvSpecificActiveCancer;
+711       infile '/rpscan/u071439/data/JanetMetadata_SurveillanceSpecificActiveCancer.csv' delim
+31                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
-876           label 'DxCat'n = 'DxCat';
-877           label 'DxCatDesc'n = 'DxCatDesc';
-878           label 'PROCGRP'n = 'PROCGRP';
-879           label 'Procedure_group'n = 'Procedure group';
-880           label 'stage'n = 'stage';
-881           input    'DxCat'n $
-882           'DxCatDesc'n $
-883           'PROCGRP'n
-884           'Procedure_group'n $
-885           'stage'n;
-886       run;
+711     ! iter=',' MISSOVER DSD firstobs=2 LRECL=32760;
+712       informat 'DxCat'n $5.;
+713       informat 'DxCatDesc'n $75.;
+714       informat 'PROCGRP'n BEST32.;
+715       informat 'Procedure_group'n $51.;
+716       informat 'stage'n BEST32.;
+717       format 'DxCat'n $5.;
+718       format 'DxCatDesc'n $75.;
+719       format 'PROCGRP'n BEST12.;
+720       format 'Procedure_group'n $51.;
+721       format 'stage'n BEST12.;
+722       label 'DxCat'n = 'DxCat';
+723       label 'DxCatDesc'n = 'DxCatDesc';
+724       label 'PROCGRP'n = 'PROCGRP';
+725       label 'Procedure_group'n = 'Procedure group';
+726       label 'stage'n = 'stage';
+727       input    'DxCat'n $
+728       'DxCatDesc'n $
+729       'PROCGRP'n
+730       'Procedure_group'n $
+731       'stage'n;
+732       run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_SurveillanceSpecificActiveCancer.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_SurveillanceSpecificActiveCancer.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=12684, Last Modified=14:04:35 Oct 23 2018,
-      Created=15:53:13 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=14:04:35 Oct 23 2018, Lrecl=32760, Recfm=V
 
 NOTE: 157 records were read from file
       '/rpscan/u071439/data/JanetMetadata_SurveillanceSpecificActiveCancer.csv'
@@ -1895,14 +1686,13 @@ NOTE: 157 records were read from file
       The maximum record length was 100
 NOTE: Data set "TEMP.SurvSpecificActiveCancer" has 157 observation(s) and 5 variable(s)
 NOTE: The data step took :
-      real time : 0.037
+      real time : 0.020
       cpu time  : 0.002
 
 
-887       
-888       
-889       *** Import the list of PROCGRP for miscellaneous for Surveillance logic;
-890       %ImportMeta(JanetMetadata_SurveillanceMiscellaneous.csv,SurvMiscellaneous);
+733       
+734       *** Import the list of PROCGRP for miscellaneous for Surveillance logic;
+735       %ImportMeta(JanetMetadata_SurveillanceMiscellaneous.csv,SurvMiscellaneous);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_SurveillanceMiscellaneous.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value SurvMiscellaneous
@@ -1913,52 +1703,52 @@ MPRINT(IMPORTMETA):  PROC IMPORT
                      out=temp.SurvMiscellaneous replace;
 MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
+32                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.000
+      real time : 0.005
       cpu time  : 0.000
 
 
 MPRINT(IMPORTMETA):  data temp.SurvMiscellaneous;
-891       data temp.SurvMiscellaneous;
+736       data temp.SurvMiscellaneous;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_SurveillanceMiscellaneous.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-36                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-892         infile '/rpscan/u071439/data/JanetMetadata_SurveillanceMiscellaneous.csv' delimiter=
-892     ! ',' MISSOVER DSD firstobs=2 LRECL=32760;
+737         infile '/rpscan/u071439/data/JanetMetadata_SurveillanceMiscellaneous.csv' delimiter=
+737     ! ',' MISSOVER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'CodeType'n $3.;
-893         informat 'CodeType'n $3.;
+738         informat 'CodeType'n $3.;
 MPRINT(IMPORTMETA):  informat 'Code'n BEST32.;
-894         informat 'Code'n BEST32.;
+739         informat 'Code'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'Description'n $48.;
-895         informat 'Description'n $48.;
+740         informat 'Description'n $48.;
 MPRINT(IMPORTMETA):  format 'CodeType'n $3.;
-896         format 'CodeType'n $3.;
+741         format 'CodeType'n $3.;
 MPRINT(IMPORTMETA):  format 'Code'n BEST12.;
-897         format 'Code'n BEST12.;
+742         format 'Code'n BEST12.;
 MPRINT(IMPORTMETA):  format 'Description'n $48.;
-898         format 'Description'n $48.;
+743         format 'Description'n $48.;
 MPRINT(IMPORTMETA):  label 'CodeType'n = 'CodeType';
-899         label 'CodeType'n = 'CodeType';
+744         label 'CodeType'n = 'CodeType';
 MPRINT(IMPORTMETA):  label 'Code'n = 'Code';
-900         label 'Code'n = 'Code';
+745         label 'Code'n = 'Code';
 MPRINT(IMPORTMETA):  label 'Description'n = 'Description';
-901         label 'Description'n = 'Description';
-902         input    'CodeType'n $
-903           'Code'n
+746         label 'Description'n = 'Description';
+747         input    'CodeType'n $
+748           'Code'n
 MPRINT(IMPORTMETA):  input 'CodeType'n $   'Code'n  'Description'n $   ;
-904           'Description'n $
+749           'Description'n $
 MPRINT(IMPORTMETA):  run;
-905         ;
-906         run;
+750         ;
+751         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_SurveillanceMiscellaneous.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_SurveillanceMiscellaneous.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=480, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:13 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 13 records were read from file
       '/rpscan/u071439/data/JanetMetadata_SurveillanceMiscellaneous.csv'
@@ -1966,20 +1756,20 @@ NOTE: 13 records were read from file
       The maximum record length was 48
 NOTE: Data set "TEMP.SurvMiscellaneous" has 13 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.044
+      real time : 0.035
       cpu time  : 0.002
+33                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-907       FILENAME ##IMPORT CLEAR;
+752       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-908       *** Import the list of PROCGRP for Chemo Active for Surveillance;
-909       %ImportMeta(JanetMetadata_SurveillanceChemoActive.csv,SurvChemoActive);
+753       *** Import the list of PROCGRP for Chemo Active for Surveillance;
+754       %ImportMeta(JanetMetadata_SurveillanceChemoActive.csv,SurvChemoActive);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_SurveillanceChemoActive.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value SurvChemoActive
-37                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
 MLOGIC(IMPORTMETA): %IF condition &sasoutput.=SamplewClassification and &skipImport.=1  evaluate
                     d to FALSE
 MPRINT(IMPORTMETA):  PROC IMPORT
@@ -1989,111 +1779,111 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.005
-      cpu time  : 0.002
+      real time : 0.010
+      cpu time  : 0.001
 
 
 MPRINT(IMPORTMETA):  data temp.SurvChemoActive;
-910       data temp.SurvChemoActive;
+755       data temp.SurvChemoActive;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoActive.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-911         infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoActive.csv' delimiter=',
-911     ! ' MISSOVER DSD firstobs=2 LRECL=32760;
+756         infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoActive.csv' delimiter=',
+756     ! ' MISSOVER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'ndc'n BEST32.;
-912         informat 'ndc'n BEST32.;
+757         informat 'ndc'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'therClassCode'n BEST32.;
-913         informat 'therClassCode'n BEST32.;
+758         informat 'therClassCode'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'Inttherclass'n BEST32.;
-914         informat 'Inttherclass'n BEST32.;
+759         informat 'Inttherclass'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'therDesc'n $25.;
-915         informat 'therDesc'n $25.;
+760         informat 'therDesc'n $25.;
 MPRINT(IMPORTMETA):  informat 'gcrTitles'n $36.;
-916         informat 'gcrTitles'n $36.;
+761         informat 'gcrTitles'n $36.;
 MPRINT(IMPORTMETA):  informat 'genindDesc'n $32.;
-917         informat 'genindDesc'n $32.;
+762         informat 'genindDesc'n $32.;
 MPRINT(IMPORTMETA):  informat 'roa'n $2.;
-918         informat 'roa'n $2.;
+763         informat 'roa'n $2.;
 MPRINT(IMPORTMETA):  informat 'cyle'n $5.;
-919         informat 'cyle'n $5.;
+764         informat 'cyle'n $5.;
 MPRINT(IMPORTMETA):  informat 'Active'n $6.;
-920         informat 'Active'n $6.;
+765         informat 'Active'n $6.;
 MPRINT(IMPORTMETA):  format 'ndc'n BEST12.;
-921         format 'ndc'n BEST12.;
+766         format 'ndc'n BEST12.;
 MPRINT(IMPORTMETA):  format 'therClassCode'n BEST12.;
-922         format 'therClassCode'n BEST12.;
+767         format 'therClassCode'n BEST12.;
 MPRINT(IMPORTMETA):  format 'Inttherclass'n BEST12.;
-923         format 'Inttherclass'n BEST12.;
-MPRINT(IMPORTMETA):  format 'therDesc'n $25.;
-924         format 'therDesc'n $25.;
-MPRINT(IMPORTMETA):  format 'gcrTitles'n $36.;
-925         format 'gcrTitles'n $36.;
-MPRINT(IMPORTMETA):  format 'genindDesc'n $32.;
-926         format 'genindDesc'n $32.;
-MPRINT(IMPORTMETA):  format 'roa'n $2.;
-927         format 'roa'n $2.;
-MPRINT(IMPORTMETA):  format 'cyle'n $5.;
-928         format 'cyle'n $5.;
-38                                       The WPS System   10:52 Wednesday, October 24, 2018     
+768         format 'Inttherclass'n BEST12.;
+34                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
+MPRINT(IMPORTMETA):  format 'therDesc'n $25.;
+769         format 'therDesc'n $25.;
+MPRINT(IMPORTMETA):  format 'gcrTitles'n $36.;
+770         format 'gcrTitles'n $36.;
+MPRINT(IMPORTMETA):  format 'genindDesc'n $32.;
+771         format 'genindDesc'n $32.;
+MPRINT(IMPORTMETA):  format 'roa'n $2.;
+772         format 'roa'n $2.;
+MPRINT(IMPORTMETA):  format 'cyle'n $5.;
+773         format 'cyle'n $5.;
 MPRINT(IMPORTMETA):  format 'Active'n $6.;
-929         format 'Active'n $6.;
+774         format 'Active'n $6.;
 MPRINT(IMPORTMETA):  label 'ndc'n = 'ndc';
-930         label 'ndc'n = 'ndc';
+775         label 'ndc'n = 'ndc';
 MPRINT(IMPORTMETA):  label 'therClassCode'n = 'therClassCode';
-931         label 'therClassCode'n = 'therClassCode';
+776         label 'therClassCode'n = 'therClassCode';
 MPRINT(IMPORTMETA):  label 'Inttherclass'n = 'Inttherclass';
-932         label 'Inttherclass'n = 'Inttherclass';
+777         label 'Inttherclass'n = 'Inttherclass';
 MPRINT(IMPORTMETA):  label 'therDesc'n = 'therDesc';
-933         label 'therDesc'n = 'therDesc';
+778         label 'therDesc'n = 'therDesc';
 MPRINT(IMPORTMETA):  label 'gcrTitles'n = 'gcrTitles';
-934         label 'gcrTitles'n = 'gcrTitles';
+779         label 'gcrTitles'n = 'gcrTitles';
 MPRINT(IMPORTMETA):  label 'genindDesc'n = 'genindDesc';
-935         label 'genindDesc'n = 'genindDesc';
+780         label 'genindDesc'n = 'genindDesc';
 MPRINT(IMPORTMETA):  label 'roa'n = 'roa';
-936         label 'roa'n = 'roa';
+781         label 'roa'n = 'roa';
 MPRINT(IMPORTMETA):  label 'cyle'n = 'cyle';
-937         label 'cyle'n = 'cyle';
+782         label 'cyle'n = 'cyle';
 MPRINT(IMPORTMETA):  label 'Active'n = 'Active';
-938         label 'Active'n = 'Active';
-939         input    'ndc'n
-940           'therClassCode'n
-941           'Inttherclass'n
-942           'therDesc'n $
-943           'gcrTitles'n $
-944           'genindDesc'n $
-945           'roa'n $
-946           'cyle'n $
+783         label 'Active'n = 'Active';
+784         input    'ndc'n
+785           'therClassCode'n
+786           'Inttherclass'n
+787           'therDesc'n $
+788           'gcrTitles'n $
+789           'genindDesc'n $
+790           'roa'n $
+791           'cyle'n $
 MPRINT(IMPORTMETA):  input 'ndc'n  'therClassCode'n  'Inttherclass'n  'therDesc'n $  
                      'gcrTitles'n $   'genindDesc'n $   'roa'n $   'cyle'n $   'Active'n $   ;
-947           'Active'n $
+792           'Active'n $
 MPRINT(IMPORTMETA):  run;
-948         ;
-949         run;
+793         ;
+794         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoActive.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_SurveillanceChemoActive.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=30227, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:14 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 308 records were read from file
+35                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
       '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoActive.csv'
       The minimum record length was 82
       The maximum record length was 108
 NOTE: Data set "TEMP.SurvChemoActive" has 308 observation(s) and 9 variable(s)
 NOTE: The data step took :
-      real time : 0.040
-      cpu time  : 0.002
+      real time : 0.033
+      cpu time  : 0.003
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-39                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-950       FILENAME ##IMPORT CLEAR;
+795       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-951       *** Import the list of PROCGRP for Chemo Chronic for Surveillance;
-952       %ImportMeta(JanetMetadata_SurveillanceChemoChronic.csv,SurvChemoChronic);
+796       *** Import the list of PROCGRP for Chemo Chronic for Surveillance;
+797       %ImportMeta(JanetMetadata_SurveillanceChemoChronic.csv,SurvChemoChronic);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_SurveillanceChemoChronic.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value SurvChemoChronic
@@ -2106,111 +1896,111 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.007
+      real time : 0.010
       cpu time  : 0.000
 
 
 MPRINT(IMPORTMETA):  data temp.SurvChemoChronic;
-953       data temp.SurvChemoChronic;
+798       data temp.SurvChemoChronic;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoChronic.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-954         infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoChronic.csv' delimiter='
-954     ! ,' MISSOVER DSD firstobs=2 LRECL=32760;
+799         infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoChronic.csv' delimiter='
+799     ! ,' MISSOVER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'ndc'n BEST32.;
-955         informat 'ndc'n BEST32.;
+800         informat 'ndc'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'therClassCode'n BEST32.;
-956         informat 'therClassCode'n BEST32.;
+801         informat 'therClassCode'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'Inttherclass'n BEST32.;
-957         informat 'Inttherclass'n BEST32.;
+802         informat 'Inttherclass'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'therDesc'n $25.;
-958         informat 'therDesc'n $25.;
+803         informat 'therDesc'n $25.;
 MPRINT(IMPORTMETA):  informat 'gcrTitles'n $49.;
-959         informat 'gcrTitles'n $49.;
+804         informat 'gcrTitles'n $49.;
 MPRINT(IMPORTMETA):  informat 'genindDesc'n $29.;
-960         informat 'genindDesc'n $29.;
+805         informat 'genindDesc'n $29.;
 MPRINT(IMPORTMETA):  informat 'roa'n $2.;
-961         informat 'roa'n $2.;
+806         informat 'roa'n $2.;
 MPRINT(IMPORTMETA):  informat 'cyle'n $1.;
-962         informat 'cyle'n $1.;
+807         informat 'cyle'n $1.;
 MPRINT(IMPORTMETA):  informat 'Active'n $1.;
-963         informat 'Active'n $1.;
-MPRINT(IMPORTMETA):  format 'ndc'n BEST12.;
-964         format 'ndc'n BEST12.;
-MPRINT(IMPORTMETA):  format 'therClassCode'n BEST12.;
-965         format 'therClassCode'n BEST12.;
-MPRINT(IMPORTMETA):  format 'Inttherclass'n BEST12.;
-966         format 'Inttherclass'n BEST12.;
-MPRINT(IMPORTMETA):  format 'therDesc'n $25.;
-967         format 'therDesc'n $25.;
-MPRINT(IMPORTMETA):  format 'gcrTitles'n $49.;
-40                                       The WPS System   10:52 Wednesday, October 24, 2018     
+36                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
-968         format 'gcrTitles'n $49.;
+808         informat 'Active'n $1.;
+MPRINT(IMPORTMETA):  format 'ndc'n BEST12.;
+809         format 'ndc'n BEST12.;
+MPRINT(IMPORTMETA):  format 'therClassCode'n BEST12.;
+810         format 'therClassCode'n BEST12.;
+MPRINT(IMPORTMETA):  format 'Inttherclass'n BEST12.;
+811         format 'Inttherclass'n BEST12.;
+MPRINT(IMPORTMETA):  format 'therDesc'n $25.;
+812         format 'therDesc'n $25.;
+MPRINT(IMPORTMETA):  format 'gcrTitles'n $49.;
+813         format 'gcrTitles'n $49.;
 MPRINT(IMPORTMETA):  format 'genindDesc'n $29.;
-969         format 'genindDesc'n $29.;
+814         format 'genindDesc'n $29.;
 MPRINT(IMPORTMETA):  format 'roa'n $2.;
-970         format 'roa'n $2.;
+815         format 'roa'n $2.;
 MPRINT(IMPORTMETA):  format 'cyle'n $1.;
-971         format 'cyle'n $1.;
+816         format 'cyle'n $1.;
 MPRINT(IMPORTMETA):  format 'Active'n $1.;
-972         format 'Active'n $1.;
+817         format 'Active'n $1.;
 MPRINT(IMPORTMETA):  label 'ndc'n = 'ndc';
-973         label 'ndc'n = 'ndc';
+818         label 'ndc'n = 'ndc';
 MPRINT(IMPORTMETA):  label 'therClassCode'n = 'therClassCode';
-974         label 'therClassCode'n = 'therClassCode';
+819         label 'therClassCode'n = 'therClassCode';
 MPRINT(IMPORTMETA):  label 'Inttherclass'n = 'Inttherclass';
-975         label 'Inttherclass'n = 'Inttherclass';
+820         label 'Inttherclass'n = 'Inttherclass';
 MPRINT(IMPORTMETA):  label 'therDesc'n = 'therDesc';
-976         label 'therDesc'n = 'therDesc';
+821         label 'therDesc'n = 'therDesc';
 MPRINT(IMPORTMETA):  label 'gcrTitles'n = 'gcrTitles';
-977         label 'gcrTitles'n = 'gcrTitles';
+822         label 'gcrTitles'n = 'gcrTitles';
 MPRINT(IMPORTMETA):  label 'genindDesc'n = 'genindDesc';
-978         label 'genindDesc'n = 'genindDesc';
+823         label 'genindDesc'n = 'genindDesc';
 MPRINT(IMPORTMETA):  label 'roa'n = 'roa';
-979         label 'roa'n = 'roa';
+824         label 'roa'n = 'roa';
 MPRINT(IMPORTMETA):  label 'cyle'n = 'cyle';
-980         label 'cyle'n = 'cyle';
+825         label 'cyle'n = 'cyle';
 MPRINT(IMPORTMETA):  label 'Active'n = 'Active';
-981         label 'Active'n = 'Active';
-982         input    'ndc'n
-983           'therClassCode'n
-984           'Inttherclass'n
-985           'therDesc'n $
-986           'gcrTitles'n $
-987           'genindDesc'n $
-988           'roa'n $
-989           'cyle'n $
+826         label 'Active'n = 'Active';
+827         input    'ndc'n
+828           'therClassCode'n
+829           'Inttherclass'n
+830           'therDesc'n $
+831           'gcrTitles'n $
+832           'genindDesc'n $
+833           'roa'n $
+834           'cyle'n $
 MPRINT(IMPORTMETA):  input 'ndc'n  'therClassCode'n  'Inttherclass'n  'therDesc'n $  
                      'gcrTitles'n $   'genindDesc'n $   'roa'n $   'cyle'n $   'Active'n $   ;
-990           'Active'n $
+835           'Active'n $
 MPRINT(IMPORTMETA):  run;
-991         ;
-992         run;
+836         ;
+837         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoChronic.csv' is:
+37                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
       File Name=/rpscan/u071439/data/JanetMetadata_SurveillanceChemoChronic.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=46172, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:14 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 546 records were read from file
       '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoChronic.csv'
       The minimum record length was 71
       The maximum record length was 106
-41                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
 NOTE: Data set "TEMP.SurvChemoChronic" has 546 observation(s) and 9 variable(s)
 NOTE: The data step took :
-      real time : 0.026
+      real time : 0.055
       cpu time  : 0.006
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-993       FILENAME ##IMPORT CLEAR;
+838       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-994       *** Import the list of DxCat for Rebalance, new conditions;
-995       %ImportMeta(JanetMetadata_RebalanceNewDxCat.csv,RebalanceNewDxCat);
+839       *** Import the list of DxCat for Rebalance, new conditions;
+840       %ImportMeta(JanetMetadata_RebalanceNewDxCat.csv,RebalanceNewDxCat);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_RebalanceNewDxCat.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value RebalanceNewDxCat
@@ -2228,61 +2018,61 @@ NOTE: Procedure IMPORT step took :
 
 
 MPRINT(IMPORTMETA):  data temp.RebalanceNewDxCat;
-996       data temp.RebalanceNewDxCat;
+841       data temp.RebalanceNewDxCat;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCat.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-997         infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCat.csv' delimiter=',' MISS
-997     ! OVER DSD firstobs=2 LRECL=32760;
+842         infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCat.csv' delimiter=',' MISS
+842     ! OVER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'DxCat'n $5.;
-998         informat 'DxCat'n $5.;
+843         informat 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  informat 'Stage'n BEST32.;
-999         informat 'Stage'n BEST32.;
+844         informat 'Stage'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'StageHistory'n BEST32.;
-1000        informat 'StageHistory'n BEST32.;
+845         informat 'StageHistory'n BEST32.;
 MPRINT(IMPORTMETA):  format 'DxCat'n $5.;
-1001        format 'DxCat'n $5.;
+846         format 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  format 'Stage'n BEST12.;
-1002        format 'Stage'n BEST12.;
-MPRINT(IMPORTMETA):  format 'StageHistory'n BEST12.;
-1003        format 'StageHistory'n BEST12.;
-MPRINT(IMPORTMETA):  label 'DxCat'n = 'DxCat';
-1004        label 'DxCat'n = 'DxCat';
-MPRINT(IMPORTMETA):  label 'Stage'n = 'Stage';
-1005        label 'Stage'n = 'Stage';
-MPRINT(IMPORTMETA):  label 'StageHistory'n = 'StageHistory';
-1006        label 'StageHistory'n = 'StageHistory';
-1007        input    'DxCat'n $
-MPRINT(IMPORTMETA):  input 'DxCat'n $   'Stage'n  'StageHistory'n  ;
-42                                       The WPS System   10:52 Wednesday, October 24, 2018     
+847         format 'Stage'n BEST12.;
+38                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
-1008          'Stage'n
-1009          'StageHistory'n
+MPRINT(IMPORTMETA):  format 'StageHistory'n BEST12.;
+848         format 'StageHistory'n BEST12.;
+MPRINT(IMPORTMETA):  label 'DxCat'n = 'DxCat';
+849         label 'DxCat'n = 'DxCat';
+MPRINT(IMPORTMETA):  label 'Stage'n = 'Stage';
+850         label 'Stage'n = 'Stage';
+MPRINT(IMPORTMETA):  label 'StageHistory'n = 'StageHistory';
+851         label 'StageHistory'n = 'StageHistory';
+852         input    'DxCat'n $
+MPRINT(IMPORTMETA):  input 'DxCat'n $   'Stage'n  'StageHistory'n  ;
+853           'Stage'n
+854           'StageHistory'n
 MPRINT(IMPORTMETA):  run;
-1010        ;
-1011        run;
+855         ;
+856         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCat.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCat.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=1061, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:15 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 93 records were read from file '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCat.csv'
       The minimum record length was 9
       The maximum record length was 15
 NOTE: Data set "TEMP.RebalanceNewDxCat" has 93 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.030
+      real time : 0.038
       cpu time  : 0.001
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-1012      FILENAME ##IMPORT CLEAR;
+857       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-1013      *** Import the list of DxCat for Rebalance, new conditions wo drugs in the prior 90 da
-1013    ! ys;
-1014      %ImportMeta(JanetMetadata_RebalanceNewDxCatwoRx.csv,RebalanceNewDxCatwoRx);
+858       *** Import the list of DxCat for Rebalance, new conditions wo drugs in the prior 90 da
+858     ! ys;
+859       %ImportMeta(JanetMetadata_RebalanceNewDxCatwoRx.csv,RebalanceNewDxCatwoRx);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_RebalanceNewDxCatwoRx.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value RebalanceNewDxCatwoRx
@@ -2295,43 +2085,43 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.000
+      real time : 0.001
       cpu time  : 0.000
+
+39                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
 
 MPRINT(IMPORTMETA):  data temp.RebalanceNewDxCatwoRx;
-1015      data temp.RebalanceNewDxCatwoRx;
+860       data temp.RebalanceNewDxCatwoRx;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCatwoRx.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-1016        infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCatwoRx.csv' delimiter=',' 
-1016    ! MISSOVER DSD firstobs=2 LRECL=32760;
+861         infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCatwoRx.csv' delimiter=',' 
+861     ! MISSOVER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'DxCat'n $5.;
-1017        informat 'DxCat'n $5.;
+862         informat 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  informat 'TherCls'n BEST32.;
-43                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-1018        informat 'TherCls'n BEST32.;
+863         informat 'TherCls'n BEST32.;
 MPRINT(IMPORTMETA):  format 'DxCat'n $5.;
-1019        format 'DxCat'n $5.;
+864         format 'DxCat'n $5.;
 MPRINT(IMPORTMETA):  format 'TherCls'n BEST12.;
-1020        format 'TherCls'n BEST12.;
+865         format 'TherCls'n BEST12.;
 MPRINT(IMPORTMETA):  label 'DxCat'n = 'DxCat';
-1021        label 'DxCat'n = 'DxCat';
+866         label 'DxCat'n = 'DxCat';
 MPRINT(IMPORTMETA):  label 'TherCls'n = 'TherCls';
-1022        label 'TherCls'n = 'TherCls';
+867         label 'TherCls'n = 'TherCls';
 MPRINT(IMPORTMETA):  input 'DxCat'n $   'TherCls'n  ;
-1023        input    'DxCat'n $
-1024          'TherCls'n
+868         input    'DxCat'n $
+869           'TherCls'n
 MPRINT(IMPORTMETA):  run;
-1025        ;
-1026        run;
+870         ;
+871         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCatwoRx.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCatwoRx.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=154, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:15 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 13 records were read from file
       '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCatwoRx.csv'
@@ -2339,20 +2129,22 @@ NOTE: 13 records were read from file
       The maximum record length was 9
 NOTE: Data set "TEMP.RebalanceNewDxCatwoRx" has 13 observation(s) and 2 variable(s)
 NOTE: The data step took :
-      real time : 0.040
+      real time : 0.069
       cpu time  : 0.002
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-1027      FILENAME ##IMPORT CLEAR;
+872       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-1028      *** Import the list of DxCat for Rebalance, new ICD9;
-1029      %ImportMeta(JanetMetadata_RebalanceNewDx.csv,RebalanceNewDx);
+873       *** Import the list of DxCat for Rebalance, new ICD9;
+874       %ImportMeta(JanetMetadata_RebalanceNewDx.csv,RebalanceNewDx);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_RebalanceNewDx.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value RebalanceNewDx
 MLOGIC(IMPORTMETA): %IF condition &sasoutput.=SamplewClassification and &skipImport.=1  evaluate
                     d to FALSE
+40                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
 MPRINT(IMPORTMETA):  PROC IMPORT
                      datafile="/rpscan/u071439/data/JanetMetadata_RebalanceNewDx.csv"
                      out=temp.RebalanceNewDx replace;
@@ -2360,66 +2152,64 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.000
+      real time : 0.001
       cpu time  : 0.000
-
-44                                       The WPS System   10:52 Wednesday, October 24, 2018     
 
 
 MPRINT(IMPORTMETA):  data temp.RebalanceNewDx;
-1030      data temp.RebalanceNewDx;
+875       data temp.RebalanceNewDx;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDx.csv' delimiter=',
                      ' MISSOVER DSD firstobs=2 LRECL=32760;
-1031        infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDx.csv' delimiter=',' MISSOVE
-1031    ! R DSD firstobs=2 LRECL=32760;
+876         infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDx.csv' delimiter=',' MISSOVE
+876     ! R DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'ICD'n BEST32.;
-1032        informat 'ICD'n BEST32.;
+877         informat 'ICD'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'Description'n $13.;
-1033        informat 'Description'n $13.;
+878         informat 'Description'n $13.;
 MPRINT(IMPORTMETA):  format 'ICD'n BEST12.;
-1034        format 'ICD'n BEST12.;
+879         format 'ICD'n BEST12.;
 MPRINT(IMPORTMETA):  format 'Description'n $13.;
-1035        format 'Description'n $13.;
+880         format 'Description'n $13.;
 MPRINT(IMPORTMETA):  label 'ICD'n = 'ICD';
-1036        label 'ICD'n = 'ICD';
+881         label 'ICD'n = 'ICD';
 MPRINT(IMPORTMETA):  label 'Description'n = 'Description';
-1037        label 'Description'n = 'Description';
-1038        input    'ICD'n
+882         label 'Description'n = 'Description';
+883         input    'ICD'n
 MPRINT(IMPORTMETA):  input 'ICD'n  'Description'n $   ;
-1039          'Description'n $
+884           'Description'n $
 MPRINT(IMPORTMETA):  run;
-1040        ;
-1041        run;
+885         ;
+886         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_RebalanceNewDx.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_RebalanceNewDx.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=449, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:15 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 18 records were read from file '/rpscan/u071439/data/JanetMetadata_RebalanceNewDx.csv'
       The minimum record length was 22
       The maximum record length was 22
 NOTE: Data set "TEMP.RebalanceNewDx" has 18 observation(s) and 2 variable(s)
 NOTE: The data step took :
-      real time : 0.042
+      real time : 0.052
       cpu time  : 0.002
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-1042      FILENAME ##IMPORT CLEAR;
+41                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+887       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-1043      *** Import the list of DxCat for Rebalance, new DRG;
-1044      %ImportMeta(JanetMetadata_RebalanceNewDRG.csv,RebalanceNewDRG);
+888       *** Import the list of DxCat for Rebalance, new DRG;
+889       %ImportMeta(JanetMetadata_RebalanceNewDRG.csv,RebalanceNewDRG);
 MLOGIC(IMPORTMETA): Beginning execution
 MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_RebalanceNewDRG.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value RebalanceNewDRG
 MLOGIC(IMPORTMETA): %IF condition &sasoutput.=SamplewClassification and &skipImport.=1  evaluate
                     d to FALSE
 MPRINT(IMPORTMETA):  PROC IMPORT
-45                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
                      datafile="/rpscan/u071439/data/JanetMetadata_RebalanceNewDRG.csv"
                      out=temp.RebalanceNewDRG replace;
 MPRINT(IMPORTMETA):  getnames=YES;
@@ -2431,291 +2221,805 @@ NOTE: Procedure IMPORT step took :
 
 
 MPRINT(IMPORTMETA):  data temp.RebalanceNewDRG;
-1045      data temp.RebalanceNewDRG;
+890       data temp.RebalanceNewDRG;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDRG.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-1046        infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDRG.csv' delimiter=',' MISSOV
-1046    ! ER DSD firstobs=2 LRECL=32760;
+891         infile '/rpscan/u071439/data/JanetMetadata_RebalanceNewDRG.csv' delimiter=',' MISSOV
+891     ! ER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'DRG'n BEST32.;
-1047        informat 'DRG'n BEST32.;
+892         informat 'DRG'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'Description'n $24.;
-1048        informat 'Description'n $24.;
+893         informat 'Description'n $24.;
 MPRINT(IMPORTMETA):  format 'DRG'n BEST12.;
-1049        format 'DRG'n BEST12.;
+894         format 'DRG'n BEST12.;
 MPRINT(IMPORTMETA):  format 'Description'n $24.;
-1050        format 'Description'n $24.;
+895         format 'Description'n $24.;
 MPRINT(IMPORTMETA):  label 'DRG'n = 'DRG';
-1051        label 'DRG'n = 'DRG';
+896         label 'DRG'n = 'DRG';
 MPRINT(IMPORTMETA):  label 'Description'n = 'Description';
-1052        label 'Description'n = 'Description';
-1053        input    'DRG'n
+897         label 'Description'n = 'Description';
+898         input    'DRG'n
 MPRINT(IMPORTMETA):  input 'DRG'n  'Description'n $   ;
-1054          'Description'n $
+899           'Description'n $
 MPRINT(IMPORTMETA):  run;
-1055        ;
-1056        run;
+900         ;
+901         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_RebalanceNewDRG.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_RebalanceNewDRG.csv,
-      Access Permissions=-rwxrwxr--, Number of Links=1,
+      Access Permissions=-rw-r-----, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=213, Last Modified=13:34:46 Oct 16 2018,
-      Created=15:53:15 Oct 23 2018, Lrecl=32760, Recfm=V
+      Created=13:34:46 Oct 16 2018, Lrecl=32760, Recfm=V
 
 NOTE: 9 records were read from file '/rpscan/u071439/data/JanetMetadata_RebalanceNewDRG.csv'
+42                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
       The minimum record length was 14
       The maximum record length was 32
 NOTE: Data set "TEMP.RebalanceNewDRG" has 9 observation(s) and 2 variable(s)
 NOTE: The data step took :
-      real time : 0.031
+      real time : 0.029
       cpu time  : 0.001
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-1057      FILENAME ##IMPORT CLEAR;
-46                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
+902       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-1058      
-1059      *** labels for all categories, the ranking is important!!!;
-1060      proc format;
-1061      value categories
-1062      	10='Crisis Management'
-1063      	9='Surveillance'
-1064      	8='Rebalancing'
-1065      	7='Recovery Guidance'
-1066      	6='Monitoring'
-1067      	5='Coordination'
-1068      	4='Treatment Navigation'
-1069      	3='Support'
-1070      	2='Prevention'
-1071      	1='Engagement'
-1072      ;
+903       
+904       *** labels for all categories, the ranking is important!!!;
+905       proc format;
+906       value categories
+907       10='Crisis Management'
+908       9='Surveillance'
+909       8='Rebalancing'
+910       7='Recovery Guidance'
+911       6='Monitoring'
+912       5='Coordination'
+913       4='Treatment Navigation'
+914       3='Support'
+915       2='Prevention'
+916       1='Engagement'
+917       ;
 NOTE: Format categories output
-1073      
-1074      value RuleConfidence
-1075      1= 0.933
-1076      2= 0.6
-1077      3= 0.667
-1078      4= 0.865
-1079      5= 0.667
-1080      6= 0.667
-1081      7= 0.851
-1082      8= 0.727
-1083      9= 0.75
-1084      10= 0.765
-1085      11= 0.667
-1086      12= 0.909
-1087      13= 0.667
-1088      ;
+918       
+919       value RuleConfidence
+920       1= 0.933
+921       2= 0.6
+922       3= 0.667
+923       4= 0.865
+924       5= 0.667
+925       6= 0.667
+926       7= 0.851
+927       8= 0.727
+928       9= 0.75
+929       10= 0.765
+930       11= 0.667
+931       12= 0.909
+932       13= 0.667
+933       ;
 NOTE: Format RuleConfidence output
-1089      
-1090      *** sort the sample by ENROLID, it is needed for the last merge at the end;
+934       
+935       *** sort the sample by ENROLID, it is needed for the last merge at the end;
 NOTE: Procedure format step took :
-      real time : 0.044
+      real time : 0.411
       cpu time  : 0.001
 
 
-1091      proc sort data=temp.SamplewClassification;
-1092      by enrolid;
-1093      run;
+936       proc sort data=temp.SamplewClassification;
+937       by enrolid;
+43                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+938       run;
 NOTE: 82252 observations were read from "TEMP.SamplewClassification"
 NOTE: Data set "TEMP.SamplewClassification" has 82252 observation(s) and 1 variable(s)
 NOTE: Procedure sort step took :
-      real time : 0.102
-      cpu time  : 0.045
+      real time : 0.157
+      cpu time  : 0.052
 
 
-1094      
-1095      *** convert NDCNUM to character;
-47                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-1096      data temp.ChronicRx(drop=ndcnum_old);
-1097      set temp.ChronicRx(rename=(ndcnum=ndcnum_old));
-1098      NDCNUM=put(ndcnum_old,z11.);
-1099      run;
+939       
+940       *** convert NDCNUM to character;
+941       data temp.ChronicRx(drop=ndcnum_old);
+942       set temp.ChronicRx(rename=(ndcnum=ndcnum_old));
+943       NDCNUM=put(ndcnum_old,z11.);
+944       run;
 
 NOTE: 58539 observations were read from "TEMP.ChronicRx"
 NOTE: Data set "TEMP.ChronicRx" has 58539 observation(s) and 4 variable(s)
 NOTE: The data step took :
-      real time : 0.099
-      cpu time  : 0.038
+      real time : 0.116
+      cpu time  : 0.049
 
 
-1100      
-1101      *** creating a format for Acute/Chronic;
-1102      data trash(keep=start label fmtname);
-1103      set temp.GeneralAssignments;
-1104      start=DxCat;
-1105      label=Category;
-1106      fmtname='$DxCatAssign';
-1107      run;
+945       
+946       *** creating a format for Acute/Chronic;
+947       data trash(keep=start label fmtname);
+948       set temp.GeneralAssignments;
+949       start=DxCat;
+950       label=Category;
+951       fmtname='$DxCatAssign';
+952       run;
 
 NOTE: 565 observations were read from "TEMP.GeneralAssignments"
 NOTE: Data set "WORK.trash" has 565 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.026
+      real time : 0.030
       cpu time  : 0.002
 
 
-1108      proc format cntlin=trash; run;
+953       proc format cntlin=trash; run;
 NOTE: Format $DxCatAssign output
 NOTE: 565 observations were read from "WORK.trash"
 NOTE: Procedure format step took :
-      real time : 0.021
+      real time : 0.046
       cpu time  : 0.002
 
 
-1109      
-1110      *** creating a format for Significant DxCat;
-1111      data trash(keep=start label fmtname);
-1112      set temp.SignificantConditions;
-1113      start=DxCat;
-1114      label=Significance;
-1115      fmtname='$DxCatHigh';
-1116      run;
+954       
+955       *** creating a format for Significant DxCat;
+956       data trash(keep=start label fmtname);
+957       set temp.SignificantConditions;
+958       start=DxCat;
+959       label=Significance;
+960       fmtname='$DxCatHigh';
+44                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+961       run;
 
 NOTE: 296 observations were read from "TEMP.SignificantConditions"
 NOTE: Data set "WORK.trash" has 296 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.030
-      cpu time  : 0.001
+      real time : 2.576
+      cpu time  : 0.002
 
 
-1117      proc format cntlin=trash; run;
-48                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
+962       proc format cntlin=trash; run;
 NOTE: Format $DxCatHigh output
 NOTE: 296 observations were read from "WORK.trash"
 NOTE: Procedure format step took :
-      real time : 0.020
-      cpu time  : 0.001
+      real time : 0.032
+      cpu time  : 0.002
 
 
-1118      
-1119      *** creating a format for Body Systems;
-1120      data trash(keep=start label fmtname hlo);
-1121      set temp.BodySystem end=end;
-1122      start=DxCat;
-1123      label=Body;
-1124      fmtname='$DxCatBody';
-1125      if end then do;
-1126      	hlo='O';							/* for DxCats that are not in the map from Janet, just map them to '99
-1126    ! '-Other */
-1127      	label='99';
-1128      end;
-1129      run;
+963       
+964       *** creating a format for Body Systems;
+965       data trash(keep=start label fmtname hlo);
+966       set temp.BodySystem end=end;
+967       start=DxCat;
+968       label=Body;
+969       fmtname='$DxCatBody';
+970       if end then do;
+971       hlo='O';                            /* for DxCats that are not in the map from Janet, 
+971     ! just map them to '99'-Other */
+972       label='99';
+973       end;
+974       run;
 
 NOTE: Character values have been converted to numeric values at the places given by:
       (Line):(Column)
-      1127:8   
+      972:7   
 NOTE: 565 observations were read from "TEMP.BodySystem"
 NOTE: Data set "WORK.trash" has 565 observation(s) and 4 variable(s)
 NOTE: The data step took :
-      real time : 0.038
+      real time : 0.048
       cpu time  : 0.002
 
 
-1130      proc format cntlin=trash; run;
+975       proc format cntlin=trash; run;
 NOTE: Format $DxCatBody output
 NOTE: 565 observations were read from "WORK.trash"
 NOTE: Procedure format step took :
-      real time : 0.018
-      cpu time  : 0.002
+      real time : 0.010
+      cpu time  : 0.003
 
 
-1131      
-1132      *** creating a format for list of DxCat (based on Dx conditions) for Surveillance - Ac
-1132    ! tive Cancer definition;
-1133      data trash(keep=start label fmtname);
-1134      set temp.SurvGeneralActiveCancerDxCat end=end;
-1135      where Type='Dx';
-1136      start=DxCat;
-1137      label='Y';
-1138      fmtname='$SurvActiveCancerDxcat';
-1139      run;
+976       
+977       *** creating a format for list of DxCat (based on Dx conditions) for Surveillance - Ac
+977     ! tive Cancer definition;
+978       data trash(keep=start label fmtname);
+45                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+979       set temp.SurvGeneralActiveCancerDxCat end=end;
+980       where Type='Dx';
+981       start=DxCat;
+982       label='Y';
+983       fmtname='$SurvActiveCancerDxcat';
+984       run;
 
 NOTE: 76 observations were read from "TEMP.SurvGeneralActiveCancerDxCat"
 NOTE: Data set "WORK.trash" has 76 observation(s) and 3 variable(s)
 NOTE: The data step took :
-49                                       The WPS System   10:52 Wednesday, October 24, 2018     
-
-      real time : 0.028
-      cpu time  : 0.001
+      real time : 0.017
+      cpu time  : 0.002
 
 
-1140      proc format cntlin=trash; run;
+985       proc format cntlin=trash; run;
 NOTE: Format $SurvActiveCancerDxcat output
 NOTE: 76 observations were read from "WORK.trash"
 NOTE: Procedure format step took :
-      real time : 0.012
+      real time : 0.050
       cpu time  : 0.001
 
 
-1141      
-1142      *** creating a format for list of DxCat (based on Px conditions) for Surveillance - Ac
-1142    ! tive Cancer definition;
-1143      data trash(keep=start label fmtname);
-1144      set temp.SurvGeneralActiveCancerDxCat end=end;
-1145      where Type='Px';
-1146      start=DxCat;
-1147      label='Y';
-1148      fmtname='$SurvActiveCancerPxDxcat';
-1149      run;
+986       
+987       *** creating a format for list of DxCat (based on Px conditions) for Surveillance - Ac
+987     ! tive Cancer definition;
+988       data trash(keep=start label fmtname);
+989       set temp.SurvGeneralActiveCancerDxCat end=end;
+990       where Type='Px';
+991       start=DxCat;
+992       label='Y';
+993       fmtname='$SurvActiveCancerPxDxcat';
+994       run;
 
 NOTE: 1 observations were read from "TEMP.SurvGeneralActiveCancerDxCat"
 NOTE: Data set "WORK.trash" has 1 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.031
-      cpu time  : 0.001
+      real time : 0.061
+      cpu time  : 0.002
 
 
-1150      proc format cntlin=trash; run;
+995       proc format cntlin=trash; run;
 NOTE: Format $SurvActiveCancerPxDxcat output
 NOTE: 1 observations were read from "WORK.trash"
 NOTE: Procedure format step took :
-      real time : 0.049
+      real time : 0.010
       cpu time  : 0.001
 
 
-1151      
-1152      *** creating a format for list of ProcGRP (based on Px conditions) for Surveillance - 
-1152    ! Active Cancer definition;
-1153      data trash_1(keep=start label fmtname);
-1154      set temp.SurvGeneralActiveCancerPROCGRP end=end;
-1155      start=PROCGRP;
-1156      label='Y';
-1157      fmtname='SurvActiveCancerPROCGRP';
-1158      run;
+996       
+997       *** creating a format for list of ProcGRP (based on Px conditions) for Surveillance - 
+997     ! Active Cancer definition;
+998       data trash_1(keep=start label fmtname);
+999       set temp.SurvGeneralActiveCancerPROCGRP end=end;
+46                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+1000      start=PROCGRP;
+1001      label='Y';
+1002      fmtname='SurvActiveCancerPROCGRP';
+1003      run;
 
 NOTE: 25 observations were read from "TEMP.SurvGeneralActiveCancerPROCGRP"
 NOTE: Data set "WORK.trash_1" has 25 observation(s) and 3 variable(s)
 NOTE: The data step took :
       real time : 0.045
       cpu time  : 0.001
-50                                       The WPS System   10:52 Wednesday, October 24, 2018     
 
 
-
-1159      proc format cntlin=trash_1; run;
+1004      proc format cntlin=trash_1; run;
 NOTE: Format SurvActiveCancerPROCGRP output
 NOTE: 25 observations were read from "WORK.trash_1"
 NOTE: Procedure format step took :
-      real time : 0.029
+      real time : 0.015
       cpu time  : 0.001
 
 
-1160      
-1161      ********************************************************************************;
-1162      *%include '/rpscan/u071439/script/PopClassModel_BeforeAE_YL.sas';
-1163      
-1164      ********** run AE for DS using above configuration file-AE not working on nike;
-1165      ****************x "&AEpath./AnalyticsEngine.sh &AEpath./Configfile.properties";
-1166      
-1167      ******************************************************************************;
-1168      *%include '/rpscan/u071439/script/PopClassModel_AfterAE_YL.sas';
-1169      
+1005      
+1006      ********************************************************************************;
+1007      *%include '/rpscan/u071439/script/PopClassModel_BeforeAE_YL.sas';
+1008      
+1009      ********** run AE for DS using above configuration file-AE not working on nike;
+1010      ****************x "&AEpath./AnalyticsEngine.sh &AEpath./Configfile.properties";
+1011      
+1012      ******************************************************************************;
+1013      /*%include '/rpscan/u071439/script/PopClassModel_AfterAE_YL.sas'; */
+1014      
+1015      
+1016      
+1017      
+1018      
+1019      /* import AE back into the data */
+1020      data temp.SampleIPOPwDS1;
+1021      infile "&AEoutpath./&username._DISEASESTAGING6.34_&version._Dsoutput.csv"
+1022      delimiter = ','
+1023      MISSOVER
+1024      DSD
+1025      lrecl=32767
+1026      firstobs=2;
+1027      input
+1028      enrolid
+1029      fac_prof :$1.
+1030      eventid :$16.
+1031      age
+1032      sex :$1.
+1033      proc1 :$7.
+1034      icd_flag :$1.
+1035      dx1 :$7.
+1036      dx2 :$7.
+1037      dx3 :$7.
+47                                       The WPS System     14:09 Tuesday, October 23, 2018     
 
-NOTE: Submitted statements took :
-      real time : 16.867
-      cpu time  : 6.639
+1038      dx4 :$7.
+1039      rec_type :$1.
+1040      std_place :$1.
+1041      admtyp :$1.
+1042      svcscat :$5.
+1043      svcdate :mmddyy10.
+1044      dxcat1 :$5.
+1045      dxcat2 :$5.
+1046      dxcat3 :$5.
+1047      dxcat4 :$5.
+1048      dxstage1
+1049      dxstage2
+1050      dxstage3
+1051      dxstage4
+1052      ;
+1053      format svcdate mmddyy10.;
+1054      run;
+
+NOTE: The file
+      '/rpscan/u071439/AEout/31DEC2014Client450_10162018/u071439_DISEASESTAGING6.34_31DEC2014Cli
+      ent450_10162018_Dsoutput.csv' is:
+      File
+      Name=/rpscan/u071439/AEout/31DEC2014Client450_10162018/u071439_DISEASESTAGING6.34_31DEC201
+      4Client450_10162018_Dsoutput.csv,
+      Access Permissions=-rw-r-----, Number of Links=1,
+      Owner Name=u071439, Group Name=devl,
+      File Size=199769667, Last Modified=14:13:23 Oct 17 2018,
+      Created=14:13:23 Oct 17 2018, Lrecl=32767, Recfm=V
+
+NOTE: 2218010 records were read from file
+      '/rpscan/u071439/AEout/31DEC2014Client450_10162018/u071439_DISEASESTAGING6.34_31DEC2014Cli
+      ent450_10162018_Dsoutput.csv'
+      The minimum record length was 64
+      The maximum record length was 126
+NOTE: Data set "TEMP.SampleIPOPwDS1" has 2218010 observation(s) and 24 variable(s)
+NOTE: The data step took :
+      real time : 24.939
+      cpu time  : 10.387
+
+
+1055      
+1056      *** flag the patients with MHSA and maternity history;
+1057      proc sql;
+1058      create view trash501 as select
+1059      enrolid,
+1060      max(
+1061      (admtyp='4'                     or
+1062      dxcat1 in (&SvcCatMHSA.)    or
+1063      dxcat2 in (&SvcCatMHSA.)    or
+1064      dxcat3 in (&SvcCatMHSA.)    or
+1065      dxcat4 in (&SvcCatMHSA.))
+1066      )                                                as flag12mMHSA,
+1067      max(
+48                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+1068      (svcdate > &StartDate.-90)        and
+1069      (dxcat1 in (&SvcCatGYN.)    or
+1070      dxcat2 in (&SvcCatGYN.)    or
+1071      dxcat3 in (&SvcCatGYN.)    or
+1072      dxcat4 in (&SvcCatGYN.))
+1073      )                                                as flag3mGYN
+1074      from
+1075      temp.SampleIPOPwDS1
+1076      group by
+1077      enrolid;
+NOTE: View WORK.trash501 successfully created
+1078      
+1079      *** create the flags for all the DxCats that satisfy the conditions for Acute/Chrnic/S
+1079    ! tage>3/HighSignificance;
+NOTE: Procedure sql step took :
+      real time : 0.350
+      cpu time  : 0.001
+
+
+1080      data trash502(keep=
+1081      enrolid
+1082      svcdate flag3mStage3
+1083      dxcat flag3mAcuteStage3 flag3mChronicStage3 flag6mChronicStage3 flag3mAcuteSign flag3m
+1083    ! ChronicSign flag6mChronicSign flag12mChronicSign flag3mAcute flag6mAcute flag3mChronic
+1083    !  flag12mChronic
+1084      body flag3mBody flag3mBodySign
+1085      flagNew3mChronicSign flagNew12mChronicSign);
+1086      set temp.SampleIPOPwDS1;
+1087      length dxcat $5. body $2.;
+1088      array dxarray dxcat1-dxcat4;
+1089      array dxstage dxstage1-dxstage4;
+1090      do i=1 to 4;
+1091      dxcat=' '; body=' ';
+1092      /* flags for days with Stage3 */
+1093      if svcdate > &StartDate.-90  and dxstage[i] ge 3 and
+1094      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1094    ! xclusionList.)))
+1095      then do; dxcat=dxarray[i]; flag3mStage3=1;   end;
+1096      /* flags for DxCat counts */
+1097      if svcdate > &StartDate.-90  and put(dxarray[i],$DxCatAssign.)='Acute' and dxstage[i] 
+1097    ! ge 3 and
+1098      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1098    ! xclusionList.)))
+1099      then do; dxcat=dxarray[i]; flag3mAcuteStage3=1; end;
+1100      if svcdate > &StartDate.-90  and put(dxarray[i],$DxCatAssign.)='Chronic' and dxstage[i
+1100    ! ] ge 3 and
+1101      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1101    ! xclusionList.)))
+1102      then do; dxcat=dxarray[i]; flag3mChronicStage3=1; end;
+1103      if svcdate > &StartDate.-180 and put(dxarray[i],$DxCatAssign.)='Chronic' and dxstage[i
+1103    ! ] ge 3 and
+1104      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1104    ! xclusionList.)))
+49                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+1105      then do; dxcat=dxarray[i]; flag6mChronicStage3=1; end;
+1106      if svcdate > &StartDate.-90  and put(dxarray[i],$DxCatAssign.)='Acute'   and put(dxarr
+1106    ! ay[i],$DxCatHigh.)='High' and
+1107      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1107    ! xclusionList.)))
+1108      then do; dxcat=dxarray[i]; flag3mAcuteSign=1;   end;
+1109      if svcdate > &StartDate.-90  and put(dxarray[i],$DxCatAssign.)='Chronic' and put(dxarr
+1109    ! ay[i],$DxCatHigh.)='High' and
+1110      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1110    ! xclusionList.)))
+1111      then do; dxcat=dxarray[i]; flag3mChronicSign=1; end;
+1112      if svcdate > &StartDate.-180 and put(dxarray[i],$DxCatAssign.)='Chronic' and put(dxarr
+1112    ! ay[i],$DxCatHigh.)='High' and
+1113      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1113    ! xclusionList.)))
+1114      then do; dxcat=dxarray[i]; flag6mChronicSign=1; end;
+1115      if svcdate > &StartDate.-366 and put(dxarray[i],$DxCatAssign.)='Chronic' and put(dxarr
+1115    ! ay[i],$DxCatHigh.)='High' and
+1116      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1116    ! xclusionList.)))
+1117      then do; dxcat=dxarray[i]; flag12mChronicSign=1; end;
+1118      if svcdate > &StartDate.-90  and put(dxarray[i],$DxCatAssign.)='Acute' and
+1119      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1119    ! xclusionList.)))
+1120      then do; dxcat=dxarray[i]; flag3mAcute=1;   end;
+1121      if svcdate > &StartDate.-180 and put(dxarray[i],$DxCatAssign.)='Acute'  and
+1122      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1122    ! xclusionList.)))
+1123      then do; dxcat=dxarray[i]; flag6mAcute=1;   end;
+1124      if svcdate > &StartDate.-90  and put(dxarray[i],$DxCatAssign.)='Chronic' and
+1125      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1125    ! xclusionList.)))
+1126      then do; dxcat=dxarray[i]; flag3mChronic=1; end;
+1127      if svcdate > &StartDate.-366 and put(dxarray[i],$DxCatAssign.)='Chronic' and
+1128      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1128    ! xclusionList.)))
+1129      then do; dxcat=dxarray[i]; flag12mChronic=1; end;
+1130      /* flags for body counts */
+1131      if svcdate > &StartDate.-90 and missing(dxarray[i])=0                 then do; body=pu
+1131    ! t(dxarray[i],$DxCatBody.); flag3mBody=1; dxcat=dxarray[i]; end;
+1132      if svcdate > &StartDate.-90 and put(dxarray[i],$DxCatHigh.)='High'     then do; body=p
+1132    ! ut(dxarray[i],$DxCatBody.); flag3mBodySign=1; end;
+1133      /* flags for new chronic significant condition */
+1134      if svcdate > &StartDate.-90  and put(dxarray[i],$DxCatAssign.)='Chronic' and put(dxarr
+1134    ! ay[i],$DxCatHigh.)='High' and
+1135      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1135    ! xclusionList.)))
+1136      then do; dxcat=dxarray[i]; flagNew3mChronicSign=1; end;
+1137      if &StartDate.-366 < svcdate <= &StartDate.-90  and put(dxarray[i],$DxCatAssign.)='Chr
+1137    ! onic' and put(dxarray[i],$DxCatHigh.)='High' and
+1138      ^(rec_type='O' and (substr(svcscat,4,2) in (&SvcCatExclusionList.) or proc1 in (&ProcE
+1138    ! xclusionList.)))
+1139      then do; dxcat=dxarray[i]; flagNew12mChronicSign=1; end;
+50                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+1140      if missing(dxcat)=0 or missing(body)=0 then output;
+1141      end;
+1142      run;
+
+NOTE: 2218010 observations were read from "TEMP.SampleIPOPwDS1"
+NOTE: Data set "WORK.trash502" has 1767283 observation(s) and 20 variable(s)
+NOTE: The data step took :
+      real time : 1:14.575
+      cpu time  : 0:32.995
+
+
+1143      
+1144      *** count the unique DxCats for different combinations of Acute/Chronic/Sign/3m/6m/eac
+1144    ! h, it's using the flags defined in the previous step;
+1145      proc sql;
+1146      create view trash503 as select
+1147      enrolid,
+1148      count(distinct dxcat) as Count3mAcuteStage3
+1149      from trash502
+1150      where flag3mAcuteStage3=1
+1151      group by enrolid;
+NOTE: View WORK.trash503 successfully created
+1152      
+1153      create view trash504 as select
+1154      enrolid,
+1155      count(distinct dxcat) as Count3mChronicStage3
+1156      from trash502
+1157      where flag3mChronicStage3=1
+1158      group by enrolid;
+NOTE: View WORK.trash504 successfully created
+1159      
+1160      create view trash505 as select
+1161      enrolid,
+1162      count(distinct dxcat) as Count6mChronicStage3
+1163      from trash502
+1164      where flag6mChronicStage3=1
+1165      group by enrolid;
+NOTE: View WORK.trash505 successfully created
+1166      
+1167      create view trash506 as select
+1168      enrolid,
+1169      count(distinct dxcat) as Count3mAcuteSign
+1170      from trash502
+1171      where flag3mAcuteSign=1
+1172      group by enrolid;
+NOTE: View WORK.trash506 successfully created
+1173      
+1174      create view trash507 as select
+1175      enrolid,
+1176      count(distinct dxcat) as Count3mChronicSign
+1177      from trash502
+1178      where flag3mChronicSign=1
+1179      group by enrolid;
+51                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+NOTE: View WORK.trash507 successfully created
+1180      
+1181      create view trash508 as select
+1182      enrolid,
+1183      count(distinct dxcat) as Count6mChronicSign
+1184      from trash502
+1185      where flag6mChronicSign=1
+1186      group by enrolid;
+NOTE: View WORK.trash508 successfully created
+1187      
+1188      create view trash508_1 as select
+1189      enrolid,
+1190      count(distinct dxcat) as Count12mChronicSign
+1191      from trash502
+1192      where flag12mChronicSign=1
+1193      group by enrolid;
+NOTE: View WORK.trash508_1 successfully created
+1194      
+1195      create view trash509 as select
+1196      enrolid,
+1197      count(distinct dxcat) as Count3mAcute
+1198      from trash502
+1199      where flag3mAcute=1
+1200      group by enrolid;
+NOTE: View WORK.trash509 successfully created
+1201      
+1202      create view trash510 as select
+1203      enrolid,
+1204      count(distinct dxcat) as Count6mAcute
+1205      from trash502
+1206      where flag6mAcute=1
+1207      group by enrolid;
+NOTE: View WORK.trash510 successfully created
+1208      
+1209      create view trash511 as select
+1210      enrolid,
+1211      count(distinct dxcat) as Count3mChronic
+1212      from trash502
+1213      where flag3mChronic=1
+1214      group by enrolid;
+NOTE: View WORK.trash511 successfully created
+1215      
+1216      create view trash512 as select
+1217      enrolid,
+1218      count(distinct dxcat) as Count12mChronic
+1219      from trash502
+1220      where flag12mChronic=1
+1221      group by enrolid;
+NOTE: View WORK.trash512 successfully created
+1222      
+1223      *** count the unique Body systems;
+1224      create view trash513 as select
+1225      enrolid,
+52                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+1226      count(distinct body) as Count3mBody
+1227      from trash502
+1228      where flag3mBody=1
+1229      group by enrolid;
+NOTE: View WORK.trash513 successfully created
+1230      
+1231      create view trash514 as select
+1232      enrolid,
+1233      count(distinct body) as Count3mBodySign
+1234      from trash502
+1235      where flag3mBodySign=1
+1236      group by enrolid;
+NOTE: View WORK.trash514 successfully created
+1237      
+1238      *** create flag for new significant chronic condition;
+NOTE: Procedure sql step took :
+      real time : 3.622
+      cpu time  : 0.009
+
+
+1239      proc sql;
+1240      create view trash515 as select distinct
+1241      a.enrolid,
+1242      1 as flag3mNewChronicSign
+1243      from
+1244      trash502(where=(flagNew3mChronicSign=1)) as a
+1245      left join
+1246      trash502(where=(flagNew12mChronicSign=1)) as b
+1247      on
+1248      a.enrolid=b.enrolid and a.dxcat=b.dxcat
+1249      where
+1250      a.dxcat ne b.dxcat;
+NOTE: View WORK.trash515 successfully created
+1251      
+1252      *** create flag for number of days with Stage3 within last 3m;
+NOTE: Procedure sql step took :
+      real time : 0.024
+      cpu time  : 0.001
+
+
+1253      proc sql;
+1254      create view trash516 as select
+1255      enrolid,
+1256      count(distinct svcdate) as Days3mStage3
+1257      from trash502
+1258      where flag3mStage3=1
+1259      group by enrolid;
+NOTE: View WORK.trash516 successfully created
+1260      
+1261      *** put all the DxCat related variables from IP and OP claims together;
+NOTE: Procedure sql step took :
+      real time : 0.031
+      cpu time  : 0.000
+53                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+
+
+1262      DATA
+1263      trash531;
+1264      Merge
+1265      trash501(in=a)
+1266      trash503(in=b)
+1267      trash504(in=c)
+1268      trash505(in=d)
+1269      trash506(in=e)
+1270      trash507(in=f)
+1271      trash508(in=g)
+1272      trash508_1(in=g_1)
+1273      trash509(in=h)
+1274      trash510(in=i)
+1275      trash511(in=j)
+1276      trash512(in=k)
+1277      trash513(in=l)
+1278      trash514(in=m)
+1279      trash515(in=n)
+1280      trash516(in=o);
+1281      By
+1282      enrolid;
+1283      If
+1284      a or b or c or d or e or f or g or g_1 or h or i or j or k or l or m or n or o;
+1285      run;
+
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: View opening spill file for output observations.
+NOTE: 71341 observations were read from "WORK.trash501"
+NOTE: 280 observations were read from "WORK.trash503"
+NOTE: 718 observations were read from "WORK.trash504"
+NOTE: 972 observations were read from "WORK.trash505"
+NOTE: 3902 observations were read from "WORK.trash506"
+NOTE: 12406 observations were read from "WORK.trash507"
+NOTE: 15559 observations were read from "WORK.trash508"
+NOTE: 19159 observations were read from "WORK.trash508_1"
+NOTE: 34608 observations were read from "WORK.trash509"
+NOTE: 45660 observations were read from "WORK.trash510"
+54                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+NOTE: 27346 observations were read from "WORK.trash511"
+NOTE: 42585 observations were read from "WORK.trash512"
+NOTE: 50148 observations were read from "WORK.trash513"
+NOTE: 16357 observations were read from "WORK.trash514"
+NOTE: 10602 observations were read from "WORK.trash515"
+NOTE: 924 observations were read from "WORK.trash516"
+NOTE: Data set "WORK.trash531" has 71341 observation(s) and 18 variable(s)
+NOTE: The data step took :
+      real time : 29.236
+      cpu time  : 9.867
+
+
+1286      
+1287      *** Merge with the original Sample and use counts of zero when no admissions;
+1288      PROC SQL;
+1289      Create Table temp.IPandOP as
+1290      Select
+1291      a.enrolid,
+1292      max(0,b.flag12mMHSA) as flag12mMHSA,
+1293      max(0,b.flag3mGYN) as flag3mGYN,
+1294      max(0,b.Count3mAcuteStage3) as Count3mAcuteStage3,
+1295      max(0,b.Count3mChronicStage3) as Count3mChronicStage3,
+1296      max(0,b.Count6mChronicStage3) as Count6mChronicStage3,
+1297      max(0,b.Count3mAcuteSign) as Count3mAcuteSign,
+1298      max(0,b.Count3mChronicSign) as Count3mChronicSign,
+1299      max(0,b.Count6mChronicSign) as Count6mChronicSign,
+1300      max(0,b.Count12mChronicSign) as Count12mChronicSign,
+1301      max(0,b.Count3mAcute) as Count3mAcute,
+1302      max(0,b.Count6mAcute) as Count6mAcute,
+1303      max(0,b.Count3mChronic) as Count3mChronic,
+1304      max(0,b.Count12mChronic) as Count12mChronic,
+1305      max(0,b.Count3mBody) as Count3mBody,
+1306      max(0,b.Count3mBodySign) as Count3mBodySign,
+1307      max(0,b.flag3mNewChronicSign) as flag3mNewChronicSign,
+1308      max(0,b.Days3mStage3) as Days3mStage3
+1309      From
+1310      (Select distinct enrolid from temp.SamplewClassification) as a
+1311      Left Join
+1312      work.trash531 as b
+1313      On
+1314      a.enrolid=b.enrolid
+1315      Order by
+1316      a.enrolid;
+NOTE: View opening spill file for output observations.
+NOTE: Data set "TEMP.IPandOP" has 82252 observation(s) and 18 variable(s)
+1317      quit;
+NOTE: Procedure SQL step took :
+      real time : 2.446
+      cpu time  : 0.815
+
+
+1318      
+1319      
+55                                       The WPS System     14:09 Tuesday, October 23, 2018     
+
+1320      *** summarize the outpatient data ***;
+1321      ************************************;
+1322      
+1323      PROC SQL;
+1324      *** get all the outpatient data from the matched IDs;
+1325      Create View trash001 as select distinct
+1326      a.enrolid,
+1327      a.msclmid,
+1328      a.facprof,
+1329      a.fachdid,
+1330      a.proc1,
+1331      a.procgrp,
+1332      a.dxcat,
+1333      a.svcscat,
+1334      a.stdprov,
+1335      a.svcdate,
+1336      a.pay
+1337      from
+1338      arch&year..ccaeo&MSversion.            as a,
+1339      temp.SamplewClassification    as b
+1340      where
+1341      a.enrolid=b.enrolid
+1342      order by
+1343      a.enrolid,
+1344      a.svcdate;
+NOTE: View WORK.trash001 successfully created
+1345      
+1346      *** map the principal DxCat from the outpatient claim to chronic/acute;
+1347      Create View trash002 as select
+1348      a.*,
+1349      b.category
+1350      from
+1351      trash001                    as a
+1352      left join
+1353      temp.GeneralAssignments        as b
+1354      on
+1355      a.dxcat=b.dxcat;
+NOTE: View WORK.trash002 successfully created
+1356      
+1357      *** link to ATG from OPEG Lookup;
+1358      Create View trash003 as select
+1359      a.*,
+1360      b.ATG
+1361      from
+1362      trash002         as a
+1363      left join
+1364      temp.OPEGLookup        as b
+1365      on
+1366      a.proc1=b.hcpcs;
+NOTE: View WORK.trash003 successfully created
+1367      
+1368      *** link to Significant Conditions based on ProcGrp map;
+1369      Create View trash004 as select

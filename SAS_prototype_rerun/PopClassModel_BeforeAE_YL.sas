@@ -9,7 +9,7 @@ Options obs=max mprint mlogic;
 %Let MSversion    =143;
 %Let MSversionNext=152;
 %Let StartDate='31DEC2014'd; /* always choose the end of month */
-%let version=31DEC2014Client450_10162018;
+%let version=31DEC2014Client450_10242018;
 %Let AEoutpath=/rpscan/u071439/AEout/&version.;
 %Let outpath=/rpscan/u071439/output/&version.;
 %Let username=yl;
@@ -27,6 +27,151 @@ libname arch&year. "/rpscan/u071439/temp/&version.";
 libname arch&Nextyear. "/rpscan/u071439/temp/&version.";
 %end;
 %mend libsetup;
+
+
+
+* Read a list of 2000 enrolid provided by Ujwal M;
+
+* Beginning of Ujwal's modification;
+* Import a list of 2000 enrolid;
+PROC IMPORT
+DATAFILE='/rpscan/u071439/data/enrolids_2000.csv'
+OUT=enrolids
+DBMS=CSV
+REPLACE;
+GETNAMES=YES;
+GUESSINGROWS=MAX;
+RUN;
+
+data ccaea;
+infile '/rpscan/u071439/data/ccaea.csv' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
+informat 'ENROLID'n BEST32.;
+informat 'AGE'n BEST32.;
+informat 'SEX'n $1.;
+informat 'MSA'n BEST32.;
+informat 'RX'n $1.;
+informat 'ENRIND1'n BEST32.;
+informat 'ENRIND2'n BEST32.;
+informat 'ENRIND3'n BEST32.;
+informat 'ENRIND4'n BEST32.;
+informat 'ENRIND5'n BEST32.;
+informat 'ENRIND6'n BEST32.;
+informat 'ENRIND7'n BEST32.;
+informat 'ENRIND8'n BEST32.;
+informat 'ENRIND9'n BEST32.;
+informat 'ENRIND10'n BEST32.;
+informat 'ENRIND11'n BEST32.;
+informat 'ENRIND12'n BEST32.;
+informat 'PLNTYP1'n BEST32.;
+informat 'PLNTYP2'n BEST32.;
+informat 'PLNTYP3'n BEST32.;
+informat 'PLNTYP4'n BEST32.;
+informat 'PLNTYP5'n BEST32.;
+informat 'PLNTYP6'n BEST32.;
+informat 'PLNTYP7'n BEST32.;
+informat 'PLNTYP8'n BEST32.;
+informat 'PLNTYP9'n BEST32.;
+informat 'PLNTYP10'n BEST32.;
+informat 'PLNTYP11'n BEST32.;
+informat 'PLNTYP12'n BEST32.;
+format 'ENROLID'n BEST12.;
+format 'AGE'n BEST12.;
+format 'SEX'n $1.;
+format 'MSA'n BEST12.;
+format 'RX'n $1.;
+format 'ENRIND1'n BEST12.;
+format 'ENRIND2'n BEST12.;
+format 'ENRIND3'n BEST12.;
+format 'ENRIND4'n BEST12.;
+format 'ENRIND5'n BEST12.;
+format 'ENRIND6'n BEST12.;
+format 'ENRIND7'n BEST12.;
+format 'ENRIND8'n BEST12.;
+format 'ENRIND9'n BEST12.;
+format 'ENRIND10'n BEST12.;
+format 'ENRIND11'n BEST12.;
+format 'ENRIND12'n BEST12.;
+format 'PLNTYP1'n BEST12.;
+format 'PLNTYP2'n BEST12.;
+format 'PLNTYP3'n BEST12.;
+format 'PLNTYP4'n BEST12.;
+format 'PLNTYP5'n BEST12.;
+format 'PLNTYP6'n BEST12.;
+format 'PLNTYP7'n BEST12.;
+format 'PLNTYP8'n BEST12.;
+format 'PLNTYP9'n BEST12.;
+format 'PLNTYP10'n BEST12.;
+format 'PLNTYP11'n BEST12.;
+format 'PLNTYP12'n BEST12.;
+label 'ENROLID'n = 'ENROLID';
+label 'AGE'n = 'AGE';
+label 'SEX'n = 'SEX';
+label 'MSA'n = 'MSA';
+label 'RX'n = 'RX';
+label 'ENRIND1'n = 'ENRIND1';
+label 'ENRIND2'n = 'ENRIND2';
+label 'ENRIND3'n = 'ENRIND3';
+label 'ENRIND4'n = 'ENRIND4';
+label 'ENRIND5'n = 'ENRIND5';
+label 'ENRIND6'n = 'ENRIND6';
+label 'ENRIND7'n = 'ENRIND7';
+label 'ENRIND8'n = 'ENRIND8';
+label 'ENRIND9'n = 'ENRIND9';
+label 'ENRIND10'n = 'ENRIND10';
+label 'ENRIND11'n = 'ENRIND11';
+label 'ENRIND12'n = 'ENRIND12';
+label 'PLNTYP1'n = 'PLNTYP1';
+label 'PLNTYP2'n = 'PLNTYP2';
+label 'PLNTYP3'n = 'PLNTYP3';
+label 'PLNTYP4'n = 'PLNTYP4';
+label 'PLNTYP5'n = 'PLNTYP5';
+label 'PLNTYP6'n = 'PLNTYP6';
+label 'PLNTYP7'n = 'PLNTYP7';
+label 'PLNTYP8'n = 'PLNTYP8';
+label 'PLNTYP9'n = 'PLNTYP9';
+label 'PLNTYP10'n = 'PLNTYP10';
+label 'PLNTYP11'n = 'PLNTYP11';
+label 'PLNTYP12'n = 'PLNTYP12';
+input    'ENROLID'n
+'AGE'n
+'SEX'n $
+'MSA'n
+'RX'n $
+'ENRIND1'n
+'ENRIND2'n
+'ENRIND3'n
+'ENRIND4'n
+'ENRIND5'n
+'ENRIND6'n
+'ENRIND7'n
+'ENRIND8'n
+'ENRIND9'n
+'ENRIND10'n
+'ENRIND11'n
+'ENRIND12'n
+'PLNTYP1'n
+'PLNTYP2'n
+'PLNTYP3'n
+'PLNTYP4'n
+'PLNTYP5'n
+'PLNTYP6'n
+'PLNTYP7'n
+'PLNTYP8'n
+'PLNTYP9'n
+'PLNTYP10'n
+'PLNTYP11'n
+'PLNTYP12'n;
+run;
+
+%Let lastmonth=%sysfunc(month(&StartDate.),2.);
+proc sql;
+Create Table temp.SamplewClassification as select a.enrolid,
+' ' as AssignmentFinal
+from ccaea a
+inner join enrolids e  On e.enrolid = a.enrolid
+where a.enrind&lastmonth.=1;
+quit;
+
 
 
 /** create a copy of MarketScan for the timeframe defined by 1 year prior and after the &StartDate **/
