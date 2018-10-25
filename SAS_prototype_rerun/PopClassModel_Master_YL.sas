@@ -12,7 +12,7 @@ Options obs=max mprint mlogic;
 %Let MSversion    =143;
 %Let MSversionNext=152;
 %Let StartDate='31DEC2014'd; /* always choose the end of month */
-%let version=31DEC2014Client450_10162018;
+%let version=31DEC2014_10242018;
 %Let AEoutpath=/rpscan/u071439/AEout/&version.;
 %Let outpath=/rpscan/u071439/output/&version.;
 %Let username=u071439;
@@ -196,15 +196,6 @@ quit;
 
 
 
-/*
-/*** create the sample file if needed ***/
-/*import MCC cohort*/
-data temp.SamplewClassification;
-	set arch&year..ccaea&MSversion.;
-	keep enrolid;
-	where client=450 and enrind12=1;
-run;
-*/
 
 *** importing the MetaData;
 %macro ImportMeta(inputdata,sasoutput);
@@ -239,9 +230,6 @@ run;
 %ImportMeta(JanetMetadata_SurveillanceGeneralActiveCancerDxCat.csv,SurvGeneralActiveCancerDxCat);
 *** Import the list of PROCGRP for general active cancer for Surveillance logic;
 %ImportMeta(JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.csv,SurvGeneralActiveCancerPROCGRP);
-
-/*** Import the list of PROCGRP for specific active cancer for Surveillance logic;
-%ImportMeta(JanetMetadata_SurveillanceSpecificActiveCancer.csv,SurvSpecificActiveCancer); */
 
 
 *** Ujwal's modification regarding temp.SurvSpecificActiveCancer;

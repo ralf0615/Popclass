@@ -1,0 +1,26 @@
+Analytics Engine v 8.2.0.96 : Execution in progress...
+2018-10-25 15:31:32,712 ERROR com.truvenhealth.analyticsengine.cli.App:273 - Configuration file does not exists
+Analytics Engine v 8.2.0.96 : Execution in progress...
+2018-10-25 15:32:29,617 ERROR com.truvenhealth.analyticsengine.cli.App:273 - Configuration file does not exists
+Analytics Engine v 8.2.0.96 : Execution in progress...
+2018-10-25 15:33:14,825 ERROR com.truvenhealth.analyticsengine.cli.App:273 - Configuration file does not exists
+Analytics Engine v 8.2.0.96 : Execution in progress...
+2018-10-25 15:34:36,385 ERROR com.truvenhealth.analyticsengine.cli.App:273 - Configuration file does not exists
+Analytics Engine v 8.2.0.96 : Execution in progress...
+2018-10-25 15:36:04,367 WARN com.truvenhealth.analyticsengine.licenseverifier.LicenseVerifierImpl:121 - Client Name : Emerging Analytics
+2018-10-25 15:36:04,370 WARN com.truvenhealth.analyticsengine.licenseverifier.LicenseVerifierImpl:122 - License generated date  : Wed May 10 10:41:17 EDT 2017
+
+Start Time : Thu Oct 25 15:36:02 EDT 2018
+
+Total # Patients in the Input:1344
+
+FileType                 Total                    
+Medical Claims           34163                    
+
+DISEASESTAGING:6.34      Read      Dropped   Processed 
+Medical Claims           34163     0         34163     
+
+End Time : Thu Oct 25 15:36:14 EDT 2018
+
+AnalyticsEngine generated output in /applications/analyticsengine/8_2_0/u071439/u071439
+Analytics Engine has completed the execution 
