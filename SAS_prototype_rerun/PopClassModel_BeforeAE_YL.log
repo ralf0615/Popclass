@@ -1,4 +1,4 @@
-1                                        The WPS System    12:17 Thursday, October 25, 2018     
+1                                        The WPS System    18:43 Thursday, October 25, 2018     
 
 NOTE: (c) Copyright World Programming Limited 2002-2018.  All rights reserved.
 NOTE: World Programming System 4.00 (04.00.01.00.006515)
@@ -53,7 +53,7 @@ NOTE: Library arch2000 assigned as follows:
 NOTE: Library arch2001 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/archive/2001/
-2                                        The WPS System    12:17 Thursday, October 25, 2018     
+2                                        The WPS System    18:43 Thursday, October 25, 2018     
 
 
 NOTE: Library arch2002 assigned as follows:
@@ -108,7 +108,7 @@ NOTE: Library arch2014 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan2/data/archive/2014/
 
-3                                        The WPS System    12:17 Thursday, October 25, 2018     
+3                                        The WPS System    18:43 Thursday, October 25, 2018     
 
 NOTE: Library arch2015 assigned as follows:
       Engine:        SAS7BDAT
@@ -163,7 +163,7 @@ NOTE: Library meg2005 assigned as follows:
       Physical Name: /mscan/data/archive/2005/meg/
 
 NOTE: Library meg2006 assigned as follows:
-4                                        The WPS System    12:17 Thursday, October 25, 2018     
+4                                        The WPS System    18:43 Thursday, October 25, 2018     
 
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/archive/2006/meg/
@@ -218,7 +218,7 @@ NOTE: Library mdcd1999 assigned as follows:
 
 NOTE: Library mdcd2000 assigned as follows:
       Engine:        SAS7BDAT
-5                                        The WPS System    12:17 Thursday, October 25, 2018     
+5                                        The WPS System    18:43 Thursday, October 25, 2018     
 
       Physical Name: /mscan/data/medicaid/2000/
 
@@ -273,7 +273,7 @@ NOTE: Library mdcd2012 assigned as follows:
 NOTE: Library mdcd2013 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/medicaid/2013/
-6                                        The WPS System    12:17 Thursday, October 25, 2018     
+6                                        The WPS System    18:43 Thursday, October 25, 2018     
 
 
 NOTE: Library mdcd2014 assigned as follows:
@@ -328,7 +328,7 @@ NOTE: Library library assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /hic/data/formats/
 
-7                                        The WPS System    12:17 Thursday, October 25, 2018     
+7                                        The WPS System    18:43 Thursday, October 25, 2018     
 
 NOTE: Library mdcdfmt assigned as follows:
       Engine:        WPD
@@ -383,7 +383,7 @@ NOTE: Library arch1990 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/archive/1990/
 
-8                                        The WPS System    12:17 Thursday, October 25, 2018     
+8                                        The WPS System    18:43 Thursday, October 25, 2018     
 
 NOTE: Library arch1991 assigned as follows:
       Engine:        SAS7BDAT
@@ -438,7 +438,7 @@ NOTE: Library arch2003 assigned as follows:
       Physical Name: /mscan/data/archive/2003/
 
 NOTE: Library arch2004 assigned as follows:
-9                                        The WPS System    12:17 Thursday, October 25, 2018     
+9                                        The WPS System    18:43 Thursday, October 25, 2018     
 
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/archive/2004/
@@ -493,7 +493,7 @@ NOTE: Library arch2016 assigned as follows:
 
 NOTE: Library arch2017 assigned as follows:
       Engine:        SAS7BDAT
-10                                       The WPS System    12:17 Thursday, October 25, 2018     
+10                                       The WPS System    18:43 Thursday, October 25, 2018     
 
       Physical Name: /mscan2/data/archive/2017/
 
@@ -548,7 +548,7 @@ NOTE: Library meg2007 assigned as follows:
 NOTE: Library meg2008 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/archive/2008/meg/
-11                                       The WPS System    12:17 Thursday, October 25, 2018     
+11                                       The WPS System    18:43 Thursday, October 25, 2018     
 
 
 NOTE: Library meg2009 assigned as follows:
@@ -603,7 +603,7 @@ NOTE: Library mdcd2002 assigned as follows:
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/medicaid/2002/
 
-12                                       The WPS System    12:17 Thursday, October 25, 2018     
+12                                       The WPS System    18:43 Thursday, October 25, 2018     
 
 NOTE: Library mdcd2003 assigned as follows:
       Engine:        SAS7BDAT
@@ -658,7 +658,7 @@ NOTE: Library mdcd2015 assigned as follows:
       Physical Name: /mscan/data/medicaid/2015/
 
 NOTE: Library mdcd2016 assigned as follows:
-13                                       The WPS System    12:17 Thursday, October 25, 2018     
+13                                       The WPS System    18:43 Thursday, October 25, 2018     
 
       Engine:        SAS7BDAT
       Physical Name: /mscan/data/medicaid/2016/
@@ -713,7 +713,7 @@ NOTE: Library mdcdproc assigned as follows:
 
 389       
 390       Options obs=max mprint mlogic;
-14                                       The WPS System    12:17 Thursday, October 25, 2018     
+14                                       The WPS System    18:43 Thursday, October 25, 2018     
 
 391       
 392       %Let Prevyear=2014;
@@ -723,7 +723,7 @@ NOTE: Library mdcdproc assigned as follows:
 396       %Let MSversion    =153;
 397       %Let MSversionNext=162;
 398       %Let StartDate='31DEC2015'd; /* always choose the end of month */
-399       %let version=31DEC2015_10242018;
+399       %let version=31DEC2015Client200_10252018;
 400       %Let AEoutpath=/rpscan/u071439/AEout/&version.;
 401       %Let outpath=/rpscan/u071439/output/&version.;
 402       %Let username=u071439;
@@ -737,7 +737,7 @@ NOTE: Library mdcdproc assigned as follows:
 409       libname temp "/rpscan/u071439/temp/&version.";
 NOTE: Library temp assigned as follows:
       Engine:        WPD
-      Physical Name: /rpscan/u071439/temp/31DEC2015_10242018
+      Physical Name: /rpscan/u071439/temp/31DEC2015Client200_10252018
 
 410       
 411       %macro libsetup;
@@ -768,7 +768,7 @@ NOTE: Library temp assigned as follows:
 432       %let ConditionDxCatStage=3;
 433       %let ConditionDxCatER='PSY';
 434       %let ConditionDRG='280','281','282','283','284','285','239','241','474','475','476','6
-15                                       The WPS System    12:17 Thursday, October 25, 2018     
+15                                       The WPS System    18:43 Thursday, October 25, 2018     
 
 434     ! 16','617','618','619','620','621','003','004','011','012','013','240';
 435       %let ConditionAdminType='4';
@@ -781,7 +781,7 @@ NOTE: Library temp assigned as follows:
 442       * Beginning of Ujwal's modification regarding setting up SamplewClassification;
 443       * Import a list of 2000 enrolid;
 444       PROC IMPORT
-445       DATAFILE='/rpscan/u071439/data/enrolids_2000.csv'
+445       DATAFILE='/rpscan/u071439/data/enrolids_200.csv'
 446       OUT=enrolids
 447       DBMS=CSV
 448       REPLACE;
@@ -789,13 +789,13 @@ NOTE: Library temp assigned as follows:
 450       GUESSINGROWS=MAX;
 451       RUN;
 NOTE: Procedure IMPORT step took :
-      real time : 0.029
-      cpu time  : 0.002
+      real time : 0.019
+      cpu time  : 0.001
 
 
 452       data enrolids;
-453         infile '/rpscan/u071439/data/enrolids_2000.csv' delimiter=',' MISSOVER DSD firstobs=
-453     ! 2 LRECL=32760;
+453         infile '/rpscan/u071439/data/enrolids_200.csv' delimiter=',' MISSOVER DSD firstobs=2
+453     !  LRECL=32760;
 454         informat 'ENROLID'n BEST32.;
 455         format 'ENROLID'n BEST12.;
 456         label 'ENROLID'n = 'ENROLID';
@@ -803,27 +803,27 @@ NOTE: Procedure IMPORT step took :
 458         ;
 459         run;
 
-NOTE: The file '/rpscan/u071439/data/enrolids_2000.csv' is:
-      File Name=/rpscan/u071439/data/enrolids_2000.csv,
+NOTE: The file '/rpscan/u071439/data/enrolids_200.csv' is:
+      File Name=/rpscan/u071439/data/enrolids_200.csv,
       Access Permissions=-rw-r--r--, Number of Links=1,
-      Owner Name=u071366, Group Name=users,
-      File Size=23011, Last Modified=15:52:23 Oct 23 2018,
-      Created=15:52:23 Oct 23 2018, Lrecl=32760, Recfm=V
+      Owner Name=u071439, Group Name=devl,
+      File Size=2307, Last Modified=16:26:39 Oct 25 2018,
+      Created=16:26:39 Oct 25 2018, Lrecl=32760, Recfm=V
 
-NOTE: 2000 records were read from file '/rpscan/u071439/data/enrolids_2000.csv'
+NOTE: 200 records were read from file '/rpscan/u071439/data/enrolids_200.csv'
       The minimum record length was 8
       The maximum record length was 10
-NOTE: Data set "WORK.enrolids" has 2000 observation(s) and 1 variable(s)
+NOTE: Data set "WORK.enrolids" has 200 observation(s) and 1 variable(s)
 NOTE: The data step took :
-      real time : 0.056
-      cpu time  : 0.004
+      real time : 0.033
+      cpu time  : 0.003
 
 
 460       FILENAME ##IMPORT CLEAR;
 461       
 462       data ccaea;
 463       infile '/rpscan/u071439/data/ccaea.csv' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32
-16                                       The WPS System    12:17 Thursday, October 25, 2018     
+16                                       The WPS System    18:43 Thursday, October 25, 2018     
 
 463     ! 760;
 464       informat 'ENROLID'n BEST32.;
@@ -878,7 +878,7 @@ NOTE: The data step took :
 513       format 'PLNTYP4'n BEST12.;
 514       format 'PLNTYP5'n BEST12.;
 515       format 'PLNTYP6'n BEST12.;
-17                                       The WPS System    12:17 Thursday, October 25, 2018     
+17                                       The WPS System    18:43 Thursday, October 25, 2018     
 
 516       format 'PLNTYP7'n BEST12.;
 517       format 'PLNTYP8'n BEST12.;
@@ -933,7 +933,7 @@ NOTE: The data step took :
 566       'ENRIND11'n
 567       'ENRIND12'n
 568       'PLNTYP1'n
-18                                       The WPS System    12:17 Thursday, October 25, 2018     
+18                                       The WPS System    18:43 Thursday, October 25, 2018     
 
 569       'PLNTYP2'n
 570       'PLNTYP3'n
@@ -960,8 +960,8 @@ NOTE: 100403 records were read from file '/rpscan/u071439/data/ccaea.csv'
       The maximum record length was 71
 NOTE: Data set "WORK.ccaea" has 100403 observation(s) and 29 variable(s)
 NOTE: The data step took :
-      real time : 1.497
-      cpu time  : 0.649
+      real time : 1.454
+      cpu time  : 0.663
 
 
 581       
@@ -972,11 +972,11 @@ NOTE: The data step took :
 586       from ccaea a
 587       inner join enrolids e  On e.enrolid = a.enrolid
 588       where a.enrind&lastmonth.=1;
-NOTE: Data set "TEMP.SamplewClassification" has 1798 observation(s) and 2 variable(s)
+NOTE: Data set "TEMP.SamplewClassification" has 179 observation(s) and 2 variable(s)
 589       quit;
 NOTE: Procedure sql step took :
-      real time : 0.058
-      cpu time  : 0.013
+      real time : 0.066
+      cpu time  : 0.015
 
 
 590       * End of Ujwal's modification regarding setting up SamplewClassification;
@@ -988,16 +988,16 @@ NOTE: Procedure sql step took :
 596       outfile="&AEoutpath./&version._SamplewClassification.csv"
 597       replace;
 598       run;
-19                                       The WPS System    12:17 Thursday, October 25, 2018     
+19                                       The WPS System    18:43 Thursday, October 25, 2018     
 
 NOTE: Procedure export step took :
-      real time : 0.000
+      real time : 0.001
       cpu time  : 0.000
 
 
 599       data _null_;
-600         file '/rpscan/u071439/AEout/31DEC2015_10242018/31DEC2015_10242018_SamplewClassificat
-600     ! ion.csv' delimiter=',' DSD DROPOVER LRECL=33;
+600         file '/rpscan/u071439/AEout/31DEC2015Client200_10252018/31DEC2015Client200_10252018_
+600     ! SamplewClassification.csv' delimiter=',' DSD DROPOVER LRECL=33;
 601         format ENROLID BEST12.;
 602         format AssignmentFinal $1.;
 603         if _n_=1 then do;
@@ -1011,23 +1011,24 @@ NOTE: Procedure export step took :
 611       run;
 
 NOTE: The file
-      '/rpscan/u071439/AEout/31DEC2015_10242018/31DEC2015_10242018_SamplewClassification.csv'
-      is:
+      '/rpscan/u071439/AEout/31DEC2015Client200_10252018/31DEC2015Client200_10252018_SamplewClas
+      sification.csv' is:
       File
-      Name=/rpscan/u071439/AEout/31DEC2015_10242018/31DEC2015_10242018_SamplewClassification.csv
-      ,
+      Name=/rpscan/u071439/AEout/31DEC2015Client200_10252018/31DEC2015Client200_10252018_Samplew
+      Classification.csv,
       Access Permissions=-rw-rw-r--, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
-      File Size=0, Last Modified=12:17:04 Oct 25 2018,
-      Created=12:17:04 Oct 25 2018, Lrecl=33, Recfm=V
+      File Size=0, Last Modified=18:43:14 Oct 25 2018,
+      Created=18:43:14 Oct 25 2018, Lrecl=33, Recfm=V
 
-NOTE: 1799 records were written to file
-      '/rpscan/u071439/AEout/31DEC2015_10242018/31DEC2015_10242018_SamplewClassification.csv'
+NOTE: 180 records were written to file
+      '/rpscan/u071439/AEout/31DEC2015Client200_10252018/31DEC2015Client200_10252018_SamplewClas
+      sification.csv'
       The minimum record length was 9
       The maximum record length was 23
-NOTE: 1798 observations were read from "TEMP.SamplewClassification"
+NOTE: 179 observations were read from "TEMP.SamplewClassification"
 NOTE: The data step took :
-      real time : 0.011
+      real time : 0.009
       cpu time  : 0.001
 
 
@@ -1042,16 +1043,16 @@ NOTE: The data step took :
 620       datafile="/rpscan/u071439/data/&inputdata."
 621       out=temp.&sasoutput.
 622       replace;
-623       getnames=YES;
-20                                       The WPS System    12:17 Thursday, October 25, 2018     
+20                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+623       getnames=YES;
 624       guessingrows=MAX;
 625       run;
 626       %mend ImportMeta;
 627       *** sample of 100 patients with classification;
 628       %ImportMeta(AllClientSample&version..csv,SamplewClassification);
 MLOGIC(IMPORTMETA): Beginning execution
-MLOGIC(IMPORTMETA): Parameter INPUTDATA has value AllClientSample31DEC2015_10242018.csv
+MLOGIC(IMPORTMETA): Parameter INPUTDATA has value AllClientSample31DEC2015Client200_10252018.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value SamplewClassification
 MLOGIC(IMPORTMETA): %IF condition &sasoutput.=SamplewClassification and &skipImport.=1  evaluate
                     d to TRUE
@@ -1069,7 +1070,7 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.368
+      real time : 0.212
       cpu time  : 0.098
 
 
@@ -1097,9 +1098,9 @@ MPRINT(IMPORTMETA):  informat 'imputed_rel_wgt'n BEST32.;
 640         informat 'imputed_rel_wgt'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'status_ind'n $3.;
 641         informat 'status_ind'n $3.;
-MPRINT(IMPORTMETA):  informat 'procgrp_ver'n BEST32.;
-21                                       The WPS System    12:17 Thursday, October 25, 2018     
+21                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+MPRINT(IMPORTMETA):  informat 'procgrp_ver'n BEST32.;
 642         informat 'procgrp_ver'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'release'n BEST32.;
 643         informat 'release'n BEST32.;
@@ -1152,9 +1153,9 @@ MPRINT(IMPORTMETA):  label 'release'n = 'release';
 668           'csc'n $
 669           'atg'n $
 670           'atg_priority'n
-671           'procgrp_intensity'n
-22                                       The WPS System    12:17 Thursday, October 25, 2018     
+22                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+671           'procgrp_intensity'n
 672           'hcpcs_intensity'n
 673           'imputed_rel_wgt'n
 674           'status_ind'n $
@@ -1179,8 +1180,8 @@ NOTE: 19423 records were read from file '/rpscan/u071439/data/HCPCcrossmapPROCGR
       The maximum record length was 82
 NOTE: Data set "TEMP.HcpcXwalkGRP" has 19423 observation(s) and 11 variable(s)
 NOTE: The data step took :
-      real time : 0.160
-      cpu time  : 0.068
+      real time : 0.176
+      cpu time  : 0.067
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
@@ -1200,16 +1201,16 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.003
+      real time : 0.009
       cpu time  : 0.000
 
 
 MPRINT(IMPORTMETA):  data temp.CancerTreatment;
 682       data temp.CancerTreatment;
 MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_CancerTreatment.csv'
-                     delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-23                                       The WPS System    12:17 Thursday, October 25, 2018     
+23                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+                     delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
 683         infile '/rpscan/u071439/data/JanetMetadata_CancerTreatment.csv' delimiter=',' MISSOV
 683     ! ER DSD firstobs=2 LRECL=32760;
 MPRINT(IMPORTMETA):  informat 'DxCAT'n $5.;
@@ -1257,14 +1258,14 @@ NOTE: 138 records were read from file '/rpscan/u071439/data/JanetMetadata_Cancer
       The maximum record length was 62
 NOTE: Data set "TEMP.CancerTreatment" has 138 observation(s) and 4 variable(s)
 NOTE: The data step took :
-      real time : 0.023
+      real time : 0.038
       cpu time  : 0.002
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-702       FILENAME ##IMPORT CLEAR;
-24                                       The WPS System    12:17 Thursday, October 25, 2018     
+24                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+702       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
 703       *** DxCat mapping into chronic or acute;
 704       %ImportMeta(JanetMetadata_GeneralAssignments.csv,GeneralAssignments);
@@ -1280,7 +1281,7 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.037
+      real time : 0.010
       cpu time  : 0.001
 
 
@@ -1317,9 +1318,9 @@ MPRINT(IMPORTMETA):  run;
 720         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_GeneralAssignments.csv' is:
-      File Name=/rpscan/u071439/data/JanetMetadata_GeneralAssignments.csv,
-25                                       The WPS System    12:17 Thursday, October 25, 2018     
+25                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+      File Name=/rpscan/u071439/data/JanetMetadata_GeneralAssignments.csv,
       Access Permissions=-rwxrwxr--, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
       File Size=24670, Last Modified=13:34:46 Oct 16 2018,
@@ -1331,7 +1332,7 @@ NOTE: 565 records were read from file
       The maximum record length was 76
 NOTE: Data set "TEMP.GeneralAssignments" has 565 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.027
+      real time : 0.025
       cpu time  : 0.002
 
 
@@ -1352,7 +1353,7 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.203
+      real time : 0.220
       cpu time  : 0.081
 
 
@@ -1372,9 +1373,9 @@ MPRINT(IMPORTMETA):  informat 'acg'n $15.;
 729         informat 'acg'n $15.;
 MPRINT(IMPORTMETA):  informat 'hcpcs'n $5.;
 730         informat 'hcpcs'n $5.;
-MPRINT(IMPORTMETA):  informat 'cpttitle'n $128.;
-26                                       The WPS System    12:17 Thursday, October 25, 2018     
+26                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+MPRINT(IMPORTMETA):  informat 'cpttitle'n $128.;
 731         informat 'cpttitle'n $128.;
 MPRINT(IMPORTMETA):  format 'ProcedureName'n $51.;
 732         format 'ProcedureName'n $51.;
@@ -1425,10 +1426,10 @@ NOTE: 18957 records were read from file
       The maximum record length was 178
 NOTE: Data set "TEMP.OPEGLookup" has 18957 observation(s) and 6 variable(s)
 NOTE: The data step took :
-      real time : 0.160
-      cpu time  : 0.038
+      real time : 0.129
+      cpu time  : 0.048
+27                                       The WPS System    18:43 Thursday, October 25, 2018     
 
-27                                       The WPS System    12:17 Thursday, October 25, 2018     
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
@@ -1448,7 +1449,7 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.010
+      real time : 0.011
       cpu time  : 0.000
 
 
@@ -1482,9 +1483,9 @@ MPRINT(IMPORTMETA):  input 'DxCat'n $   'Description'n $   'Significance'n $   ;
 768           'Significance'n $
 MPRINT(IMPORTMETA):  run;
 769         ;
-770         run;
-28                                       The WPS System    12:17 Thursday, October 25, 2018     
+28                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+770         run;
 
 NOTE: The file '/rpscan/u071439/data/JanetMetadata_SignificantConditions.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_SignificantConditions.csv,
@@ -1499,8 +1500,8 @@ NOTE: 296 records were read from file
       The maximum record length was 73
 NOTE: Data set "TEMP.SignificantConditions" has 296 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.046
-      cpu time  : 0.001
+      real time : 0.060
+      cpu time  : 0.002
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
@@ -1520,8 +1521,8 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.429
-      cpu time  : 0.130
+      real time : 0.359
+      cpu time  : 0.143
 
 
 MPRINT(IMPORTMETA):  data temp.ChronicRx;
@@ -1537,9 +1538,9 @@ MPRINT(IMPORTMETA):  informat 'GENERID'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'Prodname'n $64.;
 778         informat 'Prodname'n $64.;
 MPRINT(IMPORTMETA):  informat 'Category'n $11.;
-779         informat 'Category'n $11.;
-29                                       The WPS System    12:17 Thursday, October 25, 2018     
+29                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+779         informat 'Category'n $11.;
 MPRINT(IMPORTMETA):  format 'NDCNUM'n BEST12.;
 780         format 'NDCNUM'n BEST12.;
 MPRINT(IMPORTMETA):  format 'GENERID'n BEST12.;
@@ -1578,8 +1579,8 @@ NOTE: 58539 records were read from file
       The maximum record length was 81
 NOTE: Data set "TEMP.ChronicRx" has 58539 observation(s) and 4 variable(s)
 NOTE: The data step took :
-      real time : 0.291
-      cpu time  : 0.094
+      real time : 0.257
+      cpu time  : 0.116
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
@@ -1592,15 +1593,15 @@ MLOGIC(IMPORTMETA): Parameter INPUTDATA has value JanetMetadata_BodySystem.csv
 MLOGIC(IMPORTMETA): Parameter SASOUTPUT has value BodySystem
 MLOGIC(IMPORTMETA): %IF condition &sasoutput.=SamplewClassification and &skipImport.=1  evaluate
                     d to FALSE
-MPRINT(IMPORTMETA):  PROC IMPORT datafile="/rpscan/u071439/data/JanetMetadata_BodySystem.csv"
-30                                       The WPS System    12:17 Thursday, October 25, 2018     
+30                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+MPRINT(IMPORTMETA):  PROC IMPORT datafile="/rpscan/u071439/data/JanetMetadata_BodySystem.csv"
                      out=temp.BodySystem replace;
 MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.016
+      real time : 0.009
       cpu time  : 0.001
 
 
@@ -1647,9 +1648,9 @@ NOTE: The file '/rpscan/u071439/data/JanetMetadata_BodySystem.csv' is:
       File Name=/rpscan/u071439/data/JanetMetadata_BodySystem.csv,
       Access Permissions=-rwxrwxr--, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
-      File Size=28046, Last Modified=13:34:46 Oct 16 2018,
-31                                       The WPS System    12:17 Thursday, October 25, 2018     
+31                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+      File Size=28046, Last Modified=13:34:46 Oct 16 2018,
       Created=15:53:16 Oct 23 2018, Lrecl=32760, Recfm=V
 
 NOTE: 565 records were read from file '/rpscan/u071439/data/JanetMetadata_BodySystem.csv'
@@ -1657,8 +1658,8 @@ NOTE: 565 records were read from file '/rpscan/u071439/data/JanetMetadata_BodySy
       The maximum record length was 89
 NOTE: Data set "TEMP.BodySystem" has 565 observation(s) and 4 variable(s)
 NOTE: The data step took :
-      real time : 0.077
-      cpu time  : 0.002
+      real time : 0.030
+      cpu time  : 0.003
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
@@ -1678,7 +1679,7 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.005
+      real time : 0.009
       cpu time  : 0.000
 
 
@@ -1702,9 +1703,9 @@ MPRINT(IMPORTMETA):  format 'Stage'n BEST12.;
 827         format 'Stage'n BEST12.;
 MPRINT(IMPORTMETA):  label 'Condition'n = 'Condition';
 828         label 'Condition'n = 'Condition';
-MPRINT(IMPORTMETA):  label 'DxCat'n = 'DxCat';
-32                                       The WPS System    12:17 Thursday, October 25, 2018     
+32                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+MPRINT(IMPORTMETA):  label 'DxCat'n = 'DxCat';
 829         label 'DxCat'n = 'DxCat';
 MPRINT(IMPORTMETA):  label 'Stage'n = 'Stage';
 830         label 'Stage'n = 'Stage';
@@ -1729,7 +1730,7 @@ NOTE: 31 records were read from file
       The maximum record length was 39
 NOTE: Data set "TEMP.TreatmentNavigation" has 31 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.050
+      real time : 0.020
       cpu time  : 0.001
 
 
@@ -1752,14 +1753,14 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.002
+      real time : 0.012
       cpu time  : 0.000
 
 
 MPRINT(IMPORTMETA):  data temp.SurvGeneralActiveCancerDxCat;
-839       data temp.SurvGeneralActiveCancerDxCat;
-33                                       The WPS System    12:17 Thursday, October 25, 2018     
+33                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+839       data temp.SurvGeneralActiveCancerDxCat;
 MPRINT(IMPORTMETA):  infile
                      '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerDxCat.cs
                      v' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
@@ -1805,16 +1806,16 @@ NOTE: 77 records were read from file
       The maximum record length was 71
 NOTE: Data set "TEMP.SurvGeneralActiveCancerDxCat" has 77 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.051
-      cpu time  : 0.001
+      real time : 0.026
+      cpu time  : 0.002
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
 855       FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
-856       *** Import the list of PROCGRP for general active cancer for Surveillance logic;
-34                                       The WPS System    12:17 Thursday, October 25, 2018     
+34                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+856       *** Import the list of PROCGRP for general active cancer for Surveillance logic;
 857       %ImportMeta(JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.csv,SurvGeneralActive
 857     ! CancerPROCGRP);
 MLOGIC(IMPORTMETA): Beginning execution
@@ -1867,8 +1868,8 @@ NOTE: The file '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCanc
       Owner Name=u071439, Group Name=devl,
       File Size=952, Last Modified=13:34:46 Oct 16 2018,
       Created=15:53:14 Oct 23 2018, Lrecl=32760, Recfm=V
+35                                       The WPS System    18:43 Thursday, October 25, 2018     
 
-35                                       The WPS System    12:17 Thursday, October 25, 2018     
 
 NOTE: 25 records were read from file
       '/rpscan/u071439/data/JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.csv'
@@ -1877,7 +1878,7 @@ NOTE: 25 records were read from file
 NOTE: Data set "TEMP.SurvGeneralActiveCancerPROCGRP" has 25 observation(s) and 2 variable(s)
 NOTE: The data step took :
       real time : 0.058
-      cpu time  : 0.001
+      cpu time  : 0.002
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
@@ -1922,12 +1923,12 @@ NOTE: 157 records were read from file
       '/rpscan/u071439/data/JanetMetadata_SurveillanceSpecificActiveCancer.csv'
       The minimum record length was 35
       The maximum record length was 100
-NOTE: Data set "TEMP.SurvSpecificActiveCancer" has 157 observation(s) and 5 variable(s)
-36                                       The WPS System    12:17 Thursday, October 25, 2018     
+36                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+NOTE: Data set "TEMP.SurvSpecificActiveCancer" has 157 observation(s) and 5 variable(s)
 NOTE: The data step took :
-      real time : 0.037
-      cpu time  : 0.001
+      real time : 0.039
+      cpu time  : 0.003
 
 
 897       *** Ujwal's modification regarding temp.SurvSpecificActiveCancer;
@@ -1947,7 +1948,7 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.009
+      real time : 0.002
       cpu time  : 0.000
 
 
@@ -1977,9 +1978,9 @@ MPRINT(IMPORTMETA):  label 'Description'n = 'Description';
 912         label 'Description'n = 'Description';
 913         input    'CodeType'n $
 914           'Code'n
-MPRINT(IMPORTMETA):  input 'CodeType'n $   'Code'n  'Description'n $   ;
-37                                       The WPS System    12:17 Thursday, October 25, 2018     
+37                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+MPRINT(IMPORTMETA):  input 'CodeType'n $   'Code'n  'Description'n $   ;
 915           'Description'n $
 MPRINT(IMPORTMETA):  run;
 916         ;
@@ -1998,7 +1999,7 @@ NOTE: 13 records were read from file
       The maximum record length was 48
 NOTE: Data set "TEMP.SurvMiscellaneous" has 13 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.037
+      real time : 0.095
       cpu time  : 0.001
 
 
@@ -2019,8 +2020,8 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.015
-      cpu time  : 0.001
+      real time : 0.021
+      cpu time  : 0.002
 
 
 MPRINT(IMPORTMETA):  data temp.SurvChemoActive;
@@ -2032,9 +2033,9 @@ MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChem
 MPRINT(IMPORTMETA):  informat 'ndc'n BEST32.;
 923         informat 'ndc'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'therClassCode'n BEST32.;
-924         informat 'therClassCode'n BEST32.;
-38                                       The WPS System    12:17 Thursday, October 25, 2018     
+38                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+924         informat 'therClassCode'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'Inttherclass'n BEST32.;
 925         informat 'Inttherclass'n BEST32.;
 MPRINT(IMPORTMETA):  informat 'therDesc'n $25.;
@@ -2087,9 +2088,9 @@ MPRINT(IMPORTMETA):  label 'Active'n = 'Active';
 949         label 'Active'n = 'Active';
 950         input    'ndc'n
 951           'therClassCode'n
-952           'Inttherclass'n
-39                                       The WPS System    12:17 Thursday, October 25, 2018     
+39                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+952           'Inttherclass'n
 953           'therDesc'n $
 954           'gcrTitles'n $
 955           'genindDesc'n $
@@ -2115,8 +2116,8 @@ NOTE: 308 records were read from file
       The maximum record length was 108
 NOTE: Data set "TEMP.SurvChemoActive" has 308 observation(s) and 9 variable(s)
 NOTE: The data step took :
-      real time : 0.022
-      cpu time  : 0.004
+      real time : 0.051
+      cpu time  : 0.003
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
@@ -2136,15 +2137,15 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.014
-      cpu time  : 0.003
+      real time : 0.025
+      cpu time  : 0.001
 
 
 MPRINT(IMPORTMETA):  data temp.SurvChemoChronic;
 964       data temp.SurvChemoChronic;
-MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoChronic.csv'
-40                                       The WPS System    12:17 Thursday, October 25, 2018     
+40                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+MPRINT(IMPORTMETA):  infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoChronic.csv'
                      delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
 965         infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoChronic.csv' delimiter='
 965     ! ,' MISSOVER DSD firstobs=2 LRECL=32760;
@@ -2197,9 +2198,9 @@ MPRINT(IMPORTMETA):  label 'gcrTitles'n = 'gcrTitles';
 MPRINT(IMPORTMETA):  label 'genindDesc'n = 'genindDesc';
 989         label 'genindDesc'n = 'genindDesc';
 MPRINT(IMPORTMETA):  label 'roa'n = 'roa';
-990         label 'roa'n = 'roa';
-41                                       The WPS System    12:17 Thursday, October 25, 2018     
+41                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+990         label 'roa'n = 'roa';
 MPRINT(IMPORTMETA):  label 'cyle'n = 'cyle';
 991         label 'cyle'n = 'cyle';
 MPRINT(IMPORTMETA):  label 'Active'n = 'Active';
@@ -2232,7 +2233,7 @@ NOTE: 546 records were read from file
       The maximum record length was 106
 NOTE: Data set "TEMP.SurvChemoChronic" has 546 observation(s) and 9 variable(s)
 NOTE: The data step took :
-      real time : 0.041
+      real time : 0.089
       cpu time  : 0.004
 
 
@@ -2252,10 +2253,10 @@ MPRINT(IMPORTMETA):  PROC IMPORT
 MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
-NOTE: Procedure IMPORT step took :
-42                                       The WPS System    12:17 Thursday, October 25, 2018     
+42                                       The WPS System    18:43 Thursday, October 25, 2018     
 
-      real time : 0.001
+NOTE: Procedure IMPORT step took :
+      real time : 0.003
       cpu time  : 0.000
 
 
@@ -2303,13 +2304,13 @@ NOTE: 93 records were read from file '/rpscan/u071439/data/JanetMetadata_Rebalan
       The maximum record length was 15
 NOTE: Data set "TEMP.RebalanceNewDxCat" has 93 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.033
+      real time : 0.078
       cpu time  : 0.001
 
 
-MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
-43                                       The WPS System    12:17 Thursday, October 25, 2018     
+43                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
 1023      FILENAME ##IMPORT CLEAR;
 MLOGIC(IMPORTMETA): Ending execution
 1024      *** Import the list of DxCat for Rebalance, new conditions wo drugs in the prior 90 da
@@ -2327,7 +2328,7 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.009
+      real time : 0.014
       cpu time  : 0.000
 
 
@@ -2362,8 +2363,8 @@ NOTE: The file '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCatwoRx.csv' is
       Owner Name=u071439, Group Name=devl,
       File Size=154, Last Modified=13:34:46 Oct 16 2018,
       Created=15:53:15 Oct 23 2018, Lrecl=32760, Recfm=V
+44                                       The WPS System    18:43 Thursday, October 25, 2018     
 
-44                                       The WPS System    12:17 Thursday, October 25, 2018     
 
 NOTE: 13 records were read from file
       '/rpscan/u071439/data/JanetMetadata_RebalanceNewDxCatwoRx.csv'
@@ -2371,8 +2372,8 @@ NOTE: 13 records were read from file
       The maximum record length was 9
 NOTE: Data set "TEMP.RebalanceNewDxCatwoRx" has 13 observation(s) and 2 variable(s)
 NOTE: The data step took :
-      real time : 0.025
-      cpu time  : 0.002
+      real time : 0.077
+      cpu time  : 0.001
 
 
 MPRINT(IMPORTMETA):  FILENAME ##IMPORT CLEAR;
@@ -2392,7 +2393,7 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.006
+      real time : 0.001
       cpu time  : 0.000
 
 
@@ -2417,9 +2418,9 @@ MPRINT(IMPORTMETA):  label 'Description'n = 'Description';
 1049        input    'ICD'n
 MPRINT(IMPORTMETA):  input 'ICD'n  'Description'n $   ;
 1050          'Description'n $
-MPRINT(IMPORTMETA):  run;
-45                                       The WPS System    12:17 Thursday, October 25, 2018     
+45                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+MPRINT(IMPORTMETA):  run;
 1051        ;
 1052        run;
 
@@ -2435,7 +2436,7 @@ NOTE: 18 records were read from file '/rpscan/u071439/data/JanetMetadata_Rebalan
       The maximum record length was 22
 NOTE: Data set "TEMP.RebalanceNewDx" has 18 observation(s) and 2 variable(s)
 NOTE: The data step took :
-      real time : 0.028
+      real time : 0.071
       cpu time  : 0.001
 
 
@@ -2456,7 +2457,7 @@ MPRINT(IMPORTMETA):  getnames=YES;
 MPRINT(IMPORTMETA):  guessingrows=MAX;
 MPRINT(IMPORTMETA):  run;
 NOTE: Procedure IMPORT step took :
-      real time : 0.002
+      real time : 0.000
       cpu time  : 0.000
 
 
@@ -2472,9 +2473,9 @@ MPRINT(IMPORTMETA):  informat 'Description'n $24.;
 1059        informat 'Description'n $24.;
 MPRINT(IMPORTMETA):  format 'DRG'n BEST12.;
 1060        format 'DRG'n BEST12.;
-MPRINT(IMPORTMETA):  format 'Description'n $24.;
-46                                       The WPS System    12:17 Thursday, October 25, 2018     
+46                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+MPRINT(IMPORTMETA):  format 'Description'n $24.;
 1061        format 'Description'n $24.;
 MPRINT(IMPORTMETA):  label 'DRG'n = 'DRG';
 1062        label 'DRG'n = 'DRG';
@@ -2499,7 +2500,7 @@ NOTE: 9 records were read from file '/rpscan/u071439/data/JanetMetadata_Rebalanc
       The maximum record length was 32
 NOTE: Data set "TEMP.RebalanceNewDRG" has 9 observation(s) and 2 variable(s)
 NOTE: The data step took :
-      real time : 0.042
+      real time : 0.021
       cpu time  : 0.001
 
 
@@ -2527,9 +2528,9 @@ NOTE: Format categories output
 1086      1= 0.933
 1087      2= 0.6
 1088      3= 0.667
-1089      4= 0.865
-47                                       The WPS System    12:17 Thursday, October 25, 2018     
+47                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1089      4= 0.865
 1090      5= 0.667
 1091      6= 0.667
 1092      7= 0.851
@@ -2544,18 +2545,18 @@ NOTE: Format RuleConfidence output
 1100      
 1101      *** sort the sample by ENROLID, it is needed for the last merge at the end;
 NOTE: Procedure format step took :
-      real time : 0.049
+      real time : 0.030
       cpu time  : 0.001
 
 
 1102      proc sort data=temp.SamplewClassification;
 1103      by enrolid;
 1104      run;
-NOTE: 1798 observations were read from "TEMP.SamplewClassification"
-NOTE: Data set "TEMP.SamplewClassification" has 1798 observation(s) and 2 variable(s)
+NOTE: 179 observations were read from "TEMP.SamplewClassification"
+NOTE: Data set "TEMP.SamplewClassification" has 179 observation(s) and 2 variable(s)
 NOTE: Procedure sort step took :
-      real time : 0.074
-      cpu time  : 0.009
+      real time : 0.036
+      cpu time  : 0.007
 
 
 1105      
@@ -2568,8 +2569,8 @@ NOTE: Procedure sort step took :
 NOTE: 58539 observations were read from "TEMP.ChronicRx"
 NOTE: Data set "TEMP.ChronicRx" has 58539 observation(s) and 4 variable(s)
 NOTE: The data step took :
-      real time : 0.102
-      cpu time  : 0.041
+      real time : 0.090
+      cpu time  : 0.037
 
 
 1111      
@@ -2582,11 +2583,11 @@ NOTE: The data step took :
 1118      run;
 
 NOTE: 565 observations were read from "TEMP.GeneralAssignments"
-NOTE: Data set "WORK.trash" has 565 observation(s) and 3 variable(s)
-48                                       The WPS System    12:17 Thursday, October 25, 2018     
+48                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+NOTE: Data set "WORK.trash" has 565 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.029
+      real time : 0.018
       cpu time  : 0.001
 
 
@@ -2594,8 +2595,8 @@ NOTE: The data step took :
 NOTE: Format $DxCatAssign output
 NOTE: 565 observations were read from "WORK.trash"
 NOTE: Procedure format step took :
-      real time : 0.030
-      cpu time  : 0.003
+      real time : 0.018
+      cpu time  : 0.002
 
 
 1120      
@@ -2610,15 +2611,15 @@ NOTE: Procedure format step took :
 NOTE: 296 observations were read from "TEMP.SignificantConditions"
 NOTE: Data set "WORK.trash" has 296 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.037
-      cpu time  : 0.002
+      real time : 0.023
+      cpu time  : 0.001
 
 
 1128      proc format cntlin=trash; run;
 NOTE: Format $DxCatHigh output
 NOTE: 296 observations were read from "WORK.trash"
 NOTE: Procedure format step took :
-      real time : 0.020
+      real time : 0.027
       cpu time  : 0.001
 
 
@@ -2637,14 +2638,14 @@ NOTE: Procedure format step took :
 1140      run;
 
 NOTE: Character values have been converted to numeric values at the places given by:
-      (Line):(Column)
-49                                       The WPS System    12:17 Thursday, October 25, 2018     
+49                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+      (Line):(Column)
       1138:7   
 NOTE: 565 observations were read from "TEMP.BodySystem"
 NOTE: Data set "WORK.trash" has 565 observation(s) and 4 variable(s)
 NOTE: The data step took :
-      real time : 0.037
+      real time : 0.019
       cpu time  : 0.001
 
 
@@ -2652,7 +2653,7 @@ NOTE: The data step took :
 NOTE: Format $DxCatBody output
 NOTE: 565 observations were read from "WORK.trash"
 NOTE: Procedure format step took :
-      real time : 0.020
+      real time : 0.019
       cpu time  : 0.002
 
 
@@ -2670,7 +2671,7 @@ NOTE: Procedure format step took :
 NOTE: 76 observations were read from "TEMP.SurvGeneralActiveCancerDxCat"
 NOTE: Data set "WORK.trash" has 76 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.043
+      real time : 0.033
       cpu time  : 0.001
 
 
@@ -2678,8 +2679,8 @@ NOTE: The data step took :
 NOTE: Format $SurvActiveCancerDxcat output
 NOTE: 76 observations were read from "WORK.trash"
 NOTE: Procedure format step took :
-      real time : 0.015
-      cpu time  : 0.000
+      real time : 0.038
+      cpu time  : 0.001
 
 
 1152      
@@ -2692,13 +2693,13 @@ NOTE: Procedure format step took :
 1158      label='Y';
 1159      fmtname='$SurvActiveCancerPxDxcat';
 1160      run;
+50                                       The WPS System    18:43 Thursday, October 25, 2018     
 
-50                                       The WPS System    12:17 Thursday, October 25, 2018     
 
 NOTE: 1 observations were read from "TEMP.SurvGeneralActiveCancerDxCat"
 NOTE: Data set "WORK.trash" has 1 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.050
+      real time : 0.043
       cpu time  : 0.001
 
 
@@ -2706,7 +2707,7 @@ NOTE: The data step took :
 NOTE: Format $SurvActiveCancerPxDxcat output
 NOTE: 1 observations were read from "WORK.trash"
 NOTE: Procedure format step took :
-      real time : 0.019
+      real time : 0.014
       cpu time  : 0.000
 
 
@@ -2723,7 +2724,7 @@ NOTE: Procedure format step took :
 NOTE: 25 observations were read from "TEMP.SurvGeneralActiveCancerPROCGRP"
 NOTE: Data set "WORK.trash_1" has 25 observation(s) and 3 variable(s)
 NOTE: The data step took :
-      real time : 0.039
+      real time : 0.028
       cpu time  : 0.001
 
 
@@ -2731,7 +2732,7 @@ NOTE: The data step took :
 NOTE: Format SurvActiveCancerPROCGRP output
 NOTE: 25 observations were read from "WORK.trash_1"
 NOTE: Procedure format step took :
-      real time : 0.020
+      real time : 0.019
       cpu time  : 0.000
 
 
@@ -2747,9 +2748,9 @@ NOTE: Procedure format step took :
 1180      
 1181      
 1182      
-1183      
-51                                       The WPS System    12:17 Thursday, October 25, 2018     
+51                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1183      
 1184      
 1185      
 1186      
@@ -2802,9 +2803,9 @@ NOTE: Procedure format step took :
 1230      		SEX
 1231      		PROC1
 1232      		DX1-DX4
-1233      		%if &Prevyear. >= 2015 %then DXVER;
-52                                       The WPS System    12:17 Thursday, October 25, 2018     
+52                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1233      		%if &Prevyear. >= 2015 %then DXVER;
 1234      		SVCSCAT
 1235      		SVCDATE
 1236      		MSCLMID
@@ -2857,9 +2858,9 @@ NOTE: Procedure format step took :
 1278      	run;
 1279      	data temp.ccaed&MSversionNext.;
 1280      	set
-1281      		arch&Nextyear..ccaed&MSversionNext.(where=(svcdate <= &StartDate. + 366))
-53                                       The WPS System    12:17 Thursday, October 25, 2018     
+53                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1281      		arch&Nextyear..ccaed&MSversionNext.(where=(svcdate <= &StartDate. + 366))
 1282      		arch&year..ccaed&MSversion.(where=(svcdate > &StartDate.));		
 1283      	keep
 1284      		ENROLID
@@ -2912,9 +2913,9 @@ NOTE: Procedure format step took :
 1327      	keep
 1328      		ENROLID
 1329      		FACHDID
-1330      		CASEID;
-54                                       The WPS System    12:17 Thursday, October 25, 2018     
+54                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1330      		CASEID;
 1331      	if a then FACHDID=10**11+FACHDID; /* avoid duplicates for FACHDID, modify it only for
 1331    !  current year, numeric length is 6 max=132E9 */
 1332      	if a then CASEID=10**11+CASEID;   /* avoid duplicates for CASEID, modify it only for 
@@ -2967,9 +2968,9 @@ MLOGIC(LIBSETUP): Ending execution
 1367      *** summarize the inpatient data ***;
 1368      ************************************;
 1369      
-1370      *** get all the inpatient data from the matched IDs;
-55                                       The WPS System    12:17 Thursday, October 25, 2018     
+55                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1370      *** get all the inpatient data from the matched IDs;
 1371      PROC SQL;
 1372      Create Table trash201 as select
 1373      	a.enrolid,
@@ -2988,7 +2989,7 @@ MLOGIC(LIBSETUP): Ending execution
 1386      Order by
 1387      	a.enrolid,
 1388      	a.admdate;
-NOTE: Data set "WORK.trash201" has 60 observation(s) and 8 variable(s)
+NOTE: Data set "WORK.trash201" has 4 observation(s) and 8 variable(s)
 1389      
 1390      *** bring in the chronic/acute info based on principal PDx;
 1391      Create Table temp.SampleInp1 as select
@@ -3003,12 +3004,12 @@ NOTE: Data set "WORK.trash201" has 60 observation(s) and 8 variable(s)
 1400      Order by
 1401      	a.enrolid,
 1402      	a.admdate;
-NOTE: Data set "TEMP.SampleInp1" has 60 observation(s) and 9 variable(s)
+NOTE: Data set "TEMP.SampleInp1" has 4 observation(s) and 9 variable(s)
 1403      ;
 1404      Quit;
 NOTE: Procedure SQL step took :
-      real time : 8.167
-      cpu time  : 1.134
+      real time : 8.919
+      cpu time  : 1.110
 
 
 1405      
@@ -3022,9 +3023,9 @@ NOTE: Procedure SQL step took :
 1412      *** count the unique(ENROLID+admdate) admits in the past 3 months;
 1413      Create View work.trash202 as
 1414      		Select
-1415      			enrolid,
-56                                       The WPS System    12:17 Thursday, October 25, 2018     
+56                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1415      			enrolid,
 1416      			count(distinct admdate) as CountAdm3mAll
 1417      		From
 1418      			temp.SampleInp1
@@ -3077,9 +3078,9 @@ NOTE: View WORK.trash204 successfully created
 1460      			enrolid;
 NOTE: View WORK.trash205 successfully created
 1461      
-1462      *** sum all LOS in the past 90 days;
-57                                       The WPS System    12:17 Thursday, October 25, 2018     
+57                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1462      *** sum all LOS in the past 90 days;
 1463      Create View work.trash206 as
 1464      		Select
 1465      			enrolid,
@@ -3132,9 +3133,9 @@ NOTE: View WORK.trash209 successfully created
 1508      *** Days to the last medical admission(admdate) in the past year;
 1509      Create View work.trash210 as
 1510      		Select
-1511      			enrolid,
-58                                       The WPS System    12:17 Thursday, October 25, 2018     
+58                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1511      			enrolid,
 1512      			&StartDate. - max(admdate) as DaysMedicalAdm
 1513      		From
 1514      			temp.SampleInp1
@@ -3172,7 +3173,7 @@ NOTE: View WORK.trash211 successfully created
 NOTE: View WORK.trash212 successfully created
 1543      Quit;
 NOTE: Procedure SQL step took :
-      real time : 0.387
+      real time : 0.269
       cpu time  : 0.007
 
 
@@ -3187,9 +3188,9 @@ NOTE: Procedure SQL step took :
 1552      	trash205(in=d)
 1553      	trash206(in=e)
 1554      	trash207(in=f)
-1555      	trash208(in=g)
-59                                       The WPS System    12:17 Thursday, October 25, 2018     
+59                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1555      	trash208(in=g)
 1556      	trash209(in=h)
 1557      	trash210(in=i)
 1558      	trash211(in=j)
@@ -3211,21 +3212,21 @@ NOTE: View opening spill file for output observations.
 NOTE: View opening spill file for output observations.
 NOTE: View opening spill file for output observations.
 NOTE: View opening spill file for output observations.
-NOTE: 19 observations were read from "WORK.trash202"
-NOTE: 8 observations were read from "WORK.trash203"
-NOTE: 33 observations were read from "WORK.trash204"
-NOTE: 10 observations were read from "WORK.trash205"
-NOTE: 19 observations were read from "WORK.trash206"
-NOTE: 56 observations were read from "WORK.trash207"
-NOTE: 21 observations were read from "WORK.trash208"
-NOTE: 9 observations were read from "WORK.trash209"
-NOTE: 20 observations were read from "WORK.trash210"
-NOTE: 21 observations were read from "WORK.trash211"
-NOTE: 7 observations were read from "WORK.trash212"
-NOTE: Data set "WORK.trash213" has 56 observation(s) and 12 variable(s)
+NOTE: 0 observations were read from "WORK.trash202"
+NOTE: 0 observations were read from "WORK.trash203"
+NOTE: 1 observations were read from "WORK.trash204"
+NOTE: 0 observations were read from "WORK.trash205"
+NOTE: 0 observations were read from "WORK.trash206"
+NOTE: 4 observations were read from "WORK.trash207"
+NOTE: 0 observations were read from "WORK.trash208"
+NOTE: 0 observations were read from "WORK.trash209"
+NOTE: 1 observations were read from "WORK.trash210"
+NOTE: 3 observations were read from "WORK.trash211"
+NOTE: 0 observations were read from "WORK.trash212"
+NOTE: Data set "WORK.trash213" has 4 observation(s) and 12 variable(s)
 NOTE: The data step took :
-      real time : 0.384
-      cpu time  : 0.018
+      real time : 0.300
+      cpu time  : 0.015
 
 
 1565      
@@ -3242,9 +3243,9 @@ NOTE: The data step took :
 1576      	min(365,DaysAnyAdm)				as DaysAnyAdm,
 1577      	min(365,DaysChronicAdm)			as DaysChronicAdm,
 1578      	min(365,DaysSurgAdm)			as DaysSurgAdm,
-1579      	min(365,DaysMedicalAdm)			as DaysMedicalAdm,
-60                                       The WPS System    12:17 Thursday, October 25, 2018     
+60                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1579      	min(365,DaysMedicalAdm)			as DaysMedicalAdm,
 1580      	min(365,DaysMtrntyAdm)			as DaysMtrntyAdm,
 1581      	min(365,DaysMHSAAdm)			as DaysMHSAAdm
 1582      From
@@ -3256,7 +3257,7 @@ NOTE: The data step took :
 1588      Order by
 1589      	a.enrolid;
 NOTE: View opening spill file for output observations.
-NOTE: Data set "TEMP.IP" has 1798 observation(s) and 12 variable(s)
+NOTE: Data set "TEMP.IP" has 179 observation(s) and 12 variable(s)
 1590      
 1591      
 1592      *** summarize the drugs data ***;
@@ -3264,8 +3265,8 @@ NOTE: Data set "TEMP.IP" has 1798 observation(s) and 12 variable(s)
 1594      
 1595      *** get all the drugs data from the matched IDs;
 NOTE: Procedure SQL step took :
-      real time : 0.498
-      cpu time  : 0.033
+      real time : 0.298
+      cpu time  : 0.019
 
 
 1596      PROC SQL;
@@ -3285,7 +3286,7 @@ NOTE: Procedure SQL step took :
 1610      Order by
 1611      	a.enrolid,
 1612      	a.svcdate;
-NOTE: Data set "WORK.trash301" has 14885 observation(s) and 7 variable(s)
+NOTE: Data set "WORK.trash301" has 1453 observation(s) and 7 variable(s)
 1613      
 1614      *** bring in the maintenance flag for the Rx based on metadata table;
 1615      Create Table temp.SampleRx1 as select
@@ -3297,17 +3298,17 @@ NOTE: Data set "WORK.trash301" has 14885 observation(s) and 7 variable(s)
 1621      	temp.ChronicRx		as b
 1622      On
 1623      	a.ndcnum=b.ndcnum
-1624      Order by
-61                                       The WPS System    12:17 Thursday, October 25, 2018     
+61                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1624      Order by
 1625      	a.enrolid,
 1626      	a.svcdate;
-NOTE: Data set "TEMP.SampleRx1" has 14885 observation(s) and 8 variable(s)
+NOTE: Data set "TEMP.SampleRx1" has 1453 observation(s) and 8 variable(s)
 1627      ;
 1628      Quit;
 NOTE: Procedure SQL step took :
-      real time : 10:40.876
-      cpu time  : 1:56.850
+      real time : 8:21.547
+      cpu time  : 1:57.049
 
 
 1629      
@@ -3333,8 +3334,8 @@ NOTE: View WORK.trash302 successfully created
 1647      *** count of the new maintenance drugs in the past 90 days where no drugs in same ther
 1647    ! cls is found before;
 NOTE: Procedure sql step took :
-      real time : 0.064
-      cpu time  : 0.000
+      real time : 0.027
+      cpu time  : 0.001
 
 
 1648      proc sql;
@@ -3352,9 +3353,9 @@ NOTE: Procedure sql step took :
 1660      			enrolid,
 1661      			thercls;
 NOTE: View WORK.trash3031 successfully created
-1662      
-62                                       The WPS System    12:17 Thursday, October 25, 2018     
+62                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1662      
 1663      Create View work.trash3032 as
 1664      		Select distinct
 1665      			enrolid,
@@ -3387,8 +3388,8 @@ NOTE: View WORK.trash303 successfully created
 1690      
 1691      *** count of days supply in the past 90/180 days;
 NOTE: Procedure sql step took :
-      real time : 0.091
-      cpu time  : 0.002
+      real time : 0.058
+      cpu time  : 0.001
 
 
 1692      proc sql;
@@ -3407,16 +3408,16 @@ NOTE: Procedure sql step took :
 1701    ! (&OpiatesGNID.))) 	as CountDaysSuppOpiates6m
 1702      		From
 1703      			temp.SampleRx1
-1704      		Group by
-63                                       The WPS System    12:17 Thursday, October 25, 2018     
+63                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1704      		Group by
 1705      			enrolid;
 NOTE: View WORK.trash304 successfully created
 1706      
 1707      *** count of unique all/maintenance(Chronic) therapeutic classes  in the past 90/180 d
 1707    ! ays;
 NOTE: Procedure sql step took :
-      real time : 0.030
+      real time : 0.031
       cpu time  : 0.000
 
 
@@ -3433,8 +3434,8 @@ NOTE: Procedure sql step took :
 1718      			enrolid;
 NOTE: View WORK.trash305 successfully created
 NOTE: Procedure sql step took :
-      real time : 0.035
-      cpu time  : 0.001
+      real time : 0.029
+      cpu time  : 0.000
 
 
 1719      
@@ -3451,7 +3452,7 @@ NOTE: Procedure sql step took :
 1730      			enrolid;
 NOTE: View WORK.trash306 successfully created
 NOTE: Procedure sql step took :
-      real time : 0.023
+      real time : 0.027
       cpu time  : 0.000
 
 
@@ -3462,9 +3463,9 @@ NOTE: Procedure sql step took :
 1735      			enrolid,
 1736      			count(distinct thercls)		as CountTherClassChronic3m
 1737      		From
-1738      			temp.SampleRx1
-64                                       The WPS System    12:17 Thursday, October 25, 2018     
+64                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1738      			temp.SampleRx1
 1739      		Where
 1740      			svcdate > &StartDate.-90	and
 1741      			category="Maintenance"
@@ -3472,7 +3473,7 @@ NOTE: Procedure sql step took :
 1743      			enrolid;
 NOTE: View WORK.trash307 successfully created
 NOTE: Procedure sql step took :
-      real time : 0.037
+      real time : 0.030
       cpu time  : 0.000
 
 
@@ -3493,8 +3494,8 @@ NOTE: View WORK.trash308 successfully created
 1757      
 1758      *** put all the drugs related variables together;
 NOTE: Procedure sql step took :
-      real time : 0.030
-      cpu time  : 0.001
+      real time : 0.029
+      cpu time  : 0.000
 
 
 1759      DATA
@@ -3517,24 +3518,24 @@ NOTE: View opening spill file for output observations.
 NOTE: View opening spill file for output observations.
 NOTE: View opening spill file for output observations.
 NOTE: View opening spill file for output observations.
-NOTE: View opening spill file for output observations.
-65                                       The WPS System    12:17 Thursday, October 25, 2018     
+65                                       The WPS System    18:43 Thursday, October 25, 2018     
 
 NOTE: View opening spill file for output observations.
 NOTE: View opening spill file for output observations.
 NOTE: View opening spill file for output observations.
 NOTE: View opening spill file for output observations.
-NOTE: 1134 observations were read from "WORK.trash302"
-NOTE: 499 observations were read from "WORK.trash303"
-NOTE: 1134 observations were read from "WORK.trash304"
-NOTE: 825 observations were read from "WORK.trash305"
-NOTE: 966 observations were read from "WORK.trash306"
-NOTE: 499 observations were read from "WORK.trash307"
-NOTE: 553 observations were read from "WORK.trash308"
-NOTE: Data set "WORK.trash311" has 1134 observation(s) and 13 variable(s)
+NOTE: View opening spill file for output observations.
+NOTE: 112 observations were read from "WORK.trash302"
+NOTE: 55 observations were read from "WORK.trash303"
+NOTE: 112 observations were read from "WORK.trash304"
+NOTE: 81 observations were read from "WORK.trash305"
+NOTE: 98 observations were read from "WORK.trash306"
+NOTE: 55 observations were read from "WORK.trash307"
+NOTE: 58 observations were read from "WORK.trash308"
+NOTE: Data set "WORK.trash311" has 112 observation(s) and 13 variable(s)
 NOTE: The data step took :
-      real time : 0.903
-      cpu time  : 0.067
+      real time : 0.771
+      cpu time  : 0.029
 
 
 1774      
@@ -3564,7 +3565,7 @@ NOTE: The data step took :
 1798      Order by
 1799      	a.enrolid;
 NOTE: View opening spill file for output observations.
-NOTE: Data set "TEMP.Rx" has 1798 observation(s) and 13 variable(s)
+NOTE: Data set "TEMP.Rx" has 179 observation(s) and 13 variable(s)
 1800      
 1801      
 1802      *** summarize the diagnosis from both OP+IP data ***;
@@ -3572,12 +3573,12 @@ NOTE: Data set "TEMP.Rx" has 1798 observation(s) and 13 variable(s)
 1804      
 1805      *** prepare the data for AE;
 1806      *** get all the inpatient and outpatient data from the matched IDs and the variables n
-1806    ! eeded to run DS in Analytics Engine;
-66                                       The WPS System    12:17 Thursday, October 25, 2018     
+66                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1806    ! eeded to run DS in Analytics Engine;
 NOTE: Procedure SQL step took :
-      real time : 0.510
-      cpu time  : 0.037
+      real time : 0.358
+      cpu time  : 0.018
 
 
 1807      PROC SQL;
@@ -3606,7 +3607,7 @@ NOTE: Procedure SQL step took :
 1830      Order by
 1831      	patient_id,
 1832      	record_identifier;
-NOTE: Data set "WORK.trash401" has 1673 observation(s) and 16 variable(s)
+NOTE: Data set "WORK.trash401" has 62 observation(s) and 16 variable(s)
 1833      ;
 1834      
 1835      Create Table trash402 as select
@@ -3627,42 +3628,42 @@ NOTE: Data set "WORK.trash401" has 1673 observation(s) and 16 variable(s)
 1850      	svcscat 														as custom2,
 1851      	svcdate															as custom3
 1852      From
-1853      	arch&year..ccaeo&MSversion.			as a,
-67                                       The WPS System    12:17 Thursday, October 25, 2018     
+67                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1853      	arch&year..ccaeo&MSversion.			as a,
 1854      	temp.SamplewClassification	as b
 1855      Where
 1856      	a.enrolid=b.enrolid
 1857      Order by
 1858      	patient_id,
 1859      	record_identifier;
-NOTE: Data set "WORK.trash402" has 32490 observation(s) and 16 variable(s)
+NOTE: Data set "WORK.trash402" has 2821 observation(s) and 16 variable(s)
 1860      ;
 1861      
 1862      *** put together inp and outpatient data and sort and dedup (for DS we need unique pat
 1862    ! ient/eventIDs;
 NOTE: Procedure SQL step took :
-      real time : 29:40.393
-      cpu time  : 9:26.202
+      real time : 59:43.027
+      cpu time  : 8:31.136
 
 
 1863      data temp.IPandOPforAE; set trash401 trash402; by patient_id record_identifier; run;
 
-NOTE: 1673 observations were read from "WORK.trash401"
-NOTE: 32490 observations were read from "WORK.trash402"
-NOTE: Data set "TEMP.IPandOPforAE" has 34163 observation(s) and 16 variable(s)
+NOTE: 62 observations were read from "WORK.trash401"
+NOTE: 2821 observations were read from "WORK.trash402"
+NOTE: Data set "TEMP.IPandOPforAE" has 2883 observation(s) and 16 variable(s)
 NOTE: The data step took :
-      real time : 0.139
-      cpu time  : 0.027
+      real time : 0.072
+      cpu time  : 0.004
 
 
 1864      proc sort data=temp.IPandOPforAE nodupkey; by patient_id record_identifier; run;
-NOTE: 34163 observations were read from "TEMP.IPandOPforAE"
+NOTE: 2883 observations were read from "TEMP.IPandOPforAE"
 NOTE: No observations with duplicate sort keys were found
-NOTE: Data set "TEMP.IPandOPforAE" has 34163 observation(s) and 16 variable(s)
+NOTE: Data set "TEMP.IPandOPforAE" has 2883 observation(s) and 16 variable(s)
 NOTE: Procedure sort step took :
-      real time : 0.170
-      cpu time  : 0.055
+      real time : 0.102
+      cpu time  : 0.013
 
 
 1865      
@@ -3678,13 +3679,13 @@ NOTE: Procedure export step took :
 
 
 1872      data _null_;
-1873        file '/rpscan/u071439/AEout/31DEC2015_10242018/31DEC2015_10242018.csv' delimiter=','
-1873    !  DSD DROPOVER LRECL=186;
+1873        file '/rpscan/u071439/AEout/31DEC2015Client200_10252018/31DEC2015Client200_10252018.
+1873    ! csv' delimiter=',' DSD DROPOVER LRECL=186;
 1874        format patient_id BEST12.;
 1875        format fac_prof $1.;
-1876        format record_identifier $16.;
-68                                       The WPS System    12:17 Thursday, October 25, 2018     
+68                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+1876        format record_identifier $16.;
 1877        format age BEST12.;
 1878        format sex $1.;
 1879        format icd_proc1 $7.;
@@ -3736,23 +3737,25 @@ NOTE: Procedure export step took :
 1925        put custom3;
 1926      run;
 
-NOTE: The file '/rpscan/u071439/AEout/31DEC2015_10242018/31DEC2015_10242018.csv' is:
-      File Name=/rpscan/u071439/AEout/31DEC2015_10242018/31DEC2015_10242018.csv,
-69                                       The WPS System    12:17 Thursday, October 25, 2018     
+NOTE: The file
+69                                       The WPS System    18:43 Thursday, October 25, 2018     
 
+      '/rpscan/u071439/AEout/31DEC2015Client200_10252018/31DEC2015Client200_10252018.csv' is:
+      File
+      Name=/rpscan/u071439/AEout/31DEC2015Client200_10252018/31DEC2015Client200_10252018.csv,
       Access Permissions=-rw-rw-r--, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
-      File Size=0, Last Modified=12:57:40 Oct 25 2018,
-      Created=12:57:40 Oct 25 2018, Lrecl=186, Recfm=V
+      File Size=0, Last Modified=19:51:34 Oct 25 2018,
+      Created=19:51:34 Oct 25 2018, Lrecl=186, Recfm=V
 
-NOTE: 34164 records were written to file
-      '/rpscan/u071439/AEout/31DEC2015_10242018/31DEC2015_10242018.csv'
+NOTE: 2884 records were written to file
+      '/rpscan/u071439/AEout/31DEC2015Client200_10252018/31DEC2015Client200_10252018.csv'
       The minimum record length was 56
       The maximum record length was 123
-NOTE: 34163 observations were read from "TEMP.IPandOPforAE"
+NOTE: 2883 observations were read from "TEMP.IPandOPforAE"
 NOTE: The data step took :
-      real time : 0.305
-      cpu time  : 0.147
+      real time : 0.050
+      cpu time  : 0.013
 
 
 1927      FILENAME ##EXPOUT CLEAR;
@@ -3767,21 +3770,23 @@ NOTE: The data step took :
 1936      run;
 
 NOTE: The file AEconfig is:
-      File Name=/rpscan/u071439/AEout/31DEC2015_10242018/popclass_prototype_rerun_config.txt,
+      File
+      Name=/rpscan/u071439/AEout/31DEC2015Client200_10252018/popclass_prototype_rerun_config.txt
+      ,
       Access Permissions=-rw-rw-r--, Number of Links=1,
       Owner Name=u071439, Group Name=devl,
-      File Size=0, Last Modified=12:57:40 Oct 25 2018,
-      Created=12:57:40 Oct 25 2018, Lrecl=256, Recfm=V
+      File Size=0, Last Modified=19:51:34 Oct 25 2018,
+      Created=19:51:34 Oct 25 2018, Lrecl=256, Recfm=V
 
 NOTE: 3 records were written to file AEconfig
       The minimum record length was 17
-      The maximum record length was 69
+      The maximum record length was 78
 NOTE: The data step took :
-      real time : 0.002
-      cpu time  : 0.005
+      real time : 0.006
+      cpu time  : 0.002
 
 
 
 NOTE: Submitted statements took :
-      real time : 40:38.804
-      cpu time  : 11:26.002
+      real time : 1:08:21.393
+      cpu time  : 0:10:30.881

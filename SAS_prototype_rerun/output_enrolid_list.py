@@ -10,7 +10,7 @@ import pandas as pd
 
 df = pd.read_csv('/Users/yuchenli/Box Sync/Yuchen_project/Popclass/'
                  'SAS_prototype_rerun_reference_tables/'
-                 '31DEC2014_10242018.csv')
+                 '31DEC2015Client200_10252018.csv')
 
 df['patient_id'].count()
 df['patient_id'].nunique()
@@ -21,12 +21,12 @@ counts = df['patient_id'].value_counts().to_dict()
 
 df_1 = pd.read_csv('/Users/yuchenli/Box Sync/Yuchen_project/Popclass/'
                  'SAS_prototype_rerun_reference_tables/'
-                 '31DEC2014_10242018_SamplewClassification.csv')
+                 '31DEC2015Client200_10252018_SamplewClassification.csv')
 
 df_1['ENROLID'].count()
 df_1['ENROLID'].nunique()
 
-counts_1 = df['patient_id'].value_counts().to_dict()
+counts_1 = df_1['ENROLID'].value_counts().to_dict()
 
 
 

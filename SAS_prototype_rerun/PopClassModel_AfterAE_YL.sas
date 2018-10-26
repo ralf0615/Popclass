@@ -11,7 +11,7 @@ Options obs=max mprint mlogic;
 %Let MSversion    =153;
 %Let MSversionNext=162;
 %Let StartDate='31DEC2015'd; /* always choose the end of month */
-%let version=31DEC2015_10242018;
+%let version=31DEC2015Client200_10252018;
 %Let AEoutpath=/rpscan/u071439/AEout/&version.;
 %Let outpath=/rpscan/u071439/output/&version.;
 %Let username=u071439;
@@ -56,7 +56,7 @@ libname arch&Nextyear. "/rpscan/u071439/temp/&version.";
 * Beginning of Ujwal's modification;
 * Import a list of 2000 enrolid;
 PROC IMPORT
-DATAFILE='/rpscan/u071439/data/enrolids_2000.csv'
+DATAFILE='/rpscan/u071439/data/enrolids_200.csv'
 OUT=enrolids
 DBMS=CSV
 REPLACE;
@@ -259,8 +259,52 @@ run;
 
 *** Import the list of PROCGRP for miscellaneous for Surveillance logic;
 %ImportMeta(JanetMetadata_SurveillanceMiscellaneous.csv,SurvMiscellaneous);
+
+
+
+*** Yuchen's modification regarding temp.SurvChemoActive;
 *** Import the list of PROCGRP for Chemo Active for Surveillance;
-%ImportMeta(JanetMetadata_SurveillanceChemoActive.csv,SurvChemoActive);
+data  temp.SurvChemoActive;
+infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoActive.csv' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
+informat 'ndc'n BEST32.;
+informat 'therClassCode'n BEST32.;
+informat 'Inttherclass'n BEST32.;
+informat 'therDesc'n $51.;
+informat 'gcrTitles'n $51.;
+informat 'genindDesc'n $51.;
+informat 'roa'n $51.;
+informat 'cycle'n $51.;
+informat 'active'n $51.;
+format 'ndc'n BEST32.;
+format 'therClassCode'n BEST32.;
+format 'Inttherclass'n BEST32.;
+format 'therDesc'n $51.;
+format 'gcrTitles'n $51.;
+format 'genindDesc'n $51.;
+format 'roa'n $51.;
+format 'cycle'n $51.;
+format 'active'n $51.;
+label 'ndc'n = 'ndc';
+label 'therClassCode'n = 'therClassCode';
+label 'Inttherclass'n = 'Inttherclass';
+label 'therDesc'n = 'therDesc';
+label 'gcrTitles'n = 'gcrTitles';
+label 'genindDesc'n = 'genindDesc';
+label 'roa'n = 'roa';
+label 'cycle'n = 'cycle';
+label 'active'n = 'active';
+input  'ndc'n
+'therClassCode'n
+'Inttherclass'n
+'therDesc'n $
+'gcrTitles'n $
+'genindDesc'n $
+'roa'n $
+'cycle'n $
+'active'n $;
+run;
+
+
 *** Import the list of PROCGRP for Chemo Chronic for Surveillance;
 %ImportMeta(JanetMetadata_SurveillanceChemoChronic.csv,SurvChemoChronic);
 *** Import the list of DxCat for Rebalance, new conditions;
@@ -1181,7 +1225,7 @@ Order by
 
 *************************************************************;
 *** Merge all the variables from all claims OP/IP/Rx together;
-*** Note: deleted 'temp.Rx        (in=c)'
+*** Note: deleted 'temp.Rx        (in=c)';
 data temp.AllModelInputs;
 merge
 	temp.SamplewClassification(in=orig)

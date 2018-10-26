@@ -5,18 +5,18 @@
 
 Options obs=max mprint mlogic;
 
-%Let Prevyear=2013;
-%Let     year=2014;
-%Let Nextyear=2015;
-%Let MSversionPrev=133;
-%Let MSversion    =143;
-%Let MSversionNext=152;
-%Let StartDate='31DEC2014'd; /* always choose the end of month */
-%let version=31DEC2014_10242018;
+%Let Prevyear=2014;
+%Let     year=2015;
+%Let Nextyear=2016;
+%Let MSversionPrev=143;
+%Let MSversion    =153;
+%Let MSversionNext=162;
+%Let StartDate='31DEC2015'd; /* always choose the end of month */
+%let version=31DEC2015Client200_10252018;
 %Let AEoutpath=/rpscan/u071439/AEout/&version.;
 %Let outpath=/rpscan/u071439/output/&version.;
 %Let username=u071439;
-%Let createMScopy=0;  /* set this to 1 if we want to create the MarketScan version */ 
+%Let createMScopy=0;  /* set this to 1 if we want to create the MarketScan version */
 %Let skipImport=1; /* set this to 1 if we create directly the SAS dataset SamplewClassification and we want to skip the import */
 
 x "mkdir -p /rpscan/u071439/temp/&version.";
@@ -57,7 +57,7 @@ libname temp "/rpscan/u071439/temp/&version.";
 * Beginning of Ujwal's modification;
 * Import a list of 2000 enrolid;
 PROC IMPORT
-    DATAFILE='/rpscan/u071439/data/enrolids_2000.csv'
+    DATAFILE='/rpscan/u071439/data/enrolids_200.csv'
     OUT=enrolids
     DBMS=CSV
     REPLACE;

@@ -11,7 +11,7 @@ Options obs=max mprint mlogic;
 %Let MSversion    =153;
 %Let MSversionNext=162;
 %Let StartDate='31DEC2015'd; /* always choose the end of month */
-%let version=31DEC2015_10242018;
+%let version=31DEC2015Client200_10252018;
 %Let AEoutpath=/rpscan/u071439/AEout/&version.;
 %Let outpath=/rpscan/u071439/output/&version.;
 %Let username=u071439;
@@ -57,7 +57,7 @@ libname arch&Nextyear. "/rpscan/u071439/temp/&version.";
 * Beginning of Ujwal's modification regarding setting up SamplewClassification;
 * Import a list of 2000 enrolid;
 PROC IMPORT
-DATAFILE='/rpscan/u071439/data/enrolids_2000.csv'
+DATAFILE='/rpscan/u071439/data/enrolids_200.csv'
 OUT=enrolids
 DBMS=CSV
 REPLACE;
