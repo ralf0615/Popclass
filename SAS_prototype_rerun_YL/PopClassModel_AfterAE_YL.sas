@@ -11,7 +11,7 @@ Options obs=max mprint mlogic;
 %Let MSversion    =153;
 %Let MSversionNext=162;
 %Let StartDate='31DEC2015'd; /* always choose the end of month */
-%let version=31DEC2015Client200_10252018;
+%let version=31DEC2015Enrolids200_10252018;
 %Let AEoutpath=/rpscan/u071439/AEout/&version.;
 %Let outpath=/rpscan/u071439/output/&version.;
 %Let username=u071439;
@@ -47,14 +47,16 @@ libname arch&Nextyear. "/rpscan/u071439/temp/&version.";
 %let ConditionDxCatStage=3;
 %let ConditionDxCatER='PSY';
 %let ConditionDRG='280','281','282','283','284','285','239','241','474','475','476','616','617','618','619','620','621','003','004','011','012','013','240';
+
 %let ConditionAdminType='4';
+
 %let ConditionProcGRP='0090','0095','2370','1045','4580','4585';
 *** NeoNates;
 %let NeonatesDRGList=790,791,792,793,794,795;
 
 
 * Beginning of Ujwal's modification;
-* Import a list of 2000 enrolid;
+* Import a list of 200 enrolid;
 PROC IMPORT
 DATAFILE='/rpscan/u071439/data/enrolids_200.csv'
 OUT=enrolids
@@ -207,8 +209,12 @@ getnames=YES;
 guessingrows=MAX;
 run;
 %mend ImportMeta;
+
+*** Modified;
 *** sample of 100 patients with classification;
-%ImportMeta(AllClientSample&version..csv,SamplewClassification);
+*** %ImportMeta(AllClientSample&version..csv,SamplewClassification);
+
+
 *** Crossmap from HCPC codes to Procedure Groups --- not used anymore;
 %ImportMeta(HCPCcrossmapPROCGRP16r2.csv,HcpcXwalkGRP);*/
 *** List of DxCat and HCPC that define cancer treamtent;
@@ -231,7 +237,10 @@ run;
 %ImportMeta(JanetMetadata_SurveillanceGeneralActiveCancerPROCGRP.csv,SurvGeneralActiveCancerPROCGRP);
 
 
-*** Ujwal's modification regarding temp.SurvSpecificActiveCancer;
+*** Modified ;
+*** Import the list of PROCGRP for specific active cancer for Surveillance logic;
+*** %ImportMeta(JanetMetadata_SurveillanceSpecificActiveCancer.csv,SurvSpecificActiveCancer);
+*** line 144 - Q2043;
 data  temp.SurvSpecificActiveCancer;
 infile '/rpscan/u071439/data/JanetMetadata_SurveillanceSpecificActiveCancer.csv' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
 informat 'DxCat'n $5.;
@@ -259,60 +268,50 @@ run;
 
 *** Import the list of PROCGRP for miscellaneous for Surveillance logic;
 %ImportMeta(JanetMetadata_SurveillanceMiscellaneous.csv,SurvMiscellaneous);
-
-
-
-*** Yuchen's modification regarding temp.SurvChemoActive;
 *** Import the list of PROCGRP for Chemo Active for Surveillance;
-data  temp.SurvChemoActive;
-infile '/rpscan/u071439/data/JanetMetadata_SurveillanceChemoActive.csv' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
-informat 'ndc'n BEST32.;
-informat 'therClassCode'n BEST32.;
-informat 'Inttherclass'n BEST32.;
-informat 'therDesc'n $51.;
-informat 'gcrTitles'n $51.;
-informat 'genindDesc'n $51.;
-informat 'roa'n $51.;
-informat 'cycle'n $51.;
-informat 'active'n $51.;
-format 'ndc'n BEST32.;
-format 'therClassCode'n BEST32.;
-format 'Inttherclass'n BEST32.;
-format 'therDesc'n $51.;
-format 'gcrTitles'n $51.;
-format 'genindDesc'n $51.;
-format 'roa'n $51.;
-format 'cycle'n $51.;
-format 'active'n $51.;
-label 'ndc'n = 'ndc';
-label 'therClassCode'n = 'therClassCode';
-label 'Inttherclass'n = 'Inttherclass';
-label 'therDesc'n = 'therDesc';
-label 'gcrTitles'n = 'gcrTitles';
-label 'genindDesc'n = 'genindDesc';
-label 'roa'n = 'roa';
-label 'cycle'n = 'cycle';
-label 'active'n = 'active';
-input  'ndc'n
-'therClassCode'n
-'Inttherclass'n
-'therDesc'n $
-'gcrTitles'n $
-'genindDesc'n $
-'roa'n $
-'cycle'n $
-'active'n $;
+%ImportMeta(JanetMetadata_SurveillanceChemoActive.csv,SurvChemoActive);
+*** Import the list of PROCGRP for Chemo Chronic for Surveillance;
+%ImportMeta(JanetMetadata_SurveillanceChemoChronic.csv,SurvChemoChronic);
+
+
+*** Modified;
+*** convert NDCNUM to character for table;
+data temp.SurvChemoActive(drop=ndc_old);
+set temp.SurvChemoActive(rename=(ndc=ndc_old));
+ndc=put(ndc_old,z11.);
+run;
+
+*** Modified;
+*** convert NDCNUM to character for table;
+data temp.SurvChemoChronic(drop=ndc_old);
+set temp.SurvChemoChronic(rename=(ndc=ndc_old));
+ndc=put(ndc_old,z11.);
 run;
 
 
-*** Import the list of PROCGRP for Chemo Chronic for Surveillance;
-%ImportMeta(JanetMetadata_SurveillanceChemoChronic.csv,SurvChemoChronic);
 *** Import the list of DxCat for Rebalance, new conditions;
 %ImportMeta(JanetMetadata_RebalanceNewDxCat.csv,RebalanceNewDxCat);
 *** Import the list of DxCat for Rebalance, new conditions wo drugs in the prior 90 days;
 %ImportMeta(JanetMetadata_RebalanceNewDxCatwoRx.csv,RebalanceNewDxCatwoRx);
+
+
+*** Modified;
 *** Import the list of DxCat for Rebalance, new ICD9;
-%ImportMeta(JanetMetadata_RebalanceNewDx.csv,RebalanceNewDx);
+*** %ImportMeta(JanetMetadata_RebalanceNewDx.csv,RebalanceNewDx);
+data  temp.RebalanceNewDx;
+infile '/rpscan/u0086308/POPSTRATIFICATION/data/JanetMetadata_RebalanceNewDx.csv' delimiter=',' MISSOVER DSD firstobs=2 LRECL=32760;
+informat 'ICD'n $4.;
+informat 'Description'n $13.;
+format 'ICD'n $4.;
+format 'Description'n $13.;
+label 'ICD'n = 'ICD';
+label 'Description'n = 'Description';
+input    'ICD'n $
+'Description'n $
+;
+run;
+
+
 *** Import the list of DxCat for Rebalance, new DRG;
 %ImportMeta(JanetMetadata_RebalanceNewDRG.csv,RebalanceNewDRG);
 
@@ -1673,8 +1672,7 @@ union
 	from temp.SampleInp1 
 	where
 		disdate >= &StartDate. - 90				and
-		(put(drg,z3.) in (&ConditionDRG.)		or
-		 admtyp in (&ConditionAdminType.)))
+		 (drg in (&ConditionDRG.)))
 order by 
 	enrolid;
 quit;
@@ -1794,7 +1792,8 @@ from
 inner join
 	temp.RebalanceNewDRG as b
 on
-	put(a.drg,z3.)=b.drg
+	/* put(a.drg,z3.)=b.drg */
+    a.drg = b.drg
 where
 	a.disdate > &StartDate. - 90
 order by 
@@ -1808,7 +1807,8 @@ from
 inner join
 	temp.RebalanceNewDRG as b
 on
-	put(a.drg,z3.)=b.drg
+    /* put(a.drg,z3.)=b.drg */
+	a.drg=b.drg
 where
 	a.disdate <= &StartDate. - 90
 order by 
