@@ -11,7 +11,7 @@ Options obs=max mprint mlogic;
 %Let MSversion    =153;
 %Let MSversionNext=162;
 %Let StartDate='31DEC2015'd; /* always choose the end of month */
-%let version=31DEC2015Enrolids200_10252018;
+%let version=31DEC2015Enrolids2000_10292018;
 %Let AEoutpath=/rpscan/u071439/AEout/&version.;
 %Let outpath=/rpscan/u071439/output/&version.;
 %Let username=u071439;
@@ -50,15 +50,18 @@ libname arch&Nextyear. "/rpscan/u071439/temp/&version.";
 
 %let ConditionAdminType='4';
 
-%let ConditionProcGRP='0090','0095','2370','1045','4580','4585';
+*** Modified ;
+*** %let ConditionProcGRP='0090','0095','2370','1045','4580','4585';
+%let ConditionProcGRP=0090,0095,2370,1045,4580,4585; /* converted it to numeric */
+
 *** NeoNates;
 %let NeonatesDRGList=790,791,792,793,794,795;
 
 
 * Beginning of Ujwal's modification;
-* Import a list of 200 enrolid;
+* Import a list of 2000 enrolid;
 PROC IMPORT
-DATAFILE='/rpscan/u071439/data/enrolids_200.csv'
+DATAFILE='/rpscan/u071439/data/enrolids_2000.csv'
 OUT=enrolids
 DBMS=CSV
 REPLACE;
@@ -1660,10 +1663,10 @@ from
 		1 as flag_NewCondNoHistCheck
 	from trash519_2
 	where
-		svcdate > &StartDate. - 90																		and			
-		(((DxCat in (&ConditionDxCat.) and DxStage >= &ConditionDxCatStage.) 						or
-		(substr(DxCat,1,3) in (&ConditionDxCatER.) and fac_prof='F' and	substr(svcscat,4,2)="20")) 	or
-		 procGRP in (&ConditionProcGRP.)))
+        svcdate > &StartDate. - 90  and
+        (((DxCat in (&ConditionDxCat.) and DxStage >= &ConditionDxCatStage.)                         or
+        (substr(DxCat,1,3) in (&ConditionDxCatER.) and fac_prof='F' and    substr(svcscat,4,2)="20"))      or
+        procGRP in (&ConditionProcGRP.)))
 union 
 /* based on DRG and mental admissions from inpatient data */
 	(select distinct
@@ -1671,8 +1674,9 @@ union
 		1 as flag_Cond
 	from temp.SampleInp1 
 	where
-		disdate >= &StartDate. - 90				and
-		 (drg in (&ConditionDRG.)))
+        disdate >= &StartDate. - 90 and
+        (put(drg,z3.) in (&ConditionDRG.)        or
+        admtyp in (&ConditionAdminType.)))
 order by 
 	enrolid;
 quit;

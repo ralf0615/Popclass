@@ -11,7 +11,7 @@ Options obs=max mprint mlogic;
 %Let MSversion    =153;
 %Let MSversionNext=162;
 %Let StartDate='31DEC2015'd; /* always choose the end of month */
-%let version=31DEC2015Enrolids200_10252018;
+%let version=31DEC2015Enrolids2000_10292018;
 %Let AEoutpath=/rpscan/u071439/AEout/&version.;
 %Let outpath=/rpscan/u071439/output/&version.;
 %Let username=u071439;
@@ -48,7 +48,11 @@ libname arch&Nextyear. "/rpscan/u071439/temp/&version.";
 %let ConditionDxCatER='PSY';
 %let ConditionDRG='280','281','282','283','284','285','239','241','474','475','476','616','617','618','619','620','621','003','004','011','012','013','240';
 %let ConditionAdminType='4';
-%let ConditionProcGRP='0090','0095','2370','1045','4580','4585';
+
+*** Modified ;
+*** %let ConditionProcGRP='0090','0095','2370','1045','4580','4585';
+%let ConditionProcGRP=0090,0095,2370,1045,4580,4585; /* converted it to numeric */
+
 *** NeoNates;
 %let NeonatesDRGList=790,791,792,793,794,795;
 
@@ -57,7 +61,7 @@ libname arch&Nextyear. "/rpscan/u071439/temp/&version.";
 * Beginning of Ujwal's modification regarding setting up SamplewClassification;
 * Import a list of 2000 enrolid;
 PROC IMPORT
-DATAFILE='/rpscan/u071439/data/enrolids_200.csv'
+DATAFILE='/rpscan/u071439/data/enrolids_2000.csv'
 OUT=enrolids
 DBMS=CSV
 REPLACE;

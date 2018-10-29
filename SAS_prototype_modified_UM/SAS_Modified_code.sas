@@ -2464,8 +2464,7 @@ union
 	where
 		disdate >= &StartDate. - 90				and
 		(put(drg,z3.) in (&ConditionDRG.)		or
-		 admtyp in (&ConditionAdminType.))) 
-
+		 admtyp in (&ConditionAdminType.))) \
 order by 
 	enrolid;
 quit;
