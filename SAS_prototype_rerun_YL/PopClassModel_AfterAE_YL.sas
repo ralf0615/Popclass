@@ -1227,14 +1227,14 @@ Order by
 
 *************************************************************;
 *** Merge all the variables from all claims OP/IP/Rx together;
-*** Note: deleted 'temp.Rx        (in=c)';
 data temp.AllModelInputs;
 merge
 	temp.SamplewClassification(in=orig)
-	temp.OP		(in=a)
-	temp.IP		(in=b)
-	temp.IPandOP(in=c);
-if orig or a or b or c;
+    temp.OP        (in=a)
+    temp.IP        (in=b)
+    temp.Rx        (in=c)
+    temp.IPandOP(in=d);
+if orig or a or b or c or d;
 by enrolid;
 run;
 proc export 
