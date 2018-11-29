@@ -1,0 +1,63 @@
+{
+	"serviceId": "spark_jupiter_id",
+	"methodologies": [{
+		"id": 70,
+		"methodology": {
+			"id": 23,
+			"methodology": "POPCLS",
+			"version": "1.00",
+			"type": "ENGINE",
+			"active": true,
+			"modelPath": null,
+			"versionSpecified": true,
+			"qmePackageName": null
+		}
+	}],
+	"parameters": [{
+		"id": 20,
+		"parameter": {
+			"id": 2,
+			"name": "medicalClaimFile",
+			"multiValue": false,
+			"type": "ENGINE",
+			"active": true
+		},
+		"value": "input/MedicalClaimFile.csv"
+	},{
+		"id": 141,
+		"parameter": {
+			"id": 3,
+			"name": "pharmacyFile",
+			"multiValue": false,
+			"type": "ENGINE",
+			"active": true
+		},
+		"value": "/input/PharmacyFile.csv"
+	},{
+		"id": 141,
+		"parameter": {
+			"id": 3,
+			"name": "enrollmentFile",
+			"multiValue": false,
+			"type": "ENGINE",
+			"active": true
+		},
+		"value": "/input/enrollmentfortest.csv"
+	},{
+		"id": 10,
+		"parameter": {
+			"id": 4005,
+			"name": "stepAnalysis",
+			"multiValue": false,
+			"type": "PYSPARK",
+			"active": true
+		},
+		"value": "True"
+	}
+	],
+	"dataDir": "/PAShared/data",
+	"sparkAppName": "unittestApp",
+	"sparkReferencePath": "/PAShared/application/reference-files"
+
+}
+
